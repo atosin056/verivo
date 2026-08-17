@@ -1,34 +1,55 @@
-import { useState, useEffect } from "react";
+import { useEffect, useState } from "react";
 
-export default function Typewritertext({ text, speed = 20, readOnly = false }) {
-  const [displayed, setDisplayed] = useState(readOnly ? text : "");
+export default function Typewritertext({
+  text = "",
+  speed = 20,
+  readOnly = false,
+}) {
+  const [displayed, setDisplayed] = useState("");
 
   useEffect(() => {
+    if (!text) {
+      setDisplayed("");
+      return;
+    }
+
     setDisplayed("");
-    let i = 0;
+
+    let index = 0;
+
     const interval = setInterval(() => {
-      i++;
-      setDisplayed(text.slice(0, i));
-      if (i >= text.length) clearInterval(interval);
+      index++;
+
+      setDisplayed(text.slice(0, index));
+
+      if (index >= text.length) {
+        clearInterval(interval);
+      }
     }, speed);
+
     return () => clearInterval(interval);
-  }, [text, speed, readOnly]);
+  }, [text, speed]);
 
   return (
     <span
       style={{
         fontSize: "11px",
         fontWeight: "400",
-        userSelect: "none",
-        WebkitUserSelect: "none",
-        MozUserSelect: "none",
-        msUserSelect: "none",
+
+        // readonly behaviour
+        userSelect: readOnly ? "none" : "text",
+        WebkitUserSelect: readOnly ? "none" : "text",
+        MozUserSelect: readOnly ? "none" : "text",
+        msUserSelect: readOnly ? "none" : "text",
       }}
-      onCopy={(e) => e.preventDefault()}
-      onContextMenu={(e) => e.preventDefault()}
+      onCopy={readOnly ? (e) => e.preventDefault() : undefined}
+      onContextMenu={readOnly ? (e) => e.preventDefault() : undefined}
     >
       {displayed}
-      {!readOnly && <span className="typewriter-cursor">▌</span>}
+
+      {displayed.length < text.length && (
+        <span className="typewriter-cursor">▌</span>
+      )}
     </span>
   );
 }

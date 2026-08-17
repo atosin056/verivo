@@ -21,7 +21,7 @@ ${knowledge
 Source ID: ${item.id}
 
 Text:
-${item.text || ""}
+${item.metadata.text || ""}
 
 Metadata:
 ${JSON.stringify(item.metadata, null, 2)}

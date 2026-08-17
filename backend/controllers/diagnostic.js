@@ -1,5 +1,7 @@
 import { uploadChunks } from "../services/uploadtopinecone.service.js";
 import generateQuestionAndAnswer from "../services/qa.service.js";
+import calculateInterviewScore from "../services/grading.service.js";
+import transcribeAudio from "../services/transcribe.service.js";
 
 const uploadtopinecone = async (req, res) => {
   try {
@@ -35,4 +37,45 @@ const generateQa = async (req, res) => {
   }
 };
 
-export { uploadtopinecone, generateQa };
+const calculateIseScore = async (req, res) => {
+  const { interview } = req.body;
+  try {
+    const results = await calculateInterviewScore(interview);
+    res.status(200).json({
+      success: true,
+      results,
+    });
+  } catch (err) {
+    res.status(500).json({
+      success: false,
+      message: err.message,
+    });
+  }
+};
+
+const transcribe = async (req, res) => {
+  const { audio, mimeType } = req.body;
+
+  if (!audio) {
+    return res.status(400).json({
+      success: false,
+      message: "No audio provided",
+    });
+  }
+
+  try {
+    const text = await transcribeAudio(audio, mimeType);
+
+    res.status(200).json({
+      success: true,
+      text,
+    });
+  } catch (err) {
+    res.status(500).json({
+      success: false,
+      message: err.message,
+    });
+  }
+};
+
+export { uploadtopinecone, generateQa, calculateIseScore, transcribe };

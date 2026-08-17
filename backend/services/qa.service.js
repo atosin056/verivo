@@ -14,6 +14,7 @@ const generateQuestionandAnswer = async (trade, category) => {
       topK: 2,
       filter: {
         trade,
+        category,
         source: "llm_generated_synthetic",
       },
       includeMetadata: true,
@@ -24,6 +25,7 @@ const generateQuestionandAnswer = async (trade, category) => {
       topK: 2,
       filter: {
         trade,
+
         source: "NBTE",
       },
       includeMetadata: true,
