@@ -1,0 +1,3654 @@
+[
+  {
+    "id": "nbte-mobilephone-u01-lo1-pc1",
+    "trade": "mobile_phone_repair",
+    "source": {
+      "organization": "NBTE",
+      "document": "National Skills Qualification Level 2",
+      "unit": "Unit 1",
+      "unit_title": "Occupational Health and Safety",
+      "unit_reference": "ICT/GRM/2/001",
+      "level": 2
+    },
+    "learning_objective": {
+      "id": "LO1",
+      "title": "Understand Occupational Health and Safety (OHS) Regulations"
+    },
+    "performance_criterion": {
+      "id": "1.1",
+      "text": "Identify relevant OHS regulations"
+    },
+    "content_type": "performance_criterion",
+    "text": "For occupational health and safety, the learner should be able to: identify relevant OHS regulations."
+  },
+  {
+    "id": "nbte-mobilephone-u01-lo1-pc2",
+    "trade": "mobile_phone_repair",
+    "source": {
+      "organization": "NBTE",
+      "document": "National Skills Qualification Level 2",
+      "unit": "Unit 1",
+      "unit_title": "Occupational Health and Safety",
+      "unit_reference": "ICT/GRM/2/001",
+      "level": 2
+    },
+    "learning_objective": {
+      "id": "LO1",
+      "title": "Understand Occupational Health and Safety (OHS) Regulations"
+    },
+    "performance_criterion": {
+      "id": "1.2",
+      "text": "Use relevant OHS laws and regulations"
+    },
+    "content_type": "performance_criterion",
+    "text": "For occupational health and safety, the learner should be able to: use relevant OHS laws and regulations."
+  },
+  {
+    "id": "nbte-mobilephone-u01-lo1-pc3",
+    "trade": "mobile_phone_repair",
+    "source": {
+      "organization": "NBTE",
+      "document": "National Skills Qualification Level 2",
+      "unit": "Unit 1",
+      "unit_title": "Occupational Health and Safety",
+      "unit_reference": "ICT/GRM/2/001",
+      "level": 2
+    },
+    "learning_objective": {
+      "id": "LO1",
+      "title": "Understand Occupational Health and Safety (OHS) Regulations"
+    },
+    "performance_criterion": {
+      "id": "1.3",
+      "text": "Identify potential hazards in a mobile phone repair setting, including risks from electrical equipment, toxic chemicals, ergonomic issues, and tools"
+    },
+    "content_type": "performance_criterion",
+    "text": "For occupational health and safety, the learner should be able to: identify potential hazards in a mobile phone repair setting, including risks from electrical equipment, toxic chemicals, ergonomic issues, and tools."
+  },
+  {
+    "id": "nbte-mobilephone-u01-lo1-pc4",
+    "trade": "mobile_phone_repair",
+    "source": {
+      "organization": "NBTE",
+      "document": "National Skills Qualification Level 2",
+      "unit": "Unit 1",
+      "unit_title": "Occupational Health and Safety",
+      "unit_reference": "ICT/GRM/2/001",
+      "level": 2
+    },
+    "learning_objective": {
+      "id": "LO1",
+      "title": "Understand Occupational Health and Safety (OHS) Regulations"
+    },
+    "performance_criterion": {
+      "id": "1.4",
+      "text": "Use appropriate safety measures needed in the mobile phone industry"
+    },
+    "content_type": "performance_criterion",
+    "text": "For occupational health and safety, the learner should be able to: use appropriate safety measures needed in the mobile phone industry."
+  },
+  {
+    "id": "nbte-mobilephone-u01-lo2-pc1",
+    "trade": "mobile_phone_repair",
+    "source": {
+      "organization": "NBTE",
+      "document": "National Skills Qualification Level 2",
+      "unit": "Unit 1",
+      "unit_title": "Occupational Health and Safety",
+      "unit_reference": "ICT/GRM/2/001",
+      "level": 2
+    },
+    "learning_objective": {
+      "id": "LO2",
+      "title": "Use Safety Equipment in Mobile Phone Industry"
+    },
+    "performance_criterion": {
+      "id": "2.1",
+      "text": "Identify safety equipment"
+    },
+    "content_type": "performance_criterion",
+    "text": "For occupational health and safety, the learner should be able to: identify safety equipment."
+  },
+  {
+    "id": "nbte-mobilephone-u01-lo2-pc2",
+    "trade": "mobile_phone_repair",
+    "source": {
+      "organization": "NBTE",
+      "document": "National Skills Qualification Level 2",
+      "unit": "Unit 1",
+      "unit_title": "Occupational Health and Safety",
+      "unit_reference": "ICT/GRM/2/001",
+      "level": 2
+    },
+    "learning_objective": {
+      "id": "LO2",
+      "title": "Use Safety Equipment in Mobile Phone Industry"
+    },
+    "performance_criterion": {
+      "id": "2.2",
+      "text": "Explain how to use each safety equipment"
+    },
+    "content_type": "performance_criterion",
+    "text": "For occupational health and safety, the learner should be able to: explain how to use each safety equipment."
+  },
+  {
+    "id": "nbte-mobilephone-u01-lo2-pc3",
+    "trade": "mobile_phone_repair",
+    "source": {
+      "organization": "NBTE",
+      "document": "National Skills Qualification Level 2",
+      "unit": "Unit 1",
+      "unit_title": "Occupational Health and Safety",
+      "unit_reference": "ICT/GRM/2/001",
+      "level": 2
+    },
+    "learning_objective": {
+      "id": "LO2",
+      "title": "Use Safety Equipment in Mobile Phone Industry"
+    },
+    "performance_criterion": {
+      "id": "2.3",
+      "text": "Demonstrate how to handle each safety equipment"
+    },
+    "content_type": "performance_criterion",
+    "text": "For occupational health and safety, the learner should be able to: demonstrate how to handle each safety equipment."
+  },
+  {
+    "id": "nbte-mobilephone-u01-lo3-pc1",
+    "trade": "mobile_phone_repair",
+    "source": {
+      "organization": "NBTE",
+      "document": "National Skills Qualification Level 2",
+      "unit": "Unit 1",
+      "unit_title": "Occupational Health and Safety",
+      "unit_reference": "ICT/GRM/2/001",
+      "level": 2
+    },
+    "learning_objective": {
+      "id": "LO3",
+      "title": "Adhere to Adequate Safety Precautions When Using Mobile Phone Equipment"
+    },
+    "performance_criterion": {
+      "id": "3.1",
+      "text": "Identify standard operating procedures (SOP) that are in line with industry best practices when handling mobile phone repair and maintenance equipment"
+    },
+    "content_type": "performance_criterion",
+    "text": "For occupational health and safety, the learner should be able to: identify standard operating procedures (SOP) that are in line with industry best practices when handling mobile phone repair and maintenance equipment."
+  },
+  {
+    "id": "nbte-mobilephone-u01-lo3-pc2",
+    "trade": "mobile_phone_repair",
+    "source": {
+      "organization": "NBTE",
+      "document": "National Skills Qualification Level 2",
+      "unit": "Unit 1",
+      "unit_title": "Occupational Health and Safety",
+      "unit_reference": "ICT/GRM/2/001",
+      "level": 2
+    },
+    "learning_objective": {
+      "id": "LO3",
+      "title": "Adhere to Adequate Safety Precautions When Using Mobile Phone Equipment"
+    },
+    "performance_criterion": {
+      "id": "3.2",
+      "text": "Use the standard operating procedures (SOP)"
+    },
+    "content_type": "performance_criterion",
+    "text": "For occupational health and safety, the learner should be able to: use the standard operating procedures (SOP)."
+  },
+  {
+    "id": "nbte-mobilephone-u01-lo3-pc3",
+    "trade": "mobile_phone_repair",
+    "source": {
+      "organization": "NBTE",
+      "document": "National Skills Qualification Level 2",
+      "unit": "Unit 1",
+      "unit_title": "Occupational Health and Safety",
+      "unit_reference": "ICT/GRM/2/001",
+      "level": 2
+    },
+    "learning_objective": {
+      "id": "LO3",
+      "title": "Adhere to Adequate Safety Precautions When Using Mobile Phone Equipment"
+    },
+    "performance_criterion": {
+      "id": "3.3",
+      "text": "Explain how to maintain a hygienic, safe and secure workplace"
+    },
+    "content_type": "performance_criterion",
+    "text": "For occupational health and safety, the learner should be able to: explain how to maintain a hygienic, safe and secure workplace."
+  },
+  {
+    "id": "nbte-mobilephone-u01-lo3-pc4",
+    "trade": "mobile_phone_repair",
+    "source": {
+      "organization": "NBTE",
+      "document": "National Skills Qualification Level 2",
+      "unit": "Unit 1",
+      "unit_title": "Occupational Health and Safety",
+      "unit_reference": "ICT/GRM/2/001",
+      "level": 2
+    },
+    "learning_objective": {
+      "id": "LO3",
+      "title": "Adhere to Adequate Safety Precautions When Using Mobile Phone Equipment"
+    },
+    "performance_criterion": {
+      "id": "3.4",
+      "text": "Explain the importance of using the correct tools during mobile phone repairs"
+    },
+    "content_type": "performance_criterion",
+    "text": "For occupational health and safety, the learner should be able to: explain the importance of using the correct tools during mobile phone repairs."
+  },
+  {
+    "id": "nbte-mobilephone-u01-lo4-pc1",
+    "trade": "mobile_phone_repair",
+    "source": {
+      "organization": "NBTE",
+      "document": "National Skills Qualification Level 2",
+      "unit": "Unit 1",
+      "unit_title": "Occupational Health and Safety",
+      "unit_reference": "ICT/GRM/2/001",
+      "level": 2
+    },
+    "learning_objective": {
+      "id": "LO4",
+      "title": "Safely Handle Mobile Phone Components and Tools"
+    },
+    "performance_criterion": {
+      "id": "4.1",
+      "text": "Use proper disassembly and reassembly techniques to avoid damage to mobile phones and components"
+    },
+    "content_type": "performance_criterion",
+    "text": "For occupational health and safety, the learner should be able to: use proper disassembly and reassembly techniques to avoid damage to mobile phones and components."
+  },
+  {
+    "id": "nbte-mobilephone-u01-lo4-pc2",
+    "trade": "mobile_phone_repair",
+    "source": {
+      "organization": "NBTE",
+      "document": "National Skills Qualification Level 2",
+      "unit": "Unit 1",
+      "unit_title": "Occupational Health and Safety",
+      "unit_reference": "ICT/GRM/2/001",
+      "level": 2
+    },
+    "learning_objective": {
+      "id": "LO4",
+      "title": "Safely Handle Mobile Phone Components and Tools"
+    },
+    "performance_criterion": {
+      "id": "4.2",
+      "text": "Use sharp tools (e.g. screwdrivers, prying tools) and heated equipment (e.g. soldering irons) safely"
+    },
+    "content_type": "performance_criterion",
+    "text": "For occupational health and safety, the learner should be able to: use sharp tools (e.g. screwdrivers, prying tools) and heated equipment (e.g. soldering irons) safely."
+  },
+  {
+    "id": "nbte-mobilephone-u01-lo4-pc3",
+    "trade": "mobile_phone_repair",
+    "source": {
+      "organization": "NBTE",
+      "document": "National Skills Qualification Level 2",
+      "unit": "Unit 1",
+      "unit_title": "Occupational Health and Safety",
+      "unit_reference": "ICT/GRM/2/001",
+      "level": 2
+    },
+    "learning_objective": {
+      "id": "LO4",
+      "title": "Safely Handle Mobile Phone Components and Tools"
+    },
+    "performance_criterion": {
+      "id": "4.3",
+      "text": "Use correct procedures for using electrical equipment like multimeters and power supplies"
+    },
+    "content_type": "performance_criterion",
+    "text": "For occupational health and safety, the learner should be able to: use correct procedures for using electrical equipment like multimeters and power supplies."
+  },
+  {
+    "id": "nbte-mobilephone-u01-lo4-pc4",
+    "trade": "mobile_phone_repair",
+    "source": {
+      "organization": "NBTE",
+      "document": "National Skills Qualification Level 2",
+      "unit": "Unit 1",
+      "unit_title": "Occupational Health and Safety",
+      "unit_reference": "ICT/GRM/2/001",
+      "level": 2
+    },
+    "learning_objective": {
+      "id": "LO4",
+      "title": "Safely Handle Mobile Phone Components and Tools"
+    },
+    "performance_criterion": {
+      "id": "4.4",
+      "text": "Use safety protocols for ESD (Electrostatic Discharge)"
+    },
+    "content_type": "performance_criterion",
+    "text": "For occupational health and safety, the learner should be able to: use safety protocols for ESD (Electrostatic Discharge)."
+  },
+  {
+    "id": "nbte-mobilephone-u01-lo5-pc1",
+    "trade": "mobile_phone_repair",
+    "source": {
+      "organization": "NBTE",
+      "document": "National Skills Qualification Level 2",
+      "unit": "Unit 1",
+      "unit_title": "Occupational Health and Safety",
+      "unit_reference": "ICT/GRM/2/001",
+      "level": 2
+    },
+    "learning_objective": {
+      "id": "LO5",
+      "title": "Understand Emergency Preparedness and First Aid"
+    },
+    "performance_criterion": {
+      "id": "5.1",
+      "text": "Define emergency"
+    },
+    "content_type": "performance_criterion",
+    "text": "For occupational health and safety, the learner should be able to: define emergency."
+  },
+  {
+    "id": "nbte-mobilephone-u01-lo5-pc2",
+    "trade": "mobile_phone_repair",
+    "source": {
+      "organization": "NBTE",
+      "document": "National Skills Qualification Level 2",
+      "unit": "Unit 1",
+      "unit_title": "Occupational Health and Safety",
+      "unit_reference": "ICT/GRM/2/001",
+      "level": 2
+    },
+    "learning_objective": {
+      "id": "LO5",
+      "title": "Understand Emergency Preparedness and First Aid"
+    },
+    "performance_criterion": {
+      "id": "5.2",
+      "text": "Define first aid"
+    },
+    "content_type": "performance_criterion",
+    "text": "For occupational health and safety, the learner should be able to: define first aid."
+  },
+  {
+    "id": "nbte-mobilephone-u01-lo5-pc3",
+    "trade": "mobile_phone_repair",
+    "source": {
+      "organization": "NBTE",
+      "document": "National Skills Qualification Level 2",
+      "unit": "Unit 1",
+      "unit_title": "Occupational Health and Safety",
+      "unit_reference": "ICT/GRM/2/001",
+      "level": 2
+    },
+    "learning_objective": {
+      "id": "LO5",
+      "title": "Understand Emergency Preparedness and First Aid"
+    },
+    "performance_criterion": {
+      "id": "5.3",
+      "text": "Explain how to provide first aid to handle cuts and electrical shock"
+    },
+    "content_type": "performance_criterion",
+    "text": "For occupational health and safety, the learner should be able to: explain how to provide first aid to handle cuts and electrical shock."
+  },
+  {
+    "id": "nbte-mobilephone-u01-lo6-pc1",
+    "trade": "mobile_phone_repair",
+    "source": {
+      "organization": "NBTE",
+      "document": "National Skills Qualification Level 2",
+      "unit": "Unit 1",
+      "unit_title": "Occupational Health and Safety",
+      "unit_reference": "ICT/GRM/2/001",
+      "level": 2
+    },
+    "learning_objective": {
+      "id": "LO6",
+      "title": "Apply Personal Protective Equipment (PPE)"
+    },
+    "performance_criterion": {
+      "id": "6.1",
+      "text": "Define Personal Protective Equipment (PPE)"
+    },
+    "content_type": "performance_criterion",
+    "text": "For occupational health and safety, the learner should be able to: define Personal Protective Equipment (PPE)."
+  },
+  {
+    "id": "nbte-mobilephone-u01-lo6-pc2",
+    "trade": "mobile_phone_repair",
+    "source": {
+      "organization": "NBTE",
+      "document": "National Skills Qualification Level 2",
+      "unit": "Unit 1",
+      "unit_title": "Occupational Health and Safety",
+      "unit_reference": "ICT/GRM/2/001",
+      "level": 2
+    },
+    "learning_objective": {
+      "id": "LO6",
+      "title": "Apply Personal Protective Equipment (PPE)"
+    },
+    "performance_criterion": {
+      "id": "6.2",
+      "text": "Demonstrate the correct use of PPE such as anti-static wristbands, safety goggles, gloves, and heat-resistant gloves to protect against physical, electrical, or chemical risks"
+    },
+    "content_type": "performance_criterion",
+    "text": "For occupational health and safety, the learner should be able to: demonstrate the correct use of PPE such as anti-static wristbands, safety goggles, gloves, and heat-resistant gloves to protect against physical, electrical, or chemical risks."
+  },
+  {
+    "id": "nbte-mobilephone-u01-lo6-pc3",
+    "trade": "mobile_phone_repair",
+    "source": {
+      "organization": "NBTE",
+      "document": "National Skills Qualification Level 2",
+      "unit": "Unit 1",
+      "unit_title": "Occupational Health and Safety",
+      "unit_reference": "ICT/GRM/2/001",
+      "level": 2
+    },
+    "learning_objective": {
+      "id": "LO6",
+      "title": "Apply Personal Protective Equipment (PPE)"
+    },
+    "performance_criterion": {
+      "id": "6.3",
+      "text": "Use PPE in various repair tasks, including when handling batteries, soldering, or disassembling devices"
+    },
+    "content_type": "performance_criterion",
+    "text": "For occupational health and safety, the learner should be able to: use PPE in various repair tasks, including when handling batteries, soldering, or disassembling devices."
+  },
+  {
+    "id": "nbte-mobilephone-u02-lo1-pc1",
+    "trade": "mobile_phone_repair",
+    "source": {
+      "organization": "NBTE",
+      "document": "National Skills Qualification Level 2",
+      "unit": "Unit 2",
+      "unit_title": "Communication in the Mobile Phones World",
+      "unit_reference": "ICT/GRM/2/002",
+      "level": 2
+    },
+    "learning_objective": {
+      "id": "LO1",
+      "title": "Understand Terms and Terminologies Used in the Mobile Phones Industry"
+    },
+    "performance_criterion": {
+      "id": "1.1",
+      "text": "Identify appropriate terms to use in the mobile phone industry"
+    },
+    "content_type": "performance_criterion",
+    "text": "For communication in the mobile phones world, the learner should be able to: identify appropriate terms to use in the mobile phone industry."
+  },
+  {
+    "id": "nbte-mobilephone-u02-lo1-pc2",
+    "trade": "mobile_phone_repair",
+    "source": {
+      "organization": "NBTE",
+      "document": "National Skills Qualification Level 2",
+      "unit": "Unit 2",
+      "unit_title": "Communication in the Mobile Phones World",
+      "unit_reference": "ICT/GRM/2/002",
+      "level": 2
+    },
+    "learning_objective": {
+      "id": "LO1",
+      "title": "Understand Terms and Terminologies Used in the Mobile Phones Industry"
+    },
+    "performance_criterion": {
+      "id": "1.2",
+      "text": "Define mobile phone terms"
+    },
+    "content_type": "performance_criterion",
+    "text": "For communication in the mobile phones world, the learner should be able to: define mobile phone terms."
+  },
+  {
+    "id": "nbte-mobilephone-u02-lo1-pc3",
+    "trade": "mobile_phone_repair",
+    "source": {
+      "organization": "NBTE",
+      "document": "National Skills Qualification Level 2",
+      "unit": "Unit 2",
+      "unit_title": "Communication in the Mobile Phones World",
+      "unit_reference": "ICT/GRM/2/002",
+      "level": 2
+    },
+    "learning_objective": {
+      "id": "LO1",
+      "title": "Understand Terms and Terminologies Used in the Mobile Phones Industry"
+    },
+    "performance_criterion": {
+      "id": "1.3",
+      "text": "Explain mobile phone terms"
+    },
+    "content_type": "performance_criterion",
+    "text": "For communication in the mobile phones world, the learner should be able to: explain mobile phone terms."
+  },
+  {
+    "id": "nbte-mobilephone-u02-lo1-pc4",
+    "trade": "mobile_phone_repair",
+    "source": {
+      "organization": "NBTE",
+      "document": "National Skills Qualification Level 2",
+      "unit": "Unit 2",
+      "unit_title": "Communication in the Mobile Phones World",
+      "unit_reference": "ICT/GRM/2/002",
+      "level": 2
+    },
+    "learning_objective": {
+      "id": "LO1",
+      "title": "Understand Terms and Terminologies Used in the Mobile Phones Industry"
+    },
+    "performance_criterion": {
+      "id": "1.4",
+      "text": "Use appropriate terms to communicate effectively"
+    },
+    "content_type": "performance_criterion",
+    "text": "For communication in the mobile phones world, the learner should be able to: use appropriate terms to communicate effectively."
+  },
+  {
+    "id": "nbte-mobilephone-u02-lo2-pc1",
+    "trade": "mobile_phone_repair",
+    "source": {
+      "organization": "NBTE",
+      "document": "National Skills Qualification Level 2",
+      "unit": "Unit 2",
+      "unit_title": "Communication in the Mobile Phones World",
+      "unit_reference": "ICT/GRM/2/002",
+      "level": 2
+    },
+    "learning_objective": {
+      "id": "LO2",
+      "title": "Apply the Appropriate Mobile Phone Acronyms Used in the Mobile Phone Industry"
+    },
+    "performance_criterion": {
+      "id": "2.1",
+      "text": "Identify common acronyms used in the industry such as GSM, SIM, etc"
+    },
+    "content_type": "performance_criterion",
+    "text": "For communication in the mobile phones world, the learner should be able to: identify common acronyms used in the industry such as GSM, SIM, etc."
+  },
+  {
+    "id": "nbte-mobilephone-u02-lo2-pc2",
+    "trade": "mobile_phone_repair",
+    "source": {
+      "organization": "NBTE",
+      "document": "National Skills Qualification Level 2",
+      "unit": "Unit 2",
+      "unit_title": "Communication in the Mobile Phones World",
+      "unit_reference": "ICT/GRM/2/002",
+      "level": 2
+    },
+    "learning_objective": {
+      "id": "LO2",
+      "title": "Apply the Appropriate Mobile Phone Acronyms Used in the Mobile Phone Industry"
+    },
+    "performance_criterion": {
+      "id": "2.2",
+      "text": "Explain the full meaning of each acronym"
+    },
+    "content_type": "performance_criterion",
+    "text": "For communication in the mobile phones world, the learner should be able to: explain the full meaning of each acronym."
+  },
+  {
+    "id": "nbte-mobilephone-u02-lo2-pc3",
+    "trade": "mobile_phone_repair",
+    "source": {
+      "organization": "NBTE",
+      "document": "National Skills Qualification Level 2",
+      "unit": "Unit 2",
+      "unit_title": "Communication in the Mobile Phones World",
+      "unit_reference": "ICT/GRM/2/002",
+      "level": 2
+    },
+    "learning_objective": {
+      "id": "LO2",
+      "title": "Apply the Appropriate Mobile Phone Acronyms Used in the Mobile Phone Industry"
+    },
+    "performance_criterion": {
+      "id": "2.3",
+      "text": "Use appropriate acronyms to communicate effectively"
+    },
+    "content_type": "performance_criterion",
+    "text": "For communication in the mobile phones world, the learner should be able to: use appropriate acronyms to communicate effectively."
+  },
+  {
+    "id": "nbte-mobilephone-u02-lo3-pc1",
+    "trade": "mobile_phone_repair",
+    "source": {
+      "organization": "NBTE",
+      "document": "National Skills Qualification Level 2",
+      "unit": "Unit 2",
+      "unit_title": "Communication in the Mobile Phones World",
+      "unit_reference": "ICT/GRM/2/002",
+      "level": 2
+    },
+    "learning_objective": {
+      "id": "LO3",
+      "title": "Understand Digital Etiquette (Netiquette)"
+    },
+    "performance_criterion": {
+      "id": "3.1",
+      "text": "Identify appropriate timing to call or text someone"
+    },
+    "content_type": "performance_criterion",
+    "text": "For communication in the mobile phones world, the learner should be able to: identify appropriate timing to call or text someone."
+  },
+  {
+    "id": "nbte-mobilephone-u02-lo3-pc2",
+    "trade": "mobile_phone_repair",
+    "source": {
+      "organization": "NBTE",
+      "document": "National Skills Qualification Level 2",
+      "unit": "Unit 2",
+      "unit_title": "Communication in the Mobile Phones World",
+      "unit_reference": "ICT/GRM/2/002",
+      "level": 2
+    },
+    "learning_objective": {
+      "id": "LO3",
+      "title": "Understand Digital Etiquette (Netiquette)"
+    },
+    "performance_criterion": {
+      "id": "3.2",
+      "text": "Demonstrate professionalism in communication through tone and content"
+    },
+    "content_type": "performance_criterion",
+    "text": "For communication in the mobile phones world, the learner should be able to: demonstrate professionalism in communication through tone and content."
+  },
+  {
+    "id": "nbte-mobilephone-u02-lo3-pc3",
+    "trade": "mobile_phone_repair",
+    "source": {
+      "organization": "NBTE",
+      "document": "National Skills Qualification Level 2",
+      "unit": "Unit 2",
+      "unit_title": "Communication in the Mobile Phones World",
+      "unit_reference": "ICT/GRM/2/002",
+      "level": 2
+    },
+    "learning_objective": {
+      "id": "LO3",
+      "title": "Understand Digital Etiquette (Netiquette)"
+    },
+    "performance_criterion": {
+      "id": "3.3",
+      "text": "Use neutral language when discussing sensitive topics over the phone"
+    },
+    "content_type": "performance_criterion",
+    "text": "For communication in the mobile phones world, the learner should be able to: use neutral language when discussing sensitive topics over the phone."
+  },
+  {
+    "id": "nbte-mobilephone-u02-lo4-pc1",
+    "trade": "mobile_phone_repair",
+    "source": {
+      "organization": "NBTE",
+      "document": "National Skills Qualification Level 2",
+      "unit": "Unit 2",
+      "unit_title": "Communication in the Mobile Phones World",
+      "unit_reference": "ICT/GRM/2/002",
+      "level": 2
+    },
+    "learning_objective": {
+      "id": "LO4",
+      "title": "Understand Technical Communication Skills"
+    },
+    "performance_criterion": {
+      "id": "4.1",
+      "text": "Use mobile phones efficiently — making calls, sending messages, using mobile data, and managing apps"
+    },
+    "content_type": "performance_criterion",
+    "text": "For communication in the mobile phones world, the learner should be able to: use mobile phones efficiently — making calls, sending messages, using mobile data, and managing apps."
+  },
+  {
+    "id": "nbte-mobilephone-u02-lo4-pc2",
+    "trade": "mobile_phone_repair",
+    "source": {
+      "organization": "NBTE",
+      "document": "National Skills Qualification Level 2",
+      "unit": "Unit 2",
+      "unit_title": "Communication in the Mobile Phones World",
+      "unit_reference": "ICT/GRM/2/002",
+      "level": 2
+    },
+    "learning_objective": {
+      "id": "LO4",
+      "title": "Understand Technical Communication Skills"
+    },
+    "performance_criterion": {
+      "id": "4.2",
+      "text": "Use translation apps to facilitate multilingual communication"
+    },
+    "content_type": "performance_criterion",
+    "text": "For communication in the mobile phones world, the learner should be able to: use translation apps to facilitate multilingual communication."
+  },
+  {
+    "id": "nbte-mobilephone-u02-lo4-pc3",
+    "trade": "mobile_phone_repair",
+    "source": {
+      "organization": "NBTE",
+      "document": "National Skills Qualification Level 2",
+      "unit": "Unit 2",
+      "unit_title": "Communication in the Mobile Phones World",
+      "unit_reference": "ICT/GRM/2/002",
+      "level": 2
+    },
+    "learning_objective": {
+      "id": "LO4",
+      "title": "Understand Technical Communication Skills"
+    },
+    "performance_criterion": {
+      "id": "4.3",
+      "text": "Use emojis and media to communicate effectively"
+    },
+    "content_type": "performance_criterion",
+    "text": "For communication in the mobile phones world, the learner should be able to: use emojis and media to communicate effectively."
+  },
+  {
+    "id": "nbte-mobilephone-u03-lo1-pc1",
+    "trade": "mobile_phone_repair",
+    "source": {
+      "organization": "NBTE",
+      "document": "National Skills Qualification Level 2",
+      "unit": "Unit 3",
+      "unit_title": "Teamwork",
+      "unit_reference": "ICT/IT/2/003",
+      "level": 2
+    },
+    "learning_objective": {
+      "id": "LO1",
+      "title": "Understand the Benefits of Working in a Team at the Workplace"
+    },
+    "performance_criterion": {
+      "id": "1.1",
+      "text": "List the advantages of working as a team"
+    },
+    "content_type": "performance_criterion",
+    "text": "For teamwork, the learner should be able to: list the advantages of working as a team."
+  },
+  {
+    "id": "nbte-mobilephone-u03-lo1-pc2",
+    "trade": "mobile_phone_repair",
+    "source": {
+      "organization": "NBTE",
+      "document": "National Skills Qualification Level 2",
+      "unit": "Unit 3",
+      "unit_title": "Teamwork",
+      "unit_reference": "ICT/IT/2/003",
+      "level": 2
+    },
+    "learning_objective": {
+      "id": "LO1",
+      "title": "Understand the Benefits of Working in a Team at the Workplace"
+    },
+    "performance_criterion": {
+      "id": "1.2",
+      "text": "Describe the attributes of a team player: mutual respect, common goal, discipline, mutual understanding, trust, honesty and sincerity"
+    },
+    "content_type": "performance_criterion",
+    "text": "For teamwork, the learner should be able to: describe the attributes of a team player: mutual respect, common goal, discipline, mutual understanding, trust, honesty and sincerity."
+  },
+  {
+    "id": "nbte-mobilephone-u03-lo1-pc3",
+    "trade": "mobile_phone_repair",
+    "source": {
+      "organization": "NBTE",
+      "document": "National Skills Qualification Level 2",
+      "unit": "Unit 3",
+      "unit_title": "Teamwork",
+      "unit_reference": "ICT/IT/2/003",
+      "level": 2
+    },
+    "learning_objective": {
+      "id": "LO1",
+      "title": "Understand the Benefits of Working in a Team at the Workplace"
+    },
+    "performance_criterion": {
+      "id": "1.3",
+      "text": "List members that constitute a team in the ICT work environment: systems analysts, software developers, database administrators, network engineers, security analysts, help desk technicians"
+    },
+    "content_type": "performance_criterion",
+    "text": "For teamwork, the learner should be able to: list members that constitute a team in the ICT work environment: systems analysts, software developers, database administrators, network engineers, security analysts, help desk technicians."
+  },
+  {
+    "id": "nbte-mobilephone-u03-lo1-pc4",
+    "trade": "mobile_phone_repair",
+    "source": {
+      "organization": "NBTE",
+      "document": "National Skills Qualification Level 2",
+      "unit": "Unit 3",
+      "unit_title": "Teamwork",
+      "unit_reference": "ICT/IT/2/003",
+      "level": 2
+    },
+    "learning_objective": {
+      "id": "LO1",
+      "title": "Understand the Benefits of Working in a Team at the Workplace"
+    },
+    "performance_criterion": {
+      "id": "1.4",
+      "text": "Identify team members in an environment"
+    },
+    "content_type": "performance_criterion",
+    "text": "For teamwork, the learner should be able to: identify team members in an environment."
+  },
+  {
+    "id": "nbte-mobilephone-u03-lo2-pc1",
+    "trade": "mobile_phone_repair",
+    "source": {
+      "organization": "NBTE",
+      "document": "National Skills Qualification Level 2",
+      "unit": "Unit 3",
+      "unit_title": "Teamwork",
+      "unit_reference": "ICT/IT/2/003",
+      "level": 2
+    },
+    "learning_objective": {
+      "id": "LO2",
+      "title": "Understand How to Relate with Team Members"
+    },
+    "performance_criterion": {
+      "id": "2.1",
+      "text": "Explain the need for good working relationships with team members at the workplace"
+    },
+    "content_type": "performance_criterion",
+    "text": "For teamwork, the learner should be able to: explain the need for good working relationships with team members at the workplace."
+  },
+  {
+    "id": "nbte-mobilephone-u03-lo2-pc2",
+    "trade": "mobile_phone_repair",
+    "source": {
+      "organization": "NBTE",
+      "document": "National Skills Qualification Level 2",
+      "unit": "Unit 3",
+      "unit_title": "Teamwork",
+      "unit_reference": "ICT/IT/2/003",
+      "level": 2
+    },
+    "learning_objective": {
+      "id": "LO2",
+      "title": "Understand How to Relate with Team Members"
+    },
+    "performance_criterion": {
+      "id": "2.2",
+      "text": "Identify the roles of other team members"
+    },
+    "content_type": "performance_criterion",
+    "text": "For teamwork, the learner should be able to: identify the roles of other team members."
+  },
+  {
+    "id": "nbte-mobilephone-u03-lo2-pc3",
+    "trade": "mobile_phone_repair",
+    "source": {
+      "organization": "NBTE",
+      "document": "National Skills Qualification Level 2",
+      "unit": "Unit 3",
+      "unit_title": "Teamwork",
+      "unit_reference": "ICT/IT/2/003",
+      "level": 2
+    },
+    "learning_objective": {
+      "id": "LO2",
+      "title": "Understand How to Relate with Team Members"
+    },
+    "performance_criterion": {
+      "id": "2.3",
+      "text": "Discuss your own role in achieving the objectives of the team"
+    },
+    "content_type": "performance_criterion",
+    "text": "For teamwork, the learner should be able to: discuss your own role in achieving the objectives of the team."
+  },
+  {
+    "id": "nbte-mobilephone-u03-lo2-pc4",
+    "trade": "mobile_phone_repair",
+    "source": {
+      "organization": "NBTE",
+      "document": "National Skills Qualification Level 2",
+      "unit": "Unit 3",
+      "unit_title": "Teamwork",
+      "unit_reference": "ICT/IT/2/003",
+      "level": 2
+    },
+    "learning_objective": {
+      "id": "LO2",
+      "title": "Understand How to Relate with Team Members"
+    },
+    "performance_criterion": {
+      "id": "2.4",
+      "text": "Explain the role of a Network Administrator in an ICT work environment"
+    },
+    "content_type": "performance_criterion",
+    "text": "For teamwork, the learner should be able to: explain the role of a Network Administrator in an ICT work environment."
+  },
+  {
+    "id": "nbte-mobilephone-u03-lo2-pc5",
+    "trade": "mobile_phone_repair",
+    "source": {
+      "organization": "NBTE",
+      "document": "National Skills Qualification Level 2",
+      "unit": "Unit 3",
+      "unit_title": "Teamwork",
+      "unit_reference": "ICT/IT/2/003",
+      "level": 2
+    },
+    "learning_objective": {
+      "id": "LO2",
+      "title": "Understand How to Relate with Team Members"
+    },
+    "performance_criterion": {
+      "id": "2.5",
+      "text": "Discuss the relationship between the Network Administrator and other positions within the ICT team"
+    },
+    "content_type": "performance_criterion",
+    "text": "For teamwork, the learner should be able to: discuss the relationship between the Network Administrator and other positions within the ICT team."
+  },
+  {
+    "id": "nbte-mobilephone-u03-lo3-pc1",
+    "trade": "mobile_phone_repair",
+    "source": {
+      "organization": "NBTE",
+      "document": "National Skills Qualification Level 2",
+      "unit": "Unit 3",
+      "unit_title": "Teamwork",
+      "unit_reference": "ICT/IT/2/003",
+      "level": 2
+    },
+    "learning_objective": {
+      "id": "LO3",
+      "title": "Observe Positive Work Relationships with Colleagues"
+    },
+    "performance_criterion": {
+      "id": "3.1",
+      "text": "State the qualities of a good Network Administrator: strong technical skills, problem-solving abilities, communication skills, customer service orientation, attention to detail, adaptability, teamwork"
+    },
+    "content_type": "performance_criterion",
+    "text": "For teamwork, the learner should be able to: state the qualities of a good Network Administrator: strong technical skills, problem-solving abilities, communication skills, customer service orientation, attention to detail, adaptability, teamwork."
+  },
+  {
+    "id": "nbte-mobilephone-u03-lo3-pc2",
+    "trade": "mobile_phone_repair",
+    "source": {
+      "organization": "NBTE",
+      "document": "National Skills Qualification Level 2",
+      "unit": "Unit 3",
+      "unit_title": "Teamwork",
+      "unit_reference": "ICT/IT/2/003",
+      "level": 2
+    },
+    "learning_objective": {
+      "id": "LO3",
+      "title": "Observe Positive Work Relationships with Colleagues"
+    },
+    "performance_criterion": {
+      "id": "3.2",
+      "text": "Relate with other members at the workplace"
+    },
+    "content_type": "performance_criterion",
+    "text": "For teamwork, the learner should be able to: relate with other members at the workplace."
+  },
+  {
+    "id": "nbte-mobilephone-u03-lo3-pc3",
+    "trade": "mobile_phone_repair",
+    "source": {
+      "organization": "NBTE",
+      "document": "National Skills Qualification Level 2",
+      "unit": "Unit 3",
+      "unit_title": "Teamwork",
+      "unit_reference": "ICT/IT/2/003",
+      "level": 2
+    },
+    "learning_objective": {
+      "id": "LO3",
+      "title": "Observe Positive Work Relationships with Colleagues"
+    },
+    "performance_criterion": {
+      "id": "3.3",
+      "text": "Explain the importance of effective communication and collaboration with other team members to ensure smooth operations"
+    },
+    "content_type": "performance_criterion",
+    "text": "For teamwork, the learner should be able to: explain the importance of effective communication and collaboration with other team members to ensure smooth operations."
+  },
+  {
+    "id": "nbte-mobilephone-u03-lo3-pc4",
+    "trade": "mobile_phone_repair",
+    "source": {
+      "organization": "NBTE",
+      "document": "National Skills Qualification Level 2",
+      "unit": "Unit 3",
+      "unit_title": "Teamwork",
+      "unit_reference": "ICT/IT/2/003",
+      "level": 2
+    },
+    "learning_objective": {
+      "id": "LO3",
+      "title": "Observe Positive Work Relationships with Colleagues"
+    },
+    "performance_criterion": {
+      "id": "3.4",
+      "text": "Communicate information that may affect other workers"
+    },
+    "content_type": "performance_criterion",
+    "text": "For teamwork, the learner should be able to: communicate information that may affect other workers."
+  },
+  {
+    "id": "nbte-mobilephone-u04-lo1-pc1",
+    "trade": "mobile_phone_repair",
+    "source": {
+      "organization": "NBTE",
+      "document": "National Skills Qualification Level 2",
+      "unit": "Unit 4",
+      "unit_title": "Introduction to Mobile and Wireless Technologies",
+      "unit_reference": "ICT/GRM/2/004",
+      "level": 2
+    },
+    "learning_objective": {
+      "id": "LO1",
+      "title": "Understand Wireless Communication"
+    },
+    "performance_criterion": {
+      "id": "1.1",
+      "text": "Explain the basic principles of wireless communication, including signal propagation, frequency spectrum, and modulation techniques"
+    },
+    "content_type": "performance_criterion",
+    "text": "For introduction to mobile and wireless technologies, the learner should be able to: explain the basic principles of wireless communication, including signal propagation, frequency spectrum, and modulation techniques."
+  },
+  {
+    "id": "nbte-mobilephone-u04-lo1-pc2",
+    "trade": "mobile_phone_repair",
+    "source": {
+      "organization": "NBTE",
+      "document": "National Skills Qualification Level 2",
+      "unit": "Unit 4",
+      "unit_title": "Introduction to Mobile and Wireless Technologies",
+      "unit_reference": "ICT/GRM/2/004",
+      "level": 2
+    },
+    "learning_objective": {
+      "id": "LO1",
+      "title": "Understand Wireless Communication"
+    },
+    "performance_criterion": {
+      "id": "1.2",
+      "text": "Discuss emerging trends in wireless technologies, such as 5G, the Internet of Things (IoT), and mobile edge computing"
+    },
+    "content_type": "performance_criterion",
+    "text": "For introduction to mobile and wireless technologies, the learner should be able to: discuss emerging trends in wireless technologies, such as 5G, the Internet of Things (IoT), and mobile edge computing."
+  },
+  {
+    "id": "nbte-mobilephone-u04-lo1-pc3",
+    "trade": "mobile_phone_repair",
+    "source": {
+      "organization": "NBTE",
+      "document": "National Skills Qualification Level 2",
+      "unit": "Unit 4",
+      "unit_title": "Introduction to Mobile and Wireless Technologies",
+      "unit_reference": "ICT/GRM/2/004",
+      "level": 2
+    },
+    "learning_objective": {
+      "id": "LO1",
+      "title": "Understand Wireless Communication"
+    },
+    "performance_criterion": {
+      "id": "1.3",
+      "text": "Discuss the potential future applications of emerging trends in wireless technologies"
+    },
+    "content_type": "performance_criterion",
+    "text": "For introduction to mobile and wireless technologies, the learner should be able to: discuss the potential future applications of emerging trends in wireless technologies."
+  },
+  {
+    "id": "nbte-mobilephone-u04-lo2-pc1",
+    "trade": "mobile_phone_repair",
+    "source": {
+      "organization": "NBTE",
+      "document": "National Skills Qualification Level 2",
+      "unit": "Unit 4",
+      "unit_title": "Introduction to Mobile and Wireless Technologies",
+      "unit_reference": "ICT/GRM/2/004",
+      "level": 2
+    },
+    "learning_objective": {
+      "id": "LO2",
+      "title": "Know Components of Mobile and Wireless Network"
+    },
+    "performance_criterion": {
+      "id": "2.1",
+      "text": "Identify the components of mobile and wireless communication networks, including cellular networks (2G, 3G, 4G, 5G), Wi-Fi, and Bluetooth"
+    },
+    "content_type": "performance_criterion",
+    "text": "For introduction to mobile and wireless technologies, the learner should be able to: identify the components of mobile and wireless communication networks, including cellular networks (2G, 3G, 4G, 5G), Wi-Fi, and Bluetooth."
+  },
+  {
+    "id": "nbte-mobilephone-u04-lo2-pc2",
+    "trade": "mobile_phone_repair",
+    "source": {
+      "organization": "NBTE",
+      "document": "National Skills Qualification Level 2",
+      "unit": "Unit 4",
+      "unit_title": "Introduction to Mobile and Wireless Technologies",
+      "unit_reference": "ICT/GRM/2/004",
+      "level": 2
+    },
+    "learning_objective": {
+      "id": "LO2",
+      "title": "Know Components of Mobile and Wireless Network"
+    },
+    "performance_criterion": {
+      "id": "2.2",
+      "text": "Explain the functions of the components of mobile and wireless communication networks"
+    },
+    "content_type": "performance_criterion",
+    "text": "For introduction to mobile and wireless technologies, the learner should be able to: explain the functions of the components of mobile and wireless communication networks."
+  },
+  {
+    "id": "nbte-mobilephone-u04-lo2-pc3",
+    "trade": "mobile_phone_repair",
+    "source": {
+      "organization": "NBTE",
+      "document": "National Skills Qualification Level 2",
+      "unit": "Unit 4",
+      "unit_title": "Introduction to Mobile and Wireless Technologies",
+      "unit_reference": "ICT/GRM/2/004",
+      "level": 2
+    },
+    "learning_objective": {
+      "id": "LO2",
+      "title": "Know Components of Mobile and Wireless Network"
+    },
+    "performance_criterion": {
+      "id": "2.3",
+      "text": "Describe various types of network topologies"
+    },
+    "content_type": "performance_criterion",
+    "text": "For introduction to mobile and wireless technologies, the learner should be able to: describe various types of network topologies."
+  },
+  {
+    "id": "nbte-mobilephone-u04-lo3-pc1",
+    "trade": "mobile_phone_repair",
+    "source": {
+      "organization": "NBTE",
+      "document": "National Skills Qualification Level 2",
+      "unit": "Unit 4",
+      "unit_title": "Introduction to Mobile and Wireless Technologies",
+      "unit_reference": "ICT/GRM/2/004",
+      "level": 2
+    },
+    "learning_objective": {
+      "id": "LO3",
+      "title": "Understand Wireless Communication Standards"
+    },
+    "performance_criterion": {
+      "id": "3.1",
+      "text": "Identify key wireless communication standards such as GSM, CDMA, LTE, 5G, and Wi-Fi"
+    },
+    "content_type": "performance_criterion",
+    "text": "For introduction to mobile and wireless technologies, the learner should be able to: identify key wireless communication standards such as GSM, CDMA, LTE, 5G, and Wi-Fi."
+  },
+  {
+    "id": "nbte-mobilephone-u04-lo3-pc2",
+    "trade": "mobile_phone_repair",
+    "source": {
+      "organization": "NBTE",
+      "document": "National Skills Qualification Level 2",
+      "unit": "Unit 4",
+      "unit_title": "Introduction to Mobile and Wireless Technologies",
+      "unit_reference": "ICT/GRM/2/004",
+      "level": 2
+    },
+    "learning_objective": {
+      "id": "LO3",
+      "title": "Understand Wireless Communication Standards"
+    },
+    "performance_criterion": {
+      "id": "3.2",
+      "text": "Describe key wireless communication standards such as GSM, CDMA, LTE, 5G, and Wi-Fi"
+    },
+    "content_type": "performance_criterion",
+    "text": "For introduction to mobile and wireless technologies, the learner should be able to: describe key wireless communication standards such as GSM, CDMA, LTE, 5G, and Wi-Fi."
+  },
+  {
+    "id": "nbte-mobilephone-u04-lo3-pc3",
+    "trade": "mobile_phone_repair",
+    "source": {
+      "organization": "NBTE",
+      "document": "National Skills Qualification Level 2",
+      "unit": "Unit 4",
+      "unit_title": "Introduction to Mobile and Wireless Technologies",
+      "unit_reference": "ICT/GRM/2/004",
+      "level": 2
+    },
+    "learning_objective": {
+      "id": "LO3",
+      "title": "Understand Wireless Communication Standards"
+    },
+    "performance_criterion": {
+      "id": "3.3",
+      "text": "Explain the role of key wireless communication standards in enabling wireless communication"
+    },
+    "content_type": "performance_criterion",
+    "text": "For introduction to mobile and wireless technologies, the learner should be able to: explain the role of key wireless communication standards in enabling wireless communication."
+  },
+  {
+    "id": "nbte-mobilephone-u04-lo4-pc1",
+    "trade": "mobile_phone_repair",
+    "source": {
+      "organization": "NBTE",
+      "document": "National Skills Qualification Level 2",
+      "unit": "Unit 4",
+      "unit_title": "Introduction to Mobile and Wireless Technologies",
+      "unit_reference": "ICT/GRM/2/004",
+      "level": 2
+    },
+    "learning_objective": {
+      "id": "LO4",
+      "title": "Know Mobile Devices"
+    },
+    "performance_criterion": {
+      "id": "4.1",
+      "text": "Identify various types of mobile devices, including their hardware components and mobile operating systems"
+    },
+    "content_type": "performance_criterion",
+    "text": "For introduction to mobile and wireless technologies, the learner should be able to: identify various types of mobile devices, including their hardware components and mobile operating systems."
+  },
+  {
+    "id": "nbte-mobilephone-u04-lo4-pc2",
+    "trade": "mobile_phone_repair",
+    "source": {
+      "organization": "NBTE",
+      "document": "National Skills Qualification Level 2",
+      "unit": "Unit 4",
+      "unit_title": "Introduction to Mobile and Wireless Technologies",
+      "unit_reference": "ICT/GRM/2/004",
+      "level": 2
+    },
+    "learning_objective": {
+      "id": "LO4",
+      "title": "Know Mobile Devices"
+    },
+    "performance_criterion": {
+      "id": "4.2",
+      "text": "Design simple mobile applications"
+    },
+    "content_type": "performance_criterion",
+    "text": "For introduction to mobile and wireless technologies, the learner should be able to: design simple mobile applications."
+  },
+  {
+    "id": "nbte-mobilephone-u04-lo4-pc3",
+    "trade": "mobile_phone_repair",
+    "source": {
+      "organization": "NBTE",
+      "document": "National Skills Qualification Level 2",
+      "unit": "Unit 4",
+      "unit_title": "Introduction to Mobile and Wireless Technologies",
+      "unit_reference": "ICT/GRM/2/004",
+      "level": 2
+    },
+    "learning_objective": {
+      "id": "LO4",
+      "title": "Know Mobile Devices"
+    },
+    "performance_criterion": {
+      "id": "4.3",
+      "text": "Develop simple mobile applications"
+    },
+    "content_type": "performance_criterion",
+    "text": "For introduction to mobile and wireless technologies, the learner should be able to: develop simple mobile applications."
+  },
+  {
+    "id": "nbte-mobilephone-u05-lo1-pc1",
+    "trade": "mobile_phone_repair",
+    "source": {
+      "organization": "NBTE",
+      "document": "National Skills Qualification Level 2",
+      "unit": "Unit 5",
+      "unit_title": "Handling Mobile Phone Batteries",
+      "unit_reference": "ICT/GRM/2/005",
+      "level": 2
+    },
+    "learning_objective": {
+      "id": "LO1",
+      "title": "Understand Batteries Used in Mobile Phones"
+    },
+    "performance_criterion": {
+      "id": "1.1",
+      "text": "Identify different types of phone batteries"
+    },
+    "content_type": "performance_criterion",
+    "text": "For handling mobile phone batteries, the learner should be able to: identify different types of phone batteries."
+  },
+  {
+    "id": "nbte-mobilephone-u05-lo1-pc2",
+    "trade": "mobile_phone_repair",
+    "source": {
+      "organization": "NBTE",
+      "document": "National Skills Qualification Level 2",
+      "unit": "Unit 5",
+      "unit_title": "Handling Mobile Phone Batteries",
+      "unit_reference": "ICT/GRM/2/005",
+      "level": 2
+    },
+    "learning_objective": {
+      "id": "LO1",
+      "title": "Understand Batteries Used in Mobile Phones"
+    },
+    "performance_criterion": {
+      "id": "1.2",
+      "text": "Describe their characteristics"
+    },
+    "content_type": "performance_criterion",
+    "text": "For handling mobile phone batteries, the learner should be able to: describe their characteristics."
+  },
+  {
+    "id": "nbte-mobilephone-u05-lo1-pc3",
+    "trade": "mobile_phone_repair",
+    "source": {
+      "organization": "NBTE",
+      "document": "National Skills Qualification Level 2",
+      "unit": "Unit 5",
+      "unit_title": "Handling Mobile Phone Batteries",
+      "unit_reference": "ICT/GRM/2/005",
+      "level": 2
+    },
+    "learning_objective": {
+      "id": "LO1",
+      "title": "Understand Batteries Used in Mobile Phones"
+    },
+    "performance_criterion": {
+      "id": "1.3",
+      "text": "Explain battery specifications"
+    },
+    "content_type": "performance_criterion",
+    "text": "For handling mobile phone batteries, the learner should be able to: explain battery specifications."
+  },
+  {
+    "id": "nbte-mobilephone-u05-lo2-pc1",
+    "trade": "mobile_phone_repair",
+    "source": {
+      "organization": "NBTE",
+      "document": "National Skills Qualification Level 2",
+      "unit": "Unit 5",
+      "unit_title": "Handling Mobile Phone Batteries",
+      "unit_reference": "ICT/GRM/2/005",
+      "level": 2
+    },
+    "learning_objective": {
+      "id": "LO2",
+      "title": "Diagnose Common Battery Issues"
+    },
+    "performance_criterion": {
+      "id": "2.1",
+      "text": "Identify battery problems"
+    },
+    "content_type": "performance_criterion",
+    "text": "For handling mobile phone batteries, the learner should be able to: identify battery problems."
+  },
+  {
+    "id": "nbte-mobilephone-u05-lo2-pc2",
+    "trade": "mobile_phone_repair",
+    "source": {
+      "organization": "NBTE",
+      "document": "National Skills Qualification Level 2",
+      "unit": "Unit 5",
+      "unit_title": "Handling Mobile Phone Batteries",
+      "unit_reference": "ICT/GRM/2/005",
+      "level": 2
+    },
+    "learning_objective": {
+      "id": "LO2",
+      "title": "Diagnose Common Battery Issues"
+    },
+    "performance_criterion": {
+      "id": "2.2",
+      "text": "Describe the cause of battery problems"
+    },
+    "content_type": "performance_criterion",
+    "text": "For handling mobile phone batteries, the learner should be able to: describe the cause of battery problems."
+  },
+  {
+    "id": "nbte-mobilephone-u05-lo2-pc3",
+    "trade": "mobile_phone_repair",
+    "source": {
+      "organization": "NBTE",
+      "document": "National Skills Qualification Level 2",
+      "unit": "Unit 5",
+      "unit_title": "Handling Mobile Phone Batteries",
+      "unit_reference": "ICT/GRM/2/005",
+      "level": 2
+    },
+    "learning_objective": {
+      "id": "LO2",
+      "title": "Diagnose Common Battery Issues"
+    },
+    "performance_criterion": {
+      "id": "2.3",
+      "text": "Test battery health"
+    },
+    "content_type": "performance_criterion",
+    "text": "For handling mobile phone batteries, the learner should be able to: test battery health."
+  },
+  {
+    "id": "nbte-mobilephone-u05-lo3-pc1",
+    "trade": "mobile_phone_repair",
+    "source": {
+      "organization": "NBTE",
+      "document": "National Skills Qualification Level 2",
+      "unit": "Unit 5",
+      "unit_title": "Handling Mobile Phone Batteries",
+      "unit_reference": "ICT/GRM/2/005",
+      "level": 2
+    },
+    "learning_objective": {
+      "id": "LO3",
+      "title": "Know Tools Used in Handling and Servicing Batteries"
+    },
+    "performance_criterion": {
+      "id": "3.1",
+      "text": "Identify tools used in handling and servicing batteries"
+    },
+    "content_type": "performance_criterion",
+    "text": "For handling mobile phone batteries, the learner should be able to: identify tools used in handling and servicing batteries."
+  },
+  {
+    "id": "nbte-mobilephone-u05-lo3-pc2",
+    "trade": "mobile_phone_repair",
+    "source": {
+      "organization": "NBTE",
+      "document": "National Skills Qualification Level 2",
+      "unit": "Unit 5",
+      "unit_title": "Handling Mobile Phone Batteries",
+      "unit_reference": "ICT/GRM/2/005",
+      "level": 2
+    },
+    "learning_objective": {
+      "id": "LO3",
+      "title": "Know Tools Used in Handling and Servicing Batteries"
+    },
+    "performance_criterion": {
+      "id": "3.2",
+      "text": "Explain the purpose of tools used in handling and servicing batteries"
+    },
+    "content_type": "performance_criterion",
+    "text": "For handling mobile phone batteries, the learner should be able to: explain the purpose of tools used in handling and servicing batteries."
+  },
+  {
+    "id": "nbte-mobilephone-u05-lo3-pc3",
+    "trade": "mobile_phone_repair",
+    "source": {
+      "organization": "NBTE",
+      "document": "National Skills Qualification Level 2",
+      "unit": "Unit 5",
+      "unit_title": "Handling Mobile Phone Batteries",
+      "unit_reference": "ICT/GRM/2/005",
+      "level": 2
+    },
+    "learning_objective": {
+      "id": "LO3",
+      "title": "Know Tools Used in Handling and Servicing Batteries"
+    },
+    "performance_criterion": {
+      "id": "3.3",
+      "text": "Handle battery with care"
+    },
+    "content_type": "performance_criterion",
+    "text": "For handling mobile phone batteries, the learner should be able to: handle battery with care."
+  },
+  {
+    "id": "nbte-mobilephone-u05-lo3-pc4",
+    "trade": "mobile_phone_repair",
+    "source": {
+      "organization": "NBTE",
+      "document": "National Skills Qualification Level 2",
+      "unit": "Unit 5",
+      "unit_title": "Handling Mobile Phone Batteries",
+      "unit_reference": "ICT/GRM/2/005",
+      "level": 2
+    },
+    "learning_objective": {
+      "id": "LO3",
+      "title": "Know Tools Used in Handling and Servicing Batteries"
+    },
+    "performance_criterion": {
+      "id": "3.4",
+      "text": "Demonstrate how to service a battery"
+    },
+    "content_type": "performance_criterion",
+    "text": "For handling mobile phone batteries, the learner should be able to: demonstrate how to service a battery."
+  },
+  {
+    "id": "nbte-mobilephone-u05-lo3-pc5",
+    "trade": "mobile_phone_repair",
+    "source": {
+      "organization": "NBTE",
+      "document": "National Skills Qualification Level 2",
+      "unit": "Unit 5",
+      "unit_title": "Handling Mobile Phone Batteries",
+      "unit_reference": "ICT/GRM/2/005",
+      "level": 2
+    },
+    "learning_objective": {
+      "id": "LO3",
+      "title": "Know Tools Used in Handling and Servicing Batteries"
+    },
+    "performance_criterion": {
+      "id": "3.5",
+      "text": "Replace damaged battery"
+    },
+    "content_type": "performance_criterion",
+    "text": "For handling mobile phone batteries, the learner should be able to: replace damaged battery."
+  },
+  {
+    "id": "nbte-mobilephone-u06-lo1-pc1",
+    "trade": "mobile_phone_repair",
+    "source": {
+      "organization": "NBTE",
+      "document": "National Skills Qualification Level 2",
+      "unit": "Unit 6",
+      "unit_title": "Mobile Phone Repair Tools",
+      "unit_reference": "ICT/GRM/2/006",
+      "level": 2
+    },
+    "learning_objective": {
+      "id": "LO1",
+      "title": "Know Mobile Phone Repair Tools"
+    },
+    "performance_criterion": {
+      "id": "1.1",
+      "text": "Identify hardware repair tools"
+    },
+    "content_type": "performance_criterion",
+    "text": "For mobile phone repair tools, the learner should be able to: identify hardware repair tools."
+  },
+  {
+    "id": "nbte-mobilephone-u06-lo1-pc2",
+    "trade": "mobile_phone_repair",
+    "source": {
+      "organization": "NBTE",
+      "document": "National Skills Qualification Level 2",
+      "unit": "Unit 6",
+      "unit_title": "Mobile Phone Repair Tools",
+      "unit_reference": "ICT/GRM/2/006",
+      "level": 2
+    },
+    "learning_objective": {
+      "id": "LO1",
+      "title": "Know Mobile Phone Repair Tools"
+    },
+    "performance_criterion": {
+      "id": "1.2",
+      "text": "Identify software repair tools"
+    },
+    "content_type": "performance_criterion",
+    "text": "For mobile phone repair tools, the learner should be able to: identify software repair tools."
+  },
+  {
+    "id": "nbte-mobilephone-u06-lo1-pc3",
+    "trade": "mobile_phone_repair",
+    "source": {
+      "organization": "NBTE",
+      "document": "National Skills Qualification Level 2",
+      "unit": "Unit 6",
+      "unit_title": "Mobile Phone Repair Tools",
+      "unit_reference": "ICT/GRM/2/006",
+      "level": 2
+    },
+    "learning_objective": {
+      "id": "LO1",
+      "title": "Know Mobile Phone Repair Tools"
+    },
+    "performance_criterion": {
+      "id": "1.3",
+      "text": "Explain the purpose of each tool"
+    },
+    "content_type": "performance_criterion",
+    "text": "For mobile phone repair tools, the learner should be able to: explain the purpose of each tool."
+  },
+  {
+    "id": "nbte-mobilephone-u06-lo2-pc1",
+    "trade": "mobile_phone_repair",
+    "source": {
+      "organization": "NBTE",
+      "document": "National Skills Qualification Level 2",
+      "unit": "Unit 6",
+      "unit_title": "Mobile Phone Repair Tools",
+      "unit_reference": "ICT/GRM/2/006",
+      "level": 2
+    },
+    "learning_objective": {
+      "id": "LO2",
+      "title": "Use Mobile Phone Repair Tools"
+    },
+    "performance_criterion": {
+      "id": "2.1",
+      "text": "Use various repair tools effectively and efficiently"
+    },
+    "content_type": "performance_criterion",
+    "text": "For mobile phone repair tools, the learner should be able to: use various repair tools effectively and efficiently."
+  },
+  {
+    "id": "nbte-mobilephone-u06-lo2-pc2",
+    "trade": "mobile_phone_repair",
+    "source": {
+      "organization": "NBTE",
+      "document": "National Skills Qualification Level 2",
+      "unit": "Unit 6",
+      "unit_title": "Mobile Phone Repair Tools",
+      "unit_reference": "ICT/GRM/2/006",
+      "level": 2
+    },
+    "learning_objective": {
+      "id": "LO2",
+      "title": "Use Mobile Phone Repair Tools"
+    },
+    "performance_criterion": {
+      "id": "2.2",
+      "text": "Practice safety while using repair tools"
+    },
+    "content_type": "performance_criterion",
+    "text": "For mobile phone repair tools, the learner should be able to: practice safety while using repair tools."
+  },
+  {
+    "id": "nbte-mobilephone-u06-lo2-pc3",
+    "trade": "mobile_phone_repair",
+    "source": {
+      "organization": "NBTE",
+      "document": "National Skills Qualification Level 2",
+      "unit": "Unit 6",
+      "unit_title": "Mobile Phone Repair Tools",
+      "unit_reference": "ICT/GRM/2/006",
+      "level": 2
+    },
+    "learning_objective": {
+      "id": "LO2",
+      "title": "Use Mobile Phone Repair Tools"
+    },
+    "performance_criterion": {
+      "id": "2.3",
+      "text": "Conduct repairs without damaging delicate parts"
+    },
+    "content_type": "performance_criterion",
+    "text": "For mobile phone repair tools, the learner should be able to: conduct repairs without damaging delicate parts."
+  },
+  {
+    "id": "nbte-mobilephone-u06-lo3-pc1",
+    "trade": "mobile_phone_repair",
+    "source": {
+      "organization": "NBTE",
+      "document": "National Skills Qualification Level 2",
+      "unit": "Unit 6",
+      "unit_title": "Mobile Phone Repair Tools",
+      "unit_reference": "ICT/GRM/2/006",
+      "level": 2
+    },
+    "learning_objective": {
+      "id": "LO3",
+      "title": "Diagnose Common Mobile Phone Issues"
+    },
+    "performance_criterion": {
+      "id": "3.1",
+      "text": "Identify common types of issues (hardware/software)"
+    },
+    "content_type": "performance_criterion",
+    "text": "For mobile phone repair tools, the learner should be able to: identify common types of issues (hardware/software)."
+  },
+  {
+    "id": "nbte-mobilephone-u06-lo3-pc2",
+    "trade": "mobile_phone_repair",
+    "source": {
+      "organization": "NBTE",
+      "document": "National Skills Qualification Level 2",
+      "unit": "Unit 6",
+      "unit_title": "Mobile Phone Repair Tools",
+      "unit_reference": "ICT/GRM/2/006",
+      "level": 2
+    },
+    "learning_objective": {
+      "id": "LO3",
+      "title": "Diagnose Common Mobile Phone Issues"
+    },
+    "performance_criterion": {
+      "id": "3.2",
+      "text": "Identify diagnostic tools and equipment to use"
+    },
+    "content_type": "performance_criterion",
+    "text": "For mobile phone repair tools, the learner should be able to: identify diagnostic tools and equipment to use."
+  },
+  {
+    "id": "nbte-mobilephone-u06-lo3-pc3",
+    "trade": "mobile_phone_repair",
+    "source": {
+      "organization": "NBTE",
+      "document": "National Skills Qualification Level 2",
+      "unit": "Unit 6",
+      "unit_title": "Mobile Phone Repair Tools",
+      "unit_reference": "ICT/GRM/2/006",
+      "level": 2
+    },
+    "learning_objective": {
+      "id": "LO3",
+      "title": "Diagnose Common Mobile Phone Issues"
+    },
+    "performance_criterion": {
+      "id": "3.3",
+      "text": "Diagnose an issue using a systematic troubleshooting process"
+    },
+    "content_type": "performance_criterion",
+    "text": "For mobile phone repair tools, the learner should be able to: diagnose an issue using a systematic troubleshooting process."
+  },
+  {
+    "id": "nbte-mobilephone-u06-lo3-pc4",
+    "trade": "mobile_phone_repair",
+    "source": {
+      "organization": "NBTE",
+      "document": "National Skills Qualification Level 2",
+      "unit": "Unit 6",
+      "unit_title": "Mobile Phone Repair Tools",
+      "unit_reference": "ICT/GRM/2/006",
+      "level": 2
+    },
+    "learning_objective": {
+      "id": "LO3",
+      "title": "Diagnose Common Mobile Phone Issues"
+    },
+    "performance_criterion": {
+      "id": "3.4",
+      "text": "Repair the phone issue"
+    },
+    "content_type": "performance_criterion",
+    "text": "For mobile phone repair tools, the learner should be able to: repair the phone issue."
+  },
+  {
+    "id": "nbte-mobilephone-u06-lo4-pc1",
+    "trade": "mobile_phone_repair",
+    "source": {
+      "organization": "NBTE",
+      "document": "National Skills Qualification Level 2",
+      "unit": "Unit 6",
+      "unit_title": "Mobile Phone Repair Tools",
+      "unit_reference": "ICT/GRM/2/006",
+      "level": 2
+    },
+    "learning_objective": {
+      "id": "LO4",
+      "title": "Observe Safety Protocols in Mobile Repair"
+    },
+    "performance_criterion": {
+      "id": "4.1",
+      "text": "Identify Standard Operating Procedures (SOPs)"
+    },
+    "content_type": "performance_criterion",
+    "text": "For mobile phone repair tools, the learner should be able to: identify Standard Operating Procedures (SOPs)."
+  },
+  {
+    "id": "nbte-mobilephone-u06-lo4-pc2",
+    "trade": "mobile_phone_repair",
+    "source": {
+      "organization": "NBTE",
+      "document": "National Skills Qualification Level 2",
+      "unit": "Unit 6",
+      "unit_title": "Mobile Phone Repair Tools",
+      "unit_reference": "ICT/GRM/2/006",
+      "level": 2
+    },
+    "learning_objective": {
+      "id": "LO4",
+      "title": "Observe Safety Protocols in Mobile Repair"
+    },
+    "performance_criterion": {
+      "id": "4.2",
+      "text": "Use appropriate Personal Protective Equipment (PPE)"
+    },
+    "content_type": "performance_criterion",
+    "text": "For mobile phone repair tools, the learner should be able to: use appropriate Personal Protective Equipment (PPE)."
+  },
+  {
+    "id": "nbte-mobilephone-u06-lo4-pc3",
+    "trade": "mobile_phone_repair",
+    "source": {
+      "organization": "NBTE",
+      "document": "National Skills Qualification Level 2",
+      "unit": "Unit 6",
+      "unit_title": "Mobile Phone Repair Tools",
+      "unit_reference": "ICT/GRM/2/006",
+      "level": 2
+    },
+    "learning_objective": {
+      "id": "LO4",
+      "title": "Observe Safety Protocols in Mobile Repair"
+    },
+    "performance_criterion": {
+      "id": "4.3",
+      "text": "Use Electrostatic Discharge (ESD) prevention"
+    },
+    "content_type": "performance_criterion",
+    "text": "For mobile phone repair tools, the learner should be able to: use Electrostatic Discharge (ESD) prevention."
+  },
+  {
+    "id": "nbte-mobilephone-u06-lo4-pc4",
+    "trade": "mobile_phone_repair",
+    "source": {
+      "organization": "NBTE",
+      "document": "National Skills Qualification Level 2",
+      "unit": "Unit 6",
+      "unit_title": "Mobile Phone Repair Tools",
+      "unit_reference": "ICT/GRM/2/006",
+      "level": 2
+    },
+    "learning_objective": {
+      "id": "LO4",
+      "title": "Observe Safety Protocols in Mobile Repair"
+    },
+    "performance_criterion": {
+      "id": "4.4",
+      "text": "Handle tools safely and appropriately"
+    },
+    "content_type": "performance_criterion",
+    "text": "For mobile phone repair tools, the learner should be able to: handle tools safely and appropriately."
+  },
+  {
+    "id": "nbte-mobilephone-u06-lo4-pc5",
+    "trade": "mobile_phone_repair",
+    "source": {
+      "organization": "NBTE",
+      "document": "National Skills Qualification Level 2",
+      "unit": "Unit 6",
+      "unit_title": "Mobile Phone Repair Tools",
+      "unit_reference": "ICT/GRM/2/006",
+      "level": 2
+    },
+    "learning_objective": {
+      "id": "LO4",
+      "title": "Observe Safety Protocols in Mobile Repair"
+    },
+    "performance_criterion": {
+      "id": "4.5",
+      "text": "Use proper ventilation and chemical safety"
+    },
+    "content_type": "performance_criterion",
+    "text": "For mobile phone repair tools, the learner should be able to: use proper ventilation and chemical safety."
+  },
+  {
+    "id": "nbte-mobilephone-u06-lo4-pc6",
+    "trade": "mobile_phone_repair",
+    "source": {
+      "organization": "NBTE",
+      "document": "National Skills Qualification Level 2",
+      "unit": "Unit 6",
+      "unit_title": "Mobile Phone Repair Tools",
+      "unit_reference": "ICT/GRM/2/006",
+      "level": 2
+    },
+    "learning_objective": {
+      "id": "LO4",
+      "title": "Observe Safety Protocols in Mobile Repair"
+    },
+    "performance_criterion": {
+      "id": "4.6",
+      "text": "Perform work in a clean and organized environment"
+    },
+    "content_type": "performance_criterion",
+    "text": "For mobile phone repair tools, the learner should be able to: perform work in a clean and organized environment."
+  },
+  {
+    "id": "nbte-mobilephone-u06-lo4-pc7",
+    "trade": "mobile_phone_repair",
+    "source": {
+      "organization": "NBTE",
+      "document": "National Skills Qualification Level 2",
+      "unit": "Unit 6",
+      "unit_title": "Mobile Phone Repair Tools",
+      "unit_reference": "ICT/GRM/2/006",
+      "level": 2
+    },
+    "learning_objective": {
+      "id": "LO4",
+      "title": "Observe Safety Protocols in Mobile Repair"
+    },
+    "performance_criterion": {
+      "id": "4.7",
+      "text": "Ensure device and data security"
+    },
+    "content_type": "performance_criterion",
+    "text": "For mobile phone repair tools, the learner should be able to: ensure device and data security."
+  },
+  {
+    "id": "nbte-mobilephone-u06-lo5-pc1",
+    "trade": "mobile_phone_repair",
+    "source": {
+      "organization": "NBTE",
+      "document": "National Skills Qualification Level 2",
+      "unit": "Unit 6",
+      "unit_title": "Mobile Phone Repair Tools",
+      "unit_reference": "ICT/GRM/2/006",
+      "level": 2
+    },
+    "learning_objective": {
+      "id": "LO5",
+      "title": "Apply the Tools to Fix Phone Problems"
+    },
+    "performance_criterion": {
+      "id": "5.1",
+      "text": "Select appropriate tools for diagnosis"
+    },
+    "content_type": "performance_criterion",
+    "text": "For mobile phone repair tools, the learner should be able to: select appropriate tools for diagnosis."
+  },
+  {
+    "id": "nbte-mobilephone-u06-lo5-pc2",
+    "trade": "mobile_phone_repair",
+    "source": {
+      "organization": "NBTE",
+      "document": "National Skills Qualification Level 2",
+      "unit": "Unit 6",
+      "unit_title": "Mobile Phone Repair Tools",
+      "unit_reference": "ICT/GRM/2/006",
+      "level": 2
+    },
+    "learning_objective": {
+      "id": "LO5",
+      "title": "Apply the Tools to Fix Phone Problems"
+    },
+    "performance_criterion": {
+      "id": "5.2",
+      "text": "Use diagnostic software effectively"
+    },
+    "content_type": "performance_criterion",
+    "text": "For mobile phone repair tools, the learner should be able to: use diagnostic software effectively."
+  },
+  {
+    "id": "nbte-mobilephone-u06-lo5-pc3",
+    "trade": "mobile_phone_repair",
+    "source": {
+      "organization": "NBTE",
+      "document": "National Skills Qualification Level 2",
+      "unit": "Unit 6",
+      "unit_title": "Mobile Phone Repair Tools",
+      "unit_reference": "ICT/GRM/2/006",
+      "level": 2
+    },
+    "learning_objective": {
+      "id": "LO5",
+      "title": "Apply the Tools to Fix Phone Problems"
+    },
+    "performance_criterion": {
+      "id": "5.3",
+      "text": "Troubleshoot battery and charging issues"
+    },
+    "content_type": "performance_criterion",
+    "text": "For mobile phone repair tools, the learner should be able to: troubleshoot battery and charging issues."
+  },
+  {
+    "id": "nbte-mobilephone-u06-lo5-pc4",
+    "trade": "mobile_phone_repair",
+    "source": {
+      "organization": "NBTE",
+      "document": "National Skills Qualification Level 2",
+      "unit": "Unit 6",
+      "unit_title": "Mobile Phone Repair Tools",
+      "unit_reference": "ICT/GRM/2/006",
+      "level": 2
+    },
+    "learning_objective": {
+      "id": "LO5",
+      "title": "Apply the Tools to Fix Phone Problems"
+    },
+    "performance_criterion": {
+      "id": "5.4",
+      "text": "Resolve connectivity issues (Wi-Fi, Bluetooth, etc.)"
+    },
+    "content_type": "performance_criterion",
+    "text": "For mobile phone repair tools, the learner should be able to: resolve connectivity issues (Wi-Fi, Bluetooth, etc.)."
+  },
+  {
+    "id": "nbte-mobilephone-u06-lo5-pc5",
+    "trade": "mobile_phone_repair",
+    "source": {
+      "organization": "NBTE",
+      "document": "National Skills Qualification Level 2",
+      "unit": "Unit 6",
+      "unit_title": "Mobile Phone Repair Tools",
+      "unit_reference": "ICT/GRM/2/006",
+      "level": 2
+    },
+    "learning_objective": {
+      "id": "LO5",
+      "title": "Apply the Tools to Fix Phone Problems"
+    },
+    "performance_criterion": {
+      "id": "5.5",
+      "text": "Perform software reset and reinstallation"
+    },
+    "content_type": "performance_criterion",
+    "text": "For mobile phone repair tools, the learner should be able to: perform software reset and reinstallation."
+  },
+  {
+    "id": "nbte-mobilephone-u06-lo5-pc6",
+    "trade": "mobile_phone_repair",
+    "source": {
+      "organization": "NBTE",
+      "document": "National Skills Qualification Level 2",
+      "unit": "Unit 6",
+      "unit_title": "Mobile Phone Repair Tools",
+      "unit_reference": "ICT/GRM/2/006",
+      "level": 2
+    },
+    "learning_objective": {
+      "id": "LO5",
+      "title": "Apply the Tools to Fix Phone Problems"
+    },
+    "performance_criterion": {
+      "id": "5.6",
+      "text": "Test and verify repair success"
+    },
+    "content_type": "performance_criterion",
+    "text": "For mobile phone repair tools, the learner should be able to: test and verify repair success."
+  },
+  {
+    "id": "nbte-mobilephone-u06-lo5-pc7",
+    "trade": "mobile_phone_repair",
+    "source": {
+      "organization": "NBTE",
+      "document": "National Skills Qualification Level 2",
+      "unit": "Unit 6",
+      "unit_title": "Mobile Phone Repair Tools",
+      "unit_reference": "ICT/GRM/2/006",
+      "level": 2
+    },
+    "learning_objective": {
+      "id": "LO5",
+      "title": "Apply the Tools to Fix Phone Problems"
+    },
+    "performance_criterion": {
+      "id": "5.7",
+      "text": "Document the troubleshooting and repair process"
+    },
+    "content_type": "performance_criterion",
+    "text": "For mobile phone repair tools, the learner should be able to: document the troubleshooting and repair process."
+  },
+  {
+    "id": "nbte-mobilephone-u07-lo1-pc1",
+    "trade": "mobile_phone_repair",
+    "source": {
+      "organization": "NBTE",
+      "document": "National Skills Qualification Level 2",
+      "unit": "Unit 7",
+      "unit_title": "Diagnosing and Repairing Mobile Phones Hardware",
+      "unit_reference": "ICT/GRM/2/007",
+      "level": 2
+    },
+    "learning_objective": {
+      "id": "LO1",
+      "title": "Understand the Structure and Function of Mobile Phone Hardware"
+    },
+    "performance_criterion": {
+      "id": "1.1",
+      "text": "Identify the various components of a phone"
+    },
+    "content_type": "performance_criterion",
+    "text": "For diagnosing and repairing mobile phones hardware, the learner should be able to: identify the various components of a phone."
+  },
+  {
+    "id": "nbte-mobilephone-u07-lo1-pc2",
+    "trade": "mobile_phone_repair",
+    "source": {
+      "organization": "NBTE",
+      "document": "National Skills Qualification Level 2",
+      "unit": "Unit 7",
+      "unit_title": "Diagnosing and Repairing Mobile Phones Hardware",
+      "unit_reference": "ICT/GRM/2/007",
+      "level": 2
+    },
+    "learning_objective": {
+      "id": "LO1",
+      "title": "Understand the Structure and Function of Mobile Phone Hardware"
+    },
+    "performance_criterion": {
+      "id": "1.2",
+      "text": "Differentiate between internal components (e.g. processor, RAM, storage) and external components (e.g. screen, casing, buttons)"
+    },
+    "content_type": "performance_criterion",
+    "text": "For diagnosing and repairing mobile phones hardware, the learner should be able to: differentiate between internal components (e.g. processor, RAM, storage) and external components (e.g. screen, casing, buttons)."
+  },
+  {
+    "id": "nbte-mobilephone-u07-lo1-pc3",
+    "trade": "mobile_phone_repair",
+    "source": {
+      "organization": "NBTE",
+      "document": "National Skills Qualification Level 2",
+      "unit": "Unit 7",
+      "unit_title": "Diagnosing and Repairing Mobile Phones Hardware",
+      "unit_reference": "ICT/GRM/2/007",
+      "level": 2
+    },
+    "learning_objective": {
+      "id": "LO1",
+      "title": "Understand the Structure and Function of Mobile Phone Hardware"
+    },
+    "performance_criterion": {
+      "id": "1.3",
+      "text": "Describe the functions of each component"
+    },
+    "content_type": "performance_criterion",
+    "text": "For diagnosing and repairing mobile phones hardware, the learner should be able to: describe the functions of each component."
+  },
+  {
+    "id": "nbte-mobilephone-u07-lo1-pc4",
+    "trade": "mobile_phone_repair",
+    "source": {
+      "organization": "NBTE",
+      "document": "National Skills Qualification Level 2",
+      "unit": "Unit 7",
+      "unit_title": "Diagnosing and Repairing Mobile Phones Hardware",
+      "unit_reference": "ICT/GRM/2/007",
+      "level": 2
+    },
+    "learning_objective": {
+      "id": "LO1",
+      "title": "Understand the Structure and Function of Mobile Phone Hardware"
+    },
+    "performance_criterion": {
+      "id": "1.4",
+      "text": "Recognize the various forms of each component"
+    },
+    "content_type": "performance_criterion",
+    "text": "For diagnosing and repairing mobile phones hardware, the learner should be able to: recognize the various forms of each component."
+  },
+  {
+    "id": "nbte-mobilephone-u07-lo2-pc1",
+    "trade": "mobile_phone_repair",
+    "source": {
+      "organization": "NBTE",
+      "document": "National Skills Qualification Level 2",
+      "unit": "Unit 7",
+      "unit_title": "Diagnosing and Repairing Mobile Phones Hardware",
+      "unit_reference": "ICT/GRM/2/007",
+      "level": 2
+    },
+    "learning_objective": {
+      "id": "LO2",
+      "title": "Diagnose Common Hardware Problems"
+    },
+    "performance_criterion": {
+      "id": "2.1",
+      "text": "Identify hardware issues"
+    },
+    "content_type": "performance_criterion",
+    "text": "For diagnosing and repairing mobile phones hardware, the learner should be able to: identify hardware issues."
+  },
+  {
+    "id": "nbte-mobilephone-u07-lo2-pc2",
+    "trade": "mobile_phone_repair",
+    "source": {
+      "organization": "NBTE",
+      "document": "National Skills Qualification Level 2",
+      "unit": "Unit 7",
+      "unit_title": "Diagnosing and Repairing Mobile Phones Hardware",
+      "unit_reference": "ICT/GRM/2/007",
+      "level": 2
+    },
+    "learning_objective": {
+      "id": "LO2",
+      "title": "Diagnose Common Hardware Problems"
+    },
+    "performance_criterion": {
+      "id": "2.2",
+      "text": "Identify the possible causes of a problem"
+    },
+    "content_type": "performance_criterion",
+    "text": "For diagnosing and repairing mobile phones hardware, the learner should be able to: identify the possible causes of a problem."
+  },
+  {
+    "id": "nbte-mobilephone-u07-lo2-pc3",
+    "trade": "mobile_phone_repair",
+    "source": {
+      "organization": "NBTE",
+      "document": "National Skills Qualification Level 2",
+      "unit": "Unit 7",
+      "unit_title": "Diagnosing and Repairing Mobile Phones Hardware",
+      "unit_reference": "ICT/GRM/2/007",
+      "level": 2
+    },
+    "learning_objective": {
+      "id": "LO2",
+      "title": "Diagnose Common Hardware Problems"
+    },
+    "performance_criterion": {
+      "id": "2.3",
+      "text": "Select appropriate repair tools"
+    },
+    "content_type": "performance_criterion",
+    "text": "For diagnosing and repairing mobile phones hardware, the learner should be able to: select appropriate repair tools."
+  },
+  {
+    "id": "nbte-mobilephone-u07-lo2-pc4",
+    "trade": "mobile_phone_repair",
+    "source": {
+      "organization": "NBTE",
+      "document": "National Skills Qualification Level 2",
+      "unit": "Unit 7",
+      "unit_title": "Diagnosing and Repairing Mobile Phones Hardware",
+      "unit_reference": "ICT/GRM/2/007",
+      "level": 2
+    },
+    "learning_objective": {
+      "id": "LO2",
+      "title": "Diagnose Common Hardware Problems"
+    },
+    "performance_criterion": {
+      "id": "2.4",
+      "text": "Use tools to diagnose the problem"
+    },
+    "content_type": "performance_criterion",
+    "text": "For diagnosing and repairing mobile phones hardware, the learner should be able to: use tools to diagnose the problem."
+  },
+  {
+    "id": "nbte-mobilephone-u07-lo2-pc5",
+    "trade": "mobile_phone_repair",
+    "source": {
+      "organization": "NBTE",
+      "document": "National Skills Qualification Level 2",
+      "unit": "Unit 7",
+      "unit_title": "Diagnosing and Repairing Mobile Phones Hardware",
+      "unit_reference": "ICT/GRM/2/007",
+      "level": 2
+    },
+    "learning_objective": {
+      "id": "LO2",
+      "title": "Diagnose Common Hardware Problems"
+    },
+    "performance_criterion": {
+      "id": "2.5",
+      "text": "Disassemble a phone"
+    },
+    "content_type": "performance_criterion",
+    "text": "For diagnosing and repairing mobile phones hardware, the learner should be able to: disassemble a phone."
+  },
+  {
+    "id": "nbte-mobilephone-u07-lo2-pc6",
+    "trade": "mobile_phone_repair",
+    "source": {
+      "organization": "NBTE",
+      "document": "National Skills Qualification Level 2",
+      "unit": "Unit 7",
+      "unit_title": "Diagnosing and Repairing Mobile Phones Hardware",
+      "unit_reference": "ICT/GRM/2/007",
+      "level": 2
+    },
+    "learning_objective": {
+      "id": "LO2",
+      "title": "Diagnose Common Hardware Problems"
+    },
+    "performance_criterion": {
+      "id": "2.6",
+      "text": "Repair a phone using the correct tools"
+    },
+    "content_type": "performance_criterion",
+    "text": "For diagnosing and repairing mobile phones hardware, the learner should be able to: repair a phone using the correct tools."
+  },
+  {
+    "id": "nbte-mobilephone-u07-lo2-pc7",
+    "trade": "mobile_phone_repair",
+    "source": {
+      "organization": "NBTE",
+      "document": "National Skills Qualification Level 2",
+      "unit": "Unit 7",
+      "unit_title": "Diagnosing and Repairing Mobile Phones Hardware",
+      "unit_reference": "ICT/GRM/2/007",
+      "level": 2
+    },
+    "learning_objective": {
+      "id": "LO2",
+      "title": "Diagnose Common Hardware Problems"
+    },
+    "performance_criterion": {
+      "id": "2.7",
+      "text": "Assemble a phone"
+    },
+    "content_type": "performance_criterion",
+    "text": "For diagnosing and repairing mobile phones hardware, the learner should be able to: assemble a phone."
+  },
+  {
+    "id": "nbte-mobilephone-u07-lo2-pc8",
+    "trade": "mobile_phone_repair",
+    "source": {
+      "organization": "NBTE",
+      "document": "National Skills Qualification Level 2",
+      "unit": "Unit 7",
+      "unit_title": "Diagnosing and Repairing Mobile Phones Hardware",
+      "unit_reference": "ICT/GRM/2/007",
+      "level": 2
+    },
+    "learning_objective": {
+      "id": "LO2",
+      "title": "Diagnose Common Hardware Problems"
+    },
+    "performance_criterion": {
+      "id": "2.8",
+      "text": "Test the repaired phone"
+    },
+    "content_type": "performance_criterion",
+    "text": "For diagnosing and repairing mobile phones hardware, the learner should be able to: test the repaired phone."
+  },
+  {
+    "id": "nbte-mobilephone-u07-lo2-pc9",
+    "trade": "mobile_phone_repair",
+    "source": {
+      "organization": "NBTE",
+      "document": "National Skills Qualification Level 2",
+      "unit": "Unit 7",
+      "unit_title": "Diagnosing and Repairing Mobile Phones Hardware",
+      "unit_reference": "ICT/GRM/2/007",
+      "level": 2
+    },
+    "learning_objective": {
+      "id": "LO2",
+      "title": "Diagnose Common Hardware Problems"
+    },
+    "performance_criterion": {
+      "id": "2.9",
+      "text": "Document the solution"
+    },
+    "content_type": "performance_criterion",
+    "text": "For diagnosing and repairing mobile phones hardware, the learner should be able to: document the solution."
+  },
+  {
+    "id": "nbte-mobilephone-u07-lo3-pc1",
+    "trade": "mobile_phone_repair",
+    "source": {
+      "organization": "NBTE",
+      "document": "National Skills Qualification Level 2",
+      "unit": "Unit 7",
+      "unit_title": "Diagnosing and Repairing Mobile Phones Hardware",
+      "unit_reference": "ICT/GRM/2/007",
+      "level": 2
+    },
+    "learning_objective": {
+      "id": "LO3",
+      "title": "Enhance Troubleshooting Skills"
+    },
+    "performance_criterion": {
+      "id": "3.1",
+      "text": "Identify phone hardware issues/problems"
+    },
+    "content_type": "performance_criterion",
+    "text": "For diagnosing and repairing mobile phones hardware, the learner should be able to: identify phone hardware issues/problems."
+  },
+  {
+    "id": "nbte-mobilephone-u07-lo3-pc2",
+    "trade": "mobile_phone_repair",
+    "source": {
+      "organization": "NBTE",
+      "document": "National Skills Qualification Level 2",
+      "unit": "Unit 7",
+      "unit_title": "Diagnosing and Repairing Mobile Phones Hardware",
+      "unit_reference": "ICT/GRM/2/007",
+      "level": 2
+    },
+    "learning_objective": {
+      "id": "LO3",
+      "title": "Enhance Troubleshooting Skills"
+    },
+    "performance_criterion": {
+      "id": "3.2",
+      "text": "Develop troubleshooting skills"
+    },
+    "content_type": "performance_criterion",
+    "text": "For diagnosing and repairing mobile phones hardware, the learner should be able to: develop troubleshooting skills."
+  },
+  {
+    "id": "nbte-mobilephone-u07-lo3-pc3",
+    "trade": "mobile_phone_repair",
+    "source": {
+      "organization": "NBTE",
+      "document": "National Skills Qualification Level 2",
+      "unit": "Unit 7",
+      "unit_title": "Diagnosing and Repairing Mobile Phones Hardware",
+      "unit_reference": "ICT/GRM/2/007",
+      "level": 2
+    },
+    "learning_objective": {
+      "id": "LO3",
+      "title": "Enhance Troubleshooting Skills"
+    },
+    "performance_criterion": {
+      "id": "3.3",
+      "text": "Solve phone hardware related issues"
+    },
+    "content_type": "performance_criterion",
+    "text": "For diagnosing and repairing mobile phones hardware, the learner should be able to: solve phone hardware related issues."
+  },
+  {
+    "id": "nbte-mobilephone-u07-lo3-pc4",
+    "trade": "mobile_phone_repair",
+    "source": {
+      "organization": "NBTE",
+      "document": "National Skills Qualification Level 2",
+      "unit": "Unit 7",
+      "unit_title": "Diagnosing and Repairing Mobile Phones Hardware",
+      "unit_reference": "ICT/GRM/2/007",
+      "level": 2
+    },
+    "learning_objective": {
+      "id": "LO3",
+      "title": "Enhance Troubleshooting Skills"
+    },
+    "performance_criterion": {
+      "id": "3.4",
+      "text": "Demonstrate to others what the problem is and how to repair it"
+    },
+    "content_type": "performance_criterion",
+    "text": "For diagnosing and repairing mobile phones hardware, the learner should be able to: demonstrate to others what the problem is and how to repair it."
+  },
+  {
+    "id": "nbte-mobilephone-u07-lo3-pc5",
+    "trade": "mobile_phone_repair",
+    "source": {
+      "organization": "NBTE",
+      "document": "National Skills Qualification Level 2",
+      "unit": "Unit 7",
+      "unit_title": "Diagnosing and Repairing Mobile Phones Hardware",
+      "unit_reference": "ICT/GRM/2/007",
+      "level": 2
+    },
+    "learning_objective": {
+      "id": "LO3",
+      "title": "Enhance Troubleshooting Skills"
+    },
+    "performance_criterion": {
+      "id": "3.5",
+      "text": "Demonstrate documentation skills"
+    },
+    "content_type": "performance_criterion",
+    "text": "For diagnosing and repairing mobile phones hardware, the learner should be able to: demonstrate documentation skills."
+  },
+  {
+    "id": "nbte-mobilephone-u08-lo1-pc1",
+    "trade": "mobile_phone_repair",
+    "source": {
+      "organization": "NBTE",
+      "document": "National Skills Qualification Level 2",
+      "unit": "Unit 8",
+      "unit_title": "Diagnosing and Repairing Mobile Phones Software",
+      "unit_reference": "ICT/GRM/2/008",
+      "level": 2
+    },
+    "learning_objective": {
+      "id": "LO1",
+      "title": "Understand Mobile Operating Systems (OS)"
+    },
+    "performance_criterion": {
+      "id": "1.1",
+      "text": "Identify the major mobile phone OS platforms such as Android, iOS, etc"
+    },
+    "content_type": "performance_criterion",
+    "text": "For diagnosing and repairing mobile phones software, the learner should be able to: identify the major mobile phone OS platforms such as Android, iOS, etc."
+  },
+  {
+    "id": "nbte-mobilephone-u08-lo1-pc2",
+    "trade": "mobile_phone_repair",
+    "source": {
+      "organization": "NBTE",
+      "document": "National Skills Qualification Level 2",
+      "unit": "Unit 8",
+      "unit_title": "Diagnosing and Repairing Mobile Phones Software",
+      "unit_reference": "ICT/GRM/2/008",
+      "level": 2
+    },
+    "learning_objective": {
+      "id": "LO1",
+      "title": "Understand Mobile Operating Systems (OS)"
+    },
+    "performance_criterion": {
+      "id": "1.2",
+      "text": "Explain how the OS manages hardware, apps and interfaces"
+    },
+    "content_type": "performance_criterion",
+    "text": "For diagnosing and repairing mobile phones software, the learner should be able to: explain how the OS manages hardware, apps and interfaces."
+  },
+  {
+    "id": "nbte-mobilephone-u08-lo1-pc3",
+    "trade": "mobile_phone_repair",
+    "source": {
+      "organization": "NBTE",
+      "document": "National Skills Qualification Level 2",
+      "unit": "Unit 8",
+      "unit_title": "Diagnosing and Repairing Mobile Phones Software",
+      "unit_reference": "ICT/GRM/2/008",
+      "level": 2
+    },
+    "learning_objective": {
+      "id": "LO1",
+      "title": "Understand Mobile Operating Systems (OS)"
+    },
+    "performance_criterion": {
+      "id": "1.3",
+      "text": "Install mobile phone firmware and OS"
+    },
+    "content_type": "performance_criterion",
+    "text": "For diagnosing and repairing mobile phones software, the learner should be able to: install mobile phone firmware and OS."
+  },
+  {
+    "id": "nbte-mobilephone-u08-lo1-pc4",
+    "trade": "mobile_phone_repair",
+    "source": {
+      "organization": "NBTE",
+      "document": "National Skills Qualification Level 2",
+      "unit": "Unit 8",
+      "unit_title": "Diagnosing and Repairing Mobile Phones Software",
+      "unit_reference": "ICT/GRM/2/008",
+      "level": 2
+    },
+    "learning_objective": {
+      "id": "LO1",
+      "title": "Understand Mobile Operating Systems (OS)"
+    },
+    "performance_criterion": {
+      "id": "1.4",
+      "text": "Update mobile phone OS"
+    },
+    "content_type": "performance_criterion",
+    "text": "For diagnosing and repairing mobile phones software, the learner should be able to: update mobile phone OS."
+  },
+  {
+    "id": "nbte-mobilephone-u08-lo2-pc1",
+    "trade": "mobile_phone_repair",
+    "source": {
+      "organization": "NBTE",
+      "document": "National Skills Qualification Level 2",
+      "unit": "Unit 8",
+      "unit_title": "Diagnosing and Repairing Mobile Phones Software",
+      "unit_reference": "ICT/GRM/2/008",
+      "level": 2
+    },
+    "learning_objective": {
+      "id": "LO2",
+      "title": "Troubleshoot Software Related Problems on Mobile Phones"
+    },
+    "performance_criterion": {
+      "id": "2.1",
+      "text": "Identify common software issues: operating system crashes, slow performance, application errors and crashes, connectivity issues (Wi-Fi, Bluetooth, GSM network), firmware corruption, security issues (malware, viruses)"
+    },
+    "content_type": "performance_criterion",
+    "text": "For diagnosing and repairing mobile phones software, the learner should be able to: identify common software issues: operating system crashes, slow performance, application errors and crashes, connectivity issues (Wi-Fi, Bluetooth, GSM network), firmware corruption, security issues (malware, viruses)."
+  },
+  {
+    "id": "nbte-mobilephone-u08-lo2-pc2",
+    "trade": "mobile_phone_repair",
+    "source": {
+      "organization": "NBTE",
+      "document": "National Skills Qualification Level 2",
+      "unit": "Unit 8",
+      "unit_title": "Diagnosing and Repairing Mobile Phones Software",
+      "unit_reference": "ICT/GRM/2/008",
+      "level": 2
+    },
+    "learning_objective": {
+      "id": "LO2",
+      "title": "Troubleshoot Software Related Problems on Mobile Phones"
+    },
+    "performance_criterion": {
+      "id": "2.2",
+      "text": "Identify the possible causes of the problem"
+    },
+    "content_type": "performance_criterion",
+    "text": "For diagnosing and repairing mobile phones software, the learner should be able to: identify the possible causes of the problem."
+  },
+  {
+    "id": "nbte-mobilephone-u08-lo2-pc3",
+    "trade": "mobile_phone_repair",
+    "source": {
+      "organization": "NBTE",
+      "document": "National Skills Qualification Level 2",
+      "unit": "Unit 8",
+      "unit_title": "Diagnosing and Repairing Mobile Phones Software",
+      "unit_reference": "ICT/GRM/2/008",
+      "level": 2
+    },
+    "learning_objective": {
+      "id": "LO2",
+      "title": "Troubleshoot Software Related Problems on Mobile Phones"
+    },
+    "performance_criterion": {
+      "id": "2.3",
+      "text": "Use appropriate repair tools to properly identify the root cause of a problem"
+    },
+    "content_type": "performance_criterion",
+    "text": "For diagnosing and repairing mobile phones software, the learner should be able to: use appropriate repair tools to properly identify the root cause of a problem."
+  },
+  {
+    "id": "nbte-mobilephone-u08-lo2-pc4",
+    "trade": "mobile_phone_repair",
+    "source": {
+      "organization": "NBTE",
+      "document": "National Skills Qualification Level 2",
+      "unit": "Unit 8",
+      "unit_title": "Diagnosing and Repairing Mobile Phones Software",
+      "unit_reference": "ICT/GRM/2/008",
+      "level": 2
+    },
+    "learning_objective": {
+      "id": "LO2",
+      "title": "Troubleshoot Software Related Problems on Mobile Phones"
+    },
+    "performance_criterion": {
+      "id": "2.4",
+      "text": "Perform data backup whenever necessary"
+    },
+    "content_type": "performance_criterion",
+    "text": "For diagnosing and repairing mobile phones software, the learner should be able to: perform data backup whenever necessary."
+  },
+  {
+    "id": "nbte-mobilephone-u08-lo2-pc5",
+    "trade": "mobile_phone_repair",
+    "source": {
+      "organization": "NBTE",
+      "document": "National Skills Qualification Level 2",
+      "unit": "Unit 8",
+      "unit_title": "Diagnosing and Repairing Mobile Phones Software",
+      "unit_reference": "ICT/GRM/2/008",
+      "level": 2
+    },
+    "learning_objective": {
+      "id": "LO2",
+      "title": "Troubleshoot Software Related Problems on Mobile Phones"
+    },
+    "performance_criterion": {
+      "id": "2.5",
+      "text": "Perform the repairs"
+    },
+    "content_type": "performance_criterion",
+    "text": "For diagnosing and repairing mobile phones software, the learner should be able to: perform the repairs."
+  },
+  {
+    "id": "nbte-mobilephone-u08-lo2-pc6",
+    "trade": "mobile_phone_repair",
+    "source": {
+      "organization": "NBTE",
+      "document": "National Skills Qualification Level 2",
+      "unit": "Unit 8",
+      "unit_title": "Diagnosing and Repairing Mobile Phones Software",
+      "unit_reference": "ICT/GRM/2/008",
+      "level": 2
+    },
+    "learning_objective": {
+      "id": "LO2",
+      "title": "Troubleshoot Software Related Problems on Mobile Phones"
+    },
+    "performance_criterion": {
+      "id": "2.6",
+      "text": "Perform firmware and OS updates where necessary"
+    },
+    "content_type": "performance_criterion",
+    "text": "For diagnosing and repairing mobile phones software, the learner should be able to: perform firmware and OS updates where necessary."
+  },
+  {
+    "id": "nbte-mobilephone-u08-lo2-pc7",
+    "trade": "mobile_phone_repair",
+    "source": {
+      "organization": "NBTE",
+      "document": "National Skills Qualification Level 2",
+      "unit": "Unit 8",
+      "unit_title": "Diagnosing and Repairing Mobile Phones Software",
+      "unit_reference": "ICT/GRM/2/008",
+      "level": 2
+    },
+    "learning_objective": {
+      "id": "LO2",
+      "title": "Troubleshoot Software Related Problems on Mobile Phones"
+    },
+    "performance_criterion": {
+      "id": "2.7",
+      "text": "Apply mobile phone-specific software fixes where necessary"
+    },
+    "content_type": "performance_criterion",
+    "text": "For diagnosing and repairing mobile phones software, the learner should be able to: apply mobile phone-specific software fixes where necessary."
+  },
+  {
+    "id": "nbte-mobilephone-u08-lo2-pc8",
+    "trade": "mobile_phone_repair",
+    "source": {
+      "organization": "NBTE",
+      "document": "National Skills Qualification Level 2",
+      "unit": "Unit 8",
+      "unit_title": "Diagnosing and Repairing Mobile Phones Software",
+      "unit_reference": "ICT/GRM/2/008",
+      "level": 2
+    },
+    "learning_objective": {
+      "id": "LO2",
+      "title": "Troubleshoot Software Related Problems on Mobile Phones"
+    },
+    "performance_criterion": {
+      "id": "2.8",
+      "text": "Perform recovery whenever necessary"
+    },
+    "content_type": "performance_criterion",
+    "text": "For diagnosing and repairing mobile phones software, the learner should be able to: perform recovery whenever necessary."
+  },
+  {
+    "id": "nbte-mobilephone-u08-lo2-pc9",
+    "trade": "mobile_phone_repair",
+    "source": {
+      "organization": "NBTE",
+      "document": "National Skills Qualification Level 2",
+      "unit": "Unit 8",
+      "unit_title": "Diagnosing and Repairing Mobile Phones Software",
+      "unit_reference": "ICT/GRM/2/008",
+      "level": 2
+    },
+    "learning_objective": {
+      "id": "LO2",
+      "title": "Troubleshoot Software Related Problems on Mobile Phones"
+    },
+    "performance_criterion": {
+      "id": "2.9",
+      "text": "Test and verify software repairs"
+    },
+    "content_type": "performance_criterion",
+    "text": "For diagnosing and repairing mobile phones software, the learner should be able to: test and verify software repairs."
+  },
+  {
+    "id": "nbte-mobilephone-u08-lo3-pc1",
+    "trade": "mobile_phone_repair",
+    "source": {
+      "organization": "NBTE",
+      "document": "National Skills Qualification Level 2",
+      "unit": "Unit 8",
+      "unit_title": "Diagnosing and Repairing Mobile Phones Software",
+      "unit_reference": "ICT/GRM/2/008",
+      "level": 2
+    },
+    "learning_objective": {
+      "id": "LO3",
+      "title": "Enhance Troubleshooting Skills"
+    },
+    "performance_criterion": {
+      "id": "3.1",
+      "text": "Identify phone software issues/problems"
+    },
+    "content_type": "performance_criterion",
+    "text": "For diagnosing and repairing mobile phones software, the learner should be able to: identify phone software issues/problems."
+  },
+  {
+    "id": "nbte-mobilephone-u08-lo3-pc2",
+    "trade": "mobile_phone_repair",
+    "source": {
+      "organization": "NBTE",
+      "document": "National Skills Qualification Level 2",
+      "unit": "Unit 8",
+      "unit_title": "Diagnosing and Repairing Mobile Phones Software",
+      "unit_reference": "ICT/GRM/2/008",
+      "level": 2
+    },
+    "learning_objective": {
+      "id": "LO3",
+      "title": "Enhance Troubleshooting Skills"
+    },
+    "performance_criterion": {
+      "id": "3.2",
+      "text": "Develop troubleshooting skills"
+    },
+    "content_type": "performance_criterion",
+    "text": "For diagnosing and repairing mobile phones software, the learner should be able to: develop troubleshooting skills."
+  },
+  {
+    "id": "nbte-mobilephone-u08-lo3-pc3",
+    "trade": "mobile_phone_repair",
+    "source": {
+      "organization": "NBTE",
+      "document": "National Skills Qualification Level 2",
+      "unit": "Unit 8",
+      "unit_title": "Diagnosing and Repairing Mobile Phones Software",
+      "unit_reference": "ICT/GRM/2/008",
+      "level": 2
+    },
+    "learning_objective": {
+      "id": "LO3",
+      "title": "Enhance Troubleshooting Skills"
+    },
+    "performance_criterion": {
+      "id": "3.3",
+      "text": "Solve phone software related issues"
+    },
+    "content_type": "performance_criterion",
+    "text": "For diagnosing and repairing mobile phones software, the learner should be able to: solve phone software related issues."
+  },
+  {
+    "id": "nbte-mobilephone-u08-lo3-pc4",
+    "trade": "mobile_phone_repair",
+    "source": {
+      "organization": "NBTE",
+      "document": "National Skills Qualification Level 2",
+      "unit": "Unit 8",
+      "unit_title": "Diagnosing and Repairing Mobile Phones Software",
+      "unit_reference": "ICT/GRM/2/008",
+      "level": 2
+    },
+    "learning_objective": {
+      "id": "LO3",
+      "title": "Enhance Troubleshooting Skills"
+    },
+    "performance_criterion": {
+      "id": "3.4",
+      "text": "Demonstrate to others what the problem is and how to repair it"
+    },
+    "content_type": "performance_criterion",
+    "text": "For diagnosing and repairing mobile phones software, the learner should be able to: demonstrate to others what the problem is and how to repair it."
+  },
+  {
+    "id": "nbte-mobilephone-u08-lo4-pc1",
+    "trade": "mobile_phone_repair",
+    "source": {
+      "organization": "NBTE",
+      "document": "National Skills Qualification Level 2",
+      "unit": "Unit 8",
+      "unit_title": "Diagnosing and Repairing Mobile Phones Software",
+      "unit_reference": "ICT/GRM/2/008",
+      "level": 2
+    },
+    "learning_objective": {
+      "id": "LO4",
+      "title": "Know Data Backup and Recovery Procedures"
+    },
+    "performance_criterion": {
+      "id": "4.1",
+      "text": "Define backup and recovery"
+    },
+    "content_type": "performance_criterion",
+    "text": "For diagnosing and repairing mobile phones software, the learner should be able to: define backup and recovery."
+  },
+  {
+    "id": "nbte-mobilephone-u08-lo4-pc2",
+    "trade": "mobile_phone_repair",
+    "source": {
+      "organization": "NBTE",
+      "document": "National Skills Qualification Level 2",
+      "unit": "Unit 8",
+      "unit_title": "Diagnosing and Repairing Mobile Phones Software",
+      "unit_reference": "ICT/GRM/2/008",
+      "level": 2
+    },
+    "learning_objective": {
+      "id": "LO4",
+      "title": "Know Data Backup and Recovery Procedures"
+    },
+    "performance_criterion": {
+      "id": "4.2",
+      "text": "Explain the importance of regularly backing up user data such as contacts, photos, messages, etc"
+    },
+    "content_type": "performance_criterion",
+    "text": "For diagnosing and repairing mobile phones software, the learner should be able to: explain the importance of regularly backing up user data such as contacts, photos, messages, etc."
+  },
+  {
+    "id": "nbte-mobilephone-u08-lo4-pc3",
+    "trade": "mobile_phone_repair",
+    "source": {
+      "organization": "NBTE",
+      "document": "National Skills Qualification Level 2",
+      "unit": "Unit 8",
+      "unit_title": "Diagnosing and Repairing Mobile Phones Software",
+      "unit_reference": "ICT/GRM/2/008",
+      "level": 2
+    },
+    "learning_objective": {
+      "id": "LO4",
+      "title": "Know Data Backup and Recovery Procedures"
+    },
+    "performance_criterion": {
+      "id": "4.3",
+      "text": "Describe the procedures for data backup and recovery"
+    },
+    "content_type": "performance_criterion",
+    "text": "For diagnosing and repairing mobile phones software, the learner should be able to: describe the procedures for data backup and recovery."
+  },
+  {
+    "id": "nbte-mobilephone-u08-lo4-pc4",
+    "trade": "mobile_phone_repair",
+    "source": {
+      "organization": "NBTE",
+      "document": "National Skills Qualification Level 2",
+      "unit": "Unit 8",
+      "unit_title": "Diagnosing and Repairing Mobile Phones Software",
+      "unit_reference": "ICT/GRM/2/008",
+      "level": 2
+    },
+    "learning_objective": {
+      "id": "LO4",
+      "title": "Know Data Backup and Recovery Procedures"
+    },
+    "performance_criterion": {
+      "id": "4.4",
+      "text": "Identify the data to backup"
+    },
+    "content_type": "performance_criterion",
+    "text": "For diagnosing and repairing mobile phones software, the learner should be able to: identify the data to backup."
+  },
+  {
+    "id": "nbte-mobilephone-u08-lo4-pc5",
+    "trade": "mobile_phone_repair",
+    "source": {
+      "organization": "NBTE",
+      "document": "National Skills Qualification Level 2",
+      "unit": "Unit 8",
+      "unit_title": "Diagnosing and Repairing Mobile Phones Software",
+      "unit_reference": "ICT/GRM/2/008",
+      "level": 2
+    },
+    "learning_objective": {
+      "id": "LO4",
+      "title": "Know Data Backup and Recovery Procedures"
+    },
+    "performance_criterion": {
+      "id": "4.5",
+      "text": "Use different backup methods such as cloud storage or local backups"
+    },
+    "content_type": "performance_criterion",
+    "text": "For diagnosing and repairing mobile phones software, the learner should be able to: use different backup methods such as cloud storage or local backups."
+  },
+  {
+    "id": "nbte-mobilephone-u08-lo4-pc6",
+    "trade": "mobile_phone_repair",
+    "source": {
+      "organization": "NBTE",
+      "document": "National Skills Qualification Level 2",
+      "unit": "Unit 8",
+      "unit_title": "Diagnosing and Repairing Mobile Phones Software",
+      "unit_reference": "ICT/GRM/2/008",
+      "level": 2
+    },
+    "learning_objective": {
+      "id": "LO4",
+      "title": "Know Data Backup and Recovery Procedures"
+    },
+    "performance_criterion": {
+      "id": "4.6",
+      "text": "Perform data recovery"
+    },
+    "content_type": "performance_criterion",
+    "text": "For diagnosing and repairing mobile phones software, the learner should be able to: perform data recovery."
+  },
+  {
+    "id": "nbte-mobilephone-u09-lo1-pc1",
+    "trade": "mobile_phone_repair",
+    "source": {
+      "organization": "NBTE",
+      "document": "National Skills Qualification Level 2",
+      "unit": "Unit 9",
+      "unit_title": "Data Privacy and Protection for Mobile Phones",
+      "unit_reference": "ICT/GRM/2/009",
+      "level": 2
+    },
+    "learning_objective": {
+      "id": "LO1",
+      "title": "Understand Data Privacy and Protection"
+    },
+    "performance_criterion": {
+      "id": "1.1",
+      "text": "Define data privacy"
+    },
+    "content_type": "performance_criterion",
+    "text": "For data privacy and protection for mobile phones, the learner should be able to: define data privacy."
+  },
+  {
+    "id": "nbte-mobilephone-u09-lo1-pc2",
+    "trade": "mobile_phone_repair",
+    "source": {
+      "organization": "NBTE",
+      "document": "National Skills Qualification Level 2",
+      "unit": "Unit 9",
+      "unit_title": "Data Privacy and Protection for Mobile Phones",
+      "unit_reference": "ICT/GRM/2/009",
+      "level": 2
+    },
+    "learning_objective": {
+      "id": "LO1",
+      "title": "Understand Data Privacy and Protection"
+    },
+    "performance_criterion": {
+      "id": "1.2",
+      "text": "Define data protection"
+    },
+    "content_type": "performance_criterion",
+    "text": "For data privacy and protection for mobile phones, the learner should be able to: define data protection."
+  },
+  {
+    "id": "nbte-mobilephone-u09-lo1-pc3",
+    "trade": "mobile_phone_repair",
+    "source": {
+      "organization": "NBTE",
+      "document": "National Skills Qualification Level 2",
+      "unit": "Unit 9",
+      "unit_title": "Data Privacy and Protection for Mobile Phones",
+      "unit_reference": "ICT/GRM/2/009",
+      "level": 2
+    },
+    "learning_objective": {
+      "id": "LO1",
+      "title": "Understand Data Privacy and Protection"
+    },
+    "performance_criterion": {
+      "id": "1.3",
+      "text": "Explain why data privacy and protection for mobile phones is important"
+    },
+    "content_type": "performance_criterion",
+    "text": "For data privacy and protection for mobile phones, the learner should be able to: explain why data privacy and protection for mobile phones is important."
+  },
+  {
+    "id": "nbte-mobilephone-u09-lo2-pc1",
+    "trade": "mobile_phone_repair",
+    "source": {
+      "organization": "NBTE",
+      "document": "National Skills Qualification Level 2",
+      "unit": "Unit 9",
+      "unit_title": "Data Privacy and Protection for Mobile Phones",
+      "unit_reference": "ICT/GRM/2/009",
+      "level": 2
+    },
+    "learning_objective": {
+      "id": "LO2",
+      "title": "Understand Professional Ethics"
+    },
+    "performance_criterion": {
+      "id": "2.1",
+      "text": "Define professional ethics"
+    },
+    "content_type": "performance_criterion",
+    "text": "For data privacy and protection for mobile phones, the learner should be able to: define professional ethics."
+  },
+  {
+    "id": "nbte-mobilephone-u09-lo2-pc2",
+    "trade": "mobile_phone_repair",
+    "source": {
+      "organization": "NBTE",
+      "document": "National Skills Qualification Level 2",
+      "unit": "Unit 9",
+      "unit_title": "Data Privacy and Protection for Mobile Phones",
+      "unit_reference": "ICT/GRM/2/009",
+      "level": 2
+    },
+    "learning_objective": {
+      "id": "LO2",
+      "title": "Understand Professional Ethics"
+    },
+    "performance_criterion": {
+      "id": "2.2",
+      "text": "Identify privacy laws and regulations"
+    },
+    "content_type": "performance_criterion",
+    "text": "For data privacy and protection for mobile phones, the learner should be able to: identify privacy laws and regulations."
+  },
+  {
+    "id": "nbte-mobilephone-u09-lo2-pc3",
+    "trade": "mobile_phone_repair",
+    "source": {
+      "organization": "NBTE",
+      "document": "National Skills Qualification Level 2",
+      "unit": "Unit 9",
+      "unit_title": "Data Privacy and Protection for Mobile Phones",
+      "unit_reference": "ICT/GRM/2/009",
+      "level": 2
+    },
+    "learning_objective": {
+      "id": "LO2",
+      "title": "Understand Professional Ethics"
+    },
+    "performance_criterion": {
+      "id": "2.3",
+      "text": "Use privacy laws and regulations"
+    },
+    "content_type": "performance_criterion",
+    "text": "For data privacy and protection for mobile phones, the learner should be able to: use privacy laws and regulations."
+  },
+  {
+    "id": "nbte-mobilephone-u09-lo2-pc4",
+    "trade": "mobile_phone_repair",
+    "source": {
+      "organization": "NBTE",
+      "document": "National Skills Qualification Level 2",
+      "unit": "Unit 9",
+      "unit_title": "Data Privacy and Protection for Mobile Phones",
+      "unit_reference": "ICT/GRM/2/009",
+      "level": 2
+    },
+    "learning_objective": {
+      "id": "LO2",
+      "title": "Understand Professional Ethics"
+    },
+    "performance_criterion": {
+      "id": "2.4",
+      "text": "Implement accountability practices"
+    },
+    "content_type": "performance_criterion",
+    "text": "For data privacy and protection for mobile phones, the learner should be able to: implement accountability practices."
+  },
+  {
+    "id": "nbte-mobilephone-u09-lo2-pc5",
+    "trade": "mobile_phone_repair",
+    "source": {
+      "organization": "NBTE",
+      "document": "National Skills Qualification Level 2",
+      "unit": "Unit 9",
+      "unit_title": "Data Privacy and Protection for Mobile Phones",
+      "unit_reference": "ICT/GRM/2/009",
+      "level": 2
+    },
+    "learning_objective": {
+      "id": "LO2",
+      "title": "Understand Professional Ethics"
+    },
+    "performance_criterion": {
+      "id": "2.5",
+      "text": "Use confidentiality"
+    },
+    "content_type": "performance_criterion",
+    "text": "For data privacy and protection for mobile phones, the learner should be able to: use confidentiality."
+  },
+  {
+    "id": "nbte-mobilephone-u09-lo2-pc6",
+    "trade": "mobile_phone_repair",
+    "source": {
+      "organization": "NBTE",
+      "document": "National Skills Qualification Level 2",
+      "unit": "Unit 9",
+      "unit_title": "Data Privacy and Protection for Mobile Phones",
+      "unit_reference": "ICT/GRM/2/009",
+      "level": 2
+    },
+    "learning_objective": {
+      "id": "LO2",
+      "title": "Understand Professional Ethics"
+    },
+    "performance_criterion": {
+      "id": "2.6",
+      "text": "Demonstrate responsible data usage and ethical practices"
+    },
+    "content_type": "performance_criterion",
+    "text": "For data privacy and protection for mobile phones, the learner should be able to: demonstrate responsible data usage and ethical practices."
+  },
+  {
+    "id": "nbte-mobilephone-u09-lo2-pc7",
+    "trade": "mobile_phone_repair",
+    "source": {
+      "organization": "NBTE",
+      "document": "National Skills Qualification Level 2",
+      "unit": "Unit 9",
+      "unit_title": "Data Privacy and Protection for Mobile Phones",
+      "unit_reference": "ICT/GRM/2/009",
+      "level": 2
+    },
+    "learning_objective": {
+      "id": "LO2",
+      "title": "Understand Professional Ethics"
+    },
+    "performance_criterion": {
+      "id": "2.7",
+      "text": "Implement compliance with laws and regulations"
+    },
+    "content_type": "performance_criterion",
+    "text": "For data privacy and protection for mobile phones, the learner should be able to: implement compliance with laws and regulations."
+  },
+  {
+    "id": "nbte-mobilephone-u09-lo2-pc8",
+    "trade": "mobile_phone_repair",
+    "source": {
+      "organization": "NBTE",
+      "document": "National Skills Qualification Level 2",
+      "unit": "Unit 9",
+      "unit_title": "Data Privacy and Protection for Mobile Phones",
+      "unit_reference": "ICT/GRM/2/009",
+      "level": 2
+    },
+    "learning_objective": {
+      "id": "LO2",
+      "title": "Understand Professional Ethics"
+    },
+    "performance_criterion": {
+      "id": "2.8",
+      "text": "Implement data retention policies"
+    },
+    "content_type": "performance_criterion",
+    "text": "For data privacy and protection for mobile phones, the learner should be able to: implement data retention policies."
+  },
+  {
+    "id": "nbte-mobilephone-u09-lo3-pc1",
+    "trade": "mobile_phone_repair",
+    "source": {
+      "organization": "NBTE",
+      "document": "National Skills Qualification Level 2",
+      "unit": "Unit 9",
+      "unit_title": "Data Privacy and Protection for Mobile Phones",
+      "unit_reference": "ICT/GRM/2/009",
+      "level": 2
+    },
+    "learning_objective": {
+      "id": "LO3",
+      "title": "Safeguard Personal Information"
+    },
+    "performance_criterion": {
+      "id": "3.1",
+      "text": "Define identity theft"
+    },
+    "content_type": "performance_criterion",
+    "text": "For data privacy and protection for mobile phones, the learner should be able to: define identity theft."
+  },
+  {
+    "id": "nbte-mobilephone-u09-lo3-pc2",
+    "trade": "mobile_phone_repair",
+    "source": {
+      "organization": "NBTE",
+      "document": "National Skills Qualification Level 2",
+      "unit": "Unit 9",
+      "unit_title": "Data Privacy and Protection for Mobile Phones",
+      "unit_reference": "ICT/GRM/2/009",
+      "level": 2
+    },
+    "learning_objective": {
+      "id": "LO3",
+      "title": "Safeguard Personal Information"
+    },
+    "performance_criterion": {
+      "id": "3.2",
+      "text": "Identify personal data to protect"
+    },
+    "content_type": "performance_criterion",
+    "text": "For data privacy and protection for mobile phones, the learner should be able to: identify personal data to protect."
+  },
+  {
+    "id": "nbte-mobilephone-u09-lo3-pc3",
+    "trade": "mobile_phone_repair",
+    "source": {
+      "organization": "NBTE",
+      "document": "National Skills Qualification Level 2",
+      "unit": "Unit 9",
+      "unit_title": "Data Privacy and Protection for Mobile Phones",
+      "unit_reference": "ICT/GRM/2/009",
+      "level": 2
+    },
+    "learning_objective": {
+      "id": "LO3",
+      "title": "Safeguard Personal Information"
+    },
+    "performance_criterion": {
+      "id": "3.3",
+      "text": "Identify measures to protect personal data"
+    },
+    "content_type": "performance_criterion",
+    "text": "For data privacy and protection for mobile phones, the learner should be able to: identify measures to protect personal data."
+  },
+  {
+    "id": "nbte-mobilephone-u09-lo3-pc4",
+    "trade": "mobile_phone_repair",
+    "source": {
+      "organization": "NBTE",
+      "document": "National Skills Qualification Level 2",
+      "unit": "Unit 9",
+      "unit_title": "Data Privacy and Protection for Mobile Phones",
+      "unit_reference": "ICT/GRM/2/009",
+      "level": 2
+    },
+    "learning_objective": {
+      "id": "LO3",
+      "title": "Safeguard Personal Information"
+    },
+    "performance_criterion": {
+      "id": "3.4",
+      "text": "Implement measures to protect personal data"
+    },
+    "content_type": "performance_criterion",
+    "text": "For data privacy and protection for mobile phones, the learner should be able to: implement measures to protect personal data."
+  },
+  {
+    "id": "nbte-mobilephone-u09-lo4-pc1",
+    "trade": "mobile_phone_repair",
+    "source": {
+      "organization": "NBTE",
+      "document": "National Skills Qualification Level 2",
+      "unit": "Unit 9",
+      "unit_title": "Data Privacy and Protection for Mobile Phones",
+      "unit_reference": "ICT/GRM/2/009",
+      "level": 2
+    },
+    "learning_objective": {
+      "id": "LO4",
+      "title": "Prevent Unauthorized Access and Data Breaches"
+    },
+    "performance_criterion": {
+      "id": "4.1",
+      "text": "Explain unauthorized access and data breaches"
+    },
+    "content_type": "performance_criterion",
+    "text": "For data privacy and protection for mobile phones, the learner should be able to: explain unauthorized access and data breaches."
+  },
+  {
+    "id": "nbte-mobilephone-u09-lo4-pc2",
+    "trade": "mobile_phone_repair",
+    "source": {
+      "organization": "NBTE",
+      "document": "National Skills Qualification Level 2",
+      "unit": "Unit 9",
+      "unit_title": "Data Privacy and Protection for Mobile Phones",
+      "unit_reference": "ICT/GRM/2/009",
+      "level": 2
+    },
+    "learning_objective": {
+      "id": "LO4",
+      "title": "Prevent Unauthorized Access and Data Breaches"
+    },
+    "performance_criterion": {
+      "id": "4.2",
+      "text": "Use encryption and secure authentication techniques"
+    },
+    "content_type": "performance_criterion",
+    "text": "For data privacy and protection for mobile phones, the learner should be able to: use encryption and secure authentication techniques."
+  },
+  {
+    "id": "nbte-mobilephone-u09-lo4-pc3",
+    "trade": "mobile_phone_repair",
+    "source": {
+      "organization": "NBTE",
+      "document": "National Skills Qualification Level 2",
+      "unit": "Unit 9",
+      "unit_title": "Data Privacy and Protection for Mobile Phones",
+      "unit_reference": "ICT/GRM/2/009",
+      "level": 2
+    },
+    "learning_objective": {
+      "id": "LO4",
+      "title": "Prevent Unauthorized Access and Data Breaches"
+    },
+    "performance_criterion": {
+      "id": "4.3",
+      "text": "Implement mitigation measures to minimize data breach risks"
+    },
+    "content_type": "performance_criterion",
+    "text": "For data privacy and protection for mobile phones, the learner should be able to: implement mitigation measures to minimize data breach risks."
+  },
+  {
+    "id": "nbte-mobilephone-u09-lo5-pc1",
+    "trade": "mobile_phone_repair",
+    "source": {
+      "organization": "NBTE",
+      "document": "National Skills Qualification Level 2",
+      "unit": "Unit 9",
+      "unit_title": "Data Privacy and Protection for Mobile Phones",
+      "unit_reference": "ICT/GRM/2/009",
+      "level": 2
+    },
+    "learning_objective": {
+      "id": "LO5",
+      "title": "Prevent Surveillance and Monitoring"
+    },
+    "performance_criterion": {
+      "id": "5.1",
+      "text": "Identify unauthorized monitoring"
+    },
+    "content_type": "performance_criterion",
+    "text": "For data privacy and protection for mobile phones, the learner should be able to: identify unauthorized monitoring."
+  },
+  {
+    "id": "nbte-mobilephone-u09-lo5-pc2",
+    "trade": "mobile_phone_repair",
+    "source": {
+      "organization": "NBTE",
+      "document": "National Skills Qualification Level 2",
+      "unit": "Unit 9",
+      "unit_title": "Data Privacy and Protection for Mobile Phones",
+      "unit_reference": "ICT/GRM/2/009",
+      "level": 2
+    },
+    "learning_objective": {
+      "id": "LO5",
+      "title": "Prevent Surveillance and Monitoring"
+    },
+    "performance_criterion": {
+      "id": "5.2",
+      "text": "Identify techniques to prevent unauthorized monitoring"
+    },
+    "content_type": "performance_criterion",
+    "text": "For data privacy and protection for mobile phones, the learner should be able to: identify techniques to prevent unauthorized monitoring."
+  },
+  {
+    "id": "nbte-mobilephone-u09-lo5-pc3",
+    "trade": "mobile_phone_repair",
+    "source": {
+      "organization": "NBTE",
+      "document": "National Skills Qualification Level 2",
+      "unit": "Unit 9",
+      "unit_title": "Data Privacy and Protection for Mobile Phones",
+      "unit_reference": "ICT/GRM/2/009",
+      "level": 2
+    },
+    "learning_objective": {
+      "id": "LO5",
+      "title": "Prevent Surveillance and Monitoring"
+    },
+    "performance_criterion": {
+      "id": "5.3",
+      "text": "Implement measures that will prevent unauthorized monitoring"
+    },
+    "content_type": "performance_criterion",
+    "text": "For data privacy and protection for mobile phones, the learner should be able to: implement measures that will prevent unauthorized monitoring."
+  },
+  {
+    "id": "nbte-mobilephone-u10-lo1-pc1",
+    "trade": "mobile_phone_repair",
+    "source": {
+      "organization": "NBTE",
+      "document": "National Skills Qualification Level 2",
+      "unit": "Unit 10",
+      "unit_title": "Components of a Mobile Phone",
+      "unit_reference": "ICT/GRM/2/010",
+      "level": 2
+    },
+    "learning_objective": {
+      "id": "LO1",
+      "title": "Understand the Components of a Mobile Phone"
+    },
+    "performance_criterion": {
+      "id": "1.1",
+      "text": "Identify the key hardware components of a mobile phone such as the motherboard, battery, screen, camera, speakers, antennas, etc"
+    },
+    "content_type": "performance_criterion",
+    "text": "For components of a mobile phone, the learner should be able to: identify the key hardware components of a mobile phone such as the motherboard, battery, screen, camera, speakers, antennas, etc."
+  },
+  {
+    "id": "nbte-mobilephone-u10-lo1-pc2",
+    "trade": "mobile_phone_repair",
+    "source": {
+      "organization": "NBTE",
+      "document": "National Skills Qualification Level 2",
+      "unit": "Unit 10",
+      "unit_title": "Components of a Mobile Phone",
+      "unit_reference": "ICT/GRM/2/010",
+      "level": 2
+    },
+    "learning_objective": {
+      "id": "LO1",
+      "title": "Understand the Components of a Mobile Phone"
+    },
+    "performance_criterion": {
+      "id": "1.2",
+      "text": "Explain the roles of each component and how they contribute to the phone's overall functionality"
+    },
+    "content_type": "performance_criterion",
+    "text": "For components of a mobile phone, the learner should be able to: explain the roles of each component and how they contribute to the phone's overall functionality."
+  },
+  {
+    "id": "nbte-mobilephone-u10-lo1-pc3",
+    "trade": "mobile_phone_repair",
+    "source": {
+      "organization": "NBTE",
+      "document": "National Skills Qualification Level 2",
+      "unit": "Unit 10",
+      "unit_title": "Components of a Mobile Phone",
+      "unit_reference": "ICT/GRM/2/010",
+      "level": 2
+    },
+    "learning_objective": {
+      "id": "LO1",
+      "title": "Understand the Components of a Mobile Phone"
+    },
+    "performance_criterion": {
+      "id": "1.3",
+      "text": "Identify the key software of a mobile phone such as the operating system (OS), firmware, and applications"
+    },
+    "content_type": "performance_criterion",
+    "text": "For components of a mobile phone, the learner should be able to: identify the key software of a mobile phone such as the operating system (OS), firmware, and applications."
+  },
+  {
+    "id": "nbte-mobilephone-u10-lo1-pc4",
+    "trade": "mobile_phone_repair",
+    "source": {
+      "organization": "NBTE",
+      "document": "National Skills Qualification Level 2",
+      "unit": "Unit 10",
+      "unit_title": "Components of a Mobile Phone",
+      "unit_reference": "ICT/GRM/2/010",
+      "level": 2
+    },
+    "learning_objective": {
+      "id": "LO1",
+      "title": "Understand the Components of a Mobile Phone"
+    },
+    "performance_criterion": {
+      "id": "1.4",
+      "text": "Explain how the hardware and software components interact to perform various tasks like calling, texting, and browsing the internet"
+    },
+    "content_type": "performance_criterion",
+    "text": "For components of a mobile phone, the learner should be able to: explain how the hardware and software components interact to perform various tasks like calling, texting, and browsing the internet."
+  },
+  {
+    "id": "nbte-mobilephone-u10-lo2-pc1",
+    "trade": "mobile_phone_repair",
+    "source": {
+      "organization": "NBTE",
+      "document": "National Skills Qualification Level 2",
+      "unit": "Unit 10",
+      "unit_title": "Components of a Mobile Phone",
+      "unit_reference": "ICT/GRM/2/010",
+      "level": 2
+    },
+    "learning_objective": {
+      "id": "LO2",
+      "title": "Know Mobile Phone Repair and Maintenance"
+    },
+    "performance_criterion": {
+      "id": "2.1",
+      "text": "Identify faulty components"
+    },
+    "content_type": "performance_criterion",
+    "text": "For components of a mobile phone, the learner should be able to: identify faulty components."
+  },
+  {
+    "id": "nbte-mobilephone-u10-lo2-pc2",
+    "trade": "mobile_phone_repair",
+    "source": {
+      "organization": "NBTE",
+      "document": "National Skills Qualification Level 2",
+      "unit": "Unit 10",
+      "unit_title": "Components of a Mobile Phone",
+      "unit_reference": "ICT/GRM/2/010",
+      "level": 2
+    },
+    "learning_objective": {
+      "id": "LO2",
+      "title": "Know Mobile Phone Repair and Maintenance"
+    },
+    "performance_criterion": {
+      "id": "2.2",
+      "text": "Determine necessary repairs or replacements"
+    },
+    "content_type": "performance_criterion",
+    "text": "For components of a mobile phone, the learner should be able to: determine necessary repairs or replacements."
+  },
+  {
+    "id": "nbte-mobilephone-u10-lo2-pc3",
+    "trade": "mobile_phone_repair",
+    "source": {
+      "organization": "NBTE",
+      "document": "National Skills Qualification Level 2",
+      "unit": "Unit 10",
+      "unit_title": "Components of a Mobile Phone",
+      "unit_reference": "ICT/GRM/2/010",
+      "level": 2
+    },
+    "learning_objective": {
+      "id": "LO2",
+      "title": "Know Mobile Phone Repair and Maintenance"
+    },
+    "performance_criterion": {
+      "id": "2.3",
+      "text": "Troubleshoot common problems, such as screen malfunctions, power issues, network problems, and software bugs"
+    },
+    "content_type": "performance_criterion",
+    "text": "For components of a mobile phone, the learner should be able to: troubleshoot common problems, such as screen malfunctions, power issues, network problems, and software bugs."
+  },
+  {
+    "id": "nbte-mobilephone-u10-lo3-pc1",
+    "trade": "mobile_phone_repair",
+    "source": {
+      "organization": "NBTE",
+      "document": "National Skills Qualification Level 2",
+      "unit": "Unit 10",
+      "unit_title": "Components of a Mobile Phone",
+      "unit_reference": "ICT/GRM/2/010",
+      "level": 2
+    },
+    "learning_objective": {
+      "id": "LO3",
+      "title": "Assembly and Disassembly of a Mobile Phone"
+    },
+    "performance_criterion": {
+      "id": "3.1",
+      "text": "Disassemble mobile phones"
+    },
+    "content_type": "performance_criterion",
+    "text": "For components of a mobile phone, the learner should be able to: disassemble mobile phones."
+  },
+  {
+    "id": "nbte-mobilephone-u10-lo3-pc2",
+    "trade": "mobile_phone_repair",
+    "source": {
+      "organization": "NBTE",
+      "document": "National Skills Qualification Level 2",
+      "unit": "Unit 10",
+      "unit_title": "Components of a Mobile Phone",
+      "unit_reference": "ICT/GRM/2/010",
+      "level": 2
+    },
+    "learning_objective": {
+      "id": "LO3",
+      "title": "Assembly and Disassembly of a Mobile Phone"
+    },
+    "performance_criterion": {
+      "id": "3.2",
+      "text": "Assemble mobile phones"
+    },
+    "content_type": "performance_criterion",
+    "text": "For components of a mobile phone, the learner should be able to: assemble mobile phones."
+  },
+  {
+    "id": "nbte-mobilephone-u10-lo3-pc3",
+    "trade": "mobile_phone_repair",
+    "source": {
+      "organization": "NBTE",
+      "document": "National Skills Qualification Level 2",
+      "unit": "Unit 10",
+      "unit_title": "Components of a Mobile Phone",
+      "unit_reference": "ICT/GRM/2/010",
+      "level": 2
+    },
+    "learning_objective": {
+      "id": "LO3",
+      "title": "Assembly and Disassembly of a Mobile Phone"
+    },
+    "performance_criterion": {
+      "id": "3.3",
+      "text": "Use specialized tools required for mobile phone repairs, such as screwdrivers, opening picks, suction cups, and anti-static equipment"
+    },
+    "content_type": "performance_criterion",
+    "text": "For components of a mobile phone, the learner should be able to: use specialized tools required for mobile phone repairs, such as screwdrivers, opening picks, suction cups, and anti-static equipment."
+  }
+]

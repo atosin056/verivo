@@ -1,0 +1,3818 @@
+[
+  {
+    "id": "task-49-2011.00-11624",
+    "text": "Reassemble machines after making repairs or replacing parts.",
+    "metadata": {
+      "trade": "mobile_phone_repair",
+      "content_type": "task",
+      "category": "Core",
+      "onetsoc_code": "49-2011.00",
+      "occupation_title": "Computer, Automated Teller, and Office Machine Repairers",
+      "source": "ONET",
+      "verified": true
+    }
+  },
+  {
+    "id": "task-49-2011.00-11623",
+    "text": "Converse with customers to determine details of equipment problems.",
+    "metadata": {
+      "trade": "mobile_phone_repair",
+      "content_type": "task",
+      "category": "Core",
+      "onetsoc_code": "49-2011.00",
+      "occupation_title": "Computer, Automated Teller, and Office Machine Repairers",
+      "source": "ONET",
+      "verified": true
+    }
+  },
+  {
+    "id": "task-49-2011.00-11639",
+    "text": "Disassemble machines to examine parts, such as wires, gears, or bearings for wear or defects, using hand or power tools and measuring devices.",
+    "metadata": {
+      "trade": "mobile_phone_repair",
+      "content_type": "task",
+      "category": "Core",
+      "onetsoc_code": "49-2011.00",
+      "occupation_title": "Computer, Automated Teller, and Office Machine Repairers",
+      "source": "ONET",
+      "verified": true
+    }
+  },
+  {
+    "id": "task-49-2011.00-11627",
+    "text": "Advise customers concerning equipment operation, maintenance, or programming.",
+    "metadata": {
+      "trade": "mobile_phone_repair",
+      "content_type": "task",
+      "category": "Core",
+      "onetsoc_code": "49-2011.00",
+      "occupation_title": "Computer, Automated Teller, and Office Machine Repairers",
+      "source": "ONET",
+      "verified": true
+    }
+  },
+  {
+    "id": "task-49-2011.00-11635",
+    "text": "Align, adjust, or calibrate equipment according to specifications.",
+    "metadata": {
+      "trade": "mobile_phone_repair",
+      "content_type": "task",
+      "category": "Core",
+      "onetsoc_code": "49-2011.00",
+      "occupation_title": "Computer, Automated Teller, and Office Machine Repairers",
+      "source": "ONET",
+      "verified": true
+    }
+  },
+  {
+    "id": "task-49-2011.00-11637",
+    "text": "Repair, adjust, or replace electrical or mechanical components or parts, using hand tools, power tools, or soldering or welding equipment.",
+    "metadata": {
+      "trade": "mobile_phone_repair",
+      "content_type": "task",
+      "category": "Core",
+      "onetsoc_code": "49-2011.00",
+      "occupation_title": "Computer, Automated Teller, and Office Machine Repairers",
+      "source": "ONET",
+      "verified": true
+    }
+  },
+  {
+    "id": "task-49-2011.00-11633",
+    "text": "Maintain parts inventories and order any additional parts needed for repairs.",
+    "metadata": {
+      "trade": "mobile_phone_repair",
+      "content_type": "task",
+      "category": "Core",
+      "onetsoc_code": "49-2011.00",
+      "occupation_title": "Computer, Automated Teller, and Office Machine Repairers",
+      "source": "ONET",
+      "verified": true
+    }
+  },
+  {
+    "id": "task-49-2011.00-11630",
+    "text": "Operate machines to test functioning of parts or mechanisms.",
+    "metadata": {
+      "trade": "mobile_phone_repair",
+      "content_type": "task",
+      "category": "Core",
+      "onetsoc_code": "49-2011.00",
+      "occupation_title": "Computer, Automated Teller, and Office Machine Repairers",
+      "source": "ONET",
+      "verified": true
+    }
+  },
+  {
+    "id": "task-49-2011.00-11626",
+    "text": "Reinstall software programs or adjust settings on existing software to fix machine malfunctions.",
+    "metadata": {
+      "trade": "mobile_phone_repair",
+      "content_type": "task",
+      "category": "Core",
+      "onetsoc_code": "49-2011.00",
+      "occupation_title": "Computer, Automated Teller, and Office Machine Repairers",
+      "source": "ONET",
+      "verified": true
+    }
+  },
+  {
+    "id": "task-49-2011.00-11631",
+    "text": "Maintain records of equipment maintenance work or repairs.",
+    "metadata": {
+      "trade": "mobile_phone_repair",
+      "content_type": "task",
+      "category": "Core",
+      "onetsoc_code": "49-2011.00",
+      "occupation_title": "Computer, Automated Teller, and Office Machine Repairers",
+      "source": "ONET",
+      "verified": true
+    }
+  },
+  {
+    "id": "task-49-2011.00-11628",
+    "text": "Test new systems to ensure that they are in working order.",
+    "metadata": {
+      "trade": "mobile_phone_repair",
+      "content_type": "task",
+      "category": "Core",
+      "onetsoc_code": "49-2011.00",
+      "occupation_title": "Computer, Automated Teller, and Office Machine Repairers",
+      "source": "ONET",
+      "verified": true
+    }
+  },
+  {
+    "id": "task-49-2011.00-11644",
+    "text": "Analyze equipment performance records to assess equipment functioning.",
+    "metadata": {
+      "trade": "mobile_phone_repair",
+      "content_type": "task",
+      "category": "Core",
+      "onetsoc_code": "49-2011.00",
+      "occupation_title": "Computer, Automated Teller, and Office Machine Repairers",
+      "source": "ONET",
+      "verified": true
+    }
+  },
+  {
+    "id": "task-49-2011.00-11642",
+    "text": "Read specifications, such as blueprints, charts, or schematics, to determine machine settings or adjustments.",
+    "metadata": {
+      "trade": "mobile_phone_repair",
+      "content_type": "task",
+      "category": "Core",
+      "onetsoc_code": "49-2011.00",
+      "occupation_title": "Computer, Automated Teller, and Office Machine Repairers",
+      "source": "ONET",
+      "verified": true
+    }
+  },
+  {
+    "id": "task-49-2011.00-11634",
+    "text": "Update existing equipment, performing tasks such as installing updated circuit boards or additional memory.",
+    "metadata": {
+      "trade": "mobile_phone_repair",
+      "content_type": "task",
+      "category": "Core",
+      "onetsoc_code": "49-2011.00",
+      "occupation_title": "Computer, Automated Teller, and Office Machine Repairers",
+      "source": "ONET",
+      "verified": true
+    }
+  },
+  {
+    "id": "task-49-2011.00-11636",
+    "text": "Test components or circuits of faulty equipment to locate defects, using oscilloscopes, signal generators, ammeters, voltmeters, or special diagnostic software programs.",
+    "metadata": {
+      "trade": "mobile_phone_repair",
+      "content_type": "task",
+      "category": "Core",
+      "onetsoc_code": "49-2011.00",
+      "occupation_title": "Computer, Automated Teller, and Office Machine Repairers",
+      "source": "ONET",
+      "verified": true
+    }
+  },
+  {
+    "id": "task-49-2011.00-11629",
+    "text": "Assemble machines according to specifications, using hand or power tools and measuring devices.",
+    "metadata": {
+      "trade": "mobile_phone_repair",
+      "content_type": "task",
+      "category": "Core",
+      "onetsoc_code": "49-2011.00",
+      "occupation_title": "Computer, Automated Teller, and Office Machine Repairers",
+      "source": "ONET",
+      "verified": true
+    }
+  },
+  {
+    "id": "task-49-2011.00-11641",
+    "text": "Enter information into computers to copy programs from one electronic component to another or to draw, modify, or store schematics.",
+    "metadata": {
+      "trade": "mobile_phone_repair",
+      "content_type": "task",
+      "category": "Core",
+      "onetsoc_code": "49-2011.00",
+      "occupation_title": "Computer, Automated Teller, and Office Machine Repairers",
+      "source": "ONET",
+      "verified": true
+    }
+  },
+  {
+    "id": "task-49-2011.00-11647",
+    "text": "Calibrate testing instruments.",
+    "metadata": {
+      "trade": "mobile_phone_repair",
+      "content_type": "task",
+      "category": "Supplemental",
+      "onetsoc_code": "49-2011.00",
+      "occupation_title": "Computer, Automated Teller, and Office Machine Repairers",
+      "source": "ONET",
+      "verified": true
+    }
+  },
+  {
+    "id": "task-49-2021.00-23510",
+    "text": "Calibrate and align components, using scales, gauges, and other measuring instruments.",
+    "metadata": {
+      "trade": "mobile_phone_repair",
+      "content_type": "task",
+      "category": "general",
+      "onetsoc_code": "49-2021.00",
+      "occupation_title": "Radio, Cellular, and Tower Equipment Installers and Repairers",
+      "source": "ONET",
+      "verified": true
+    }
+  },
+  {
+    "id": "task-49-2021.00-23511",
+    "text": "Examine malfunctioning radio equipment to locate defects such as loose connections, broken wires, or burned-out components, using schematic diagrams and test equipment.",
+    "metadata": {
+      "trade": "mobile_phone_repair",
+      "content_type": "task",
+      "category": "general",
+      "onetsoc_code": "49-2021.00",
+      "occupation_title": "Radio, Cellular, and Tower Equipment Installers and Repairers",
+      "source": "ONET",
+      "verified": true
+    }
+  },
+  {
+    "id": "task-49-2021.00-23516",
+    "text": "Remove and replace defective components and parts such as conductors, resistors, semiconductors, and integrated circuits, using soldering irons, wire cutters, and hand tools.",
+    "metadata": {
+      "trade": "mobile_phone_repair",
+      "content_type": "task",
+      "category": "general",
+      "onetsoc_code": "49-2021.00",
+      "occupation_title": "Radio, Cellular, and Tower Equipment Installers and Repairers",
+      "source": "ONET",
+      "verified": true
+    }
+  },
+  {
+    "id": "task-49-2021.00-23517",
+    "text": "Repair circuits, wiring, and soldering, using soldering irons and hand tools to install parts and adjust connections.",
+    "metadata": {
+      "trade": "mobile_phone_repair",
+      "content_type": "task",
+      "category": "general",
+      "onetsoc_code": "49-2021.00",
+      "occupation_title": "Radio, Cellular, and Tower Equipment Installers and Repairers",
+      "source": "ONET",
+      "verified": true
+    }
+  },
+  {
+    "id": "task-49-2021.00-23518",
+    "text": "Test batteries, using hydrometers and ammeters, and charge batteries as necessary.",
+    "metadata": {
+      "trade": "mobile_phone_repair",
+      "content_type": "task",
+      "category": "general",
+      "onetsoc_code": "49-2021.00",
+      "occupation_title": "Radio, Cellular, and Tower Equipment Installers and Repairers",
+      "source": "ONET",
+      "verified": true
+    }
+  },
+  {
+    "id": "task-49-2022.00-11655",
+    "text": "Demonstrate equipment to customers and explain its use, responding to any inquiries or complaints.",
+    "metadata": {
+      "trade": "mobile_phone_repair",
+      "content_type": "task",
+      "category": "Core",
+      "onetsoc_code": "49-2022.00",
+      "occupation_title": "Telecommunications Equipment Installers and Repairers, Except Line Installers",
+      "source": "ONET",
+      "verified": true
+    }
+  },
+  {
+    "id": "task-49-2022.00-11649",
+    "text": "Test circuits and components of malfunctioning telecommunications equipment to isolate sources of malfunctions, using test meters, circuit diagrams, polarity probes, and other hand tools.",
+    "metadata": {
+      "trade": "mobile_phone_repair",
+      "content_type": "task",
+      "category": "Core",
+      "onetsoc_code": "49-2022.00",
+      "occupation_title": "Telecommunications Equipment Installers and Repairers, Except Line Installers",
+      "source": "ONET",
+      "verified": true
+    }
+  },
+  {
+    "id": "task-49-2022.00-11650",
+    "text": "Test repaired, newly installed, or updated equipment to ensure that it functions properly and conforms to specifications, using test equipment and observation.",
+    "metadata": {
+      "trade": "mobile_phone_repair",
+      "content_type": "task",
+      "category": "Core",
+      "onetsoc_code": "49-2022.00",
+      "occupation_title": "Telecommunications Equipment Installers and Repairers, Except Line Installers",
+      "source": "ONET",
+      "verified": true
+    }
+  },
+  {
+    "id": "task-49-2022.00-11652",
+    "text": "Inspect equipment on a regular basis to ensure proper functioning.",
+    "metadata": {
+      "trade": "mobile_phone_repair",
+      "content_type": "task",
+      "category": "Core",
+      "onetsoc_code": "49-2022.00",
+      "occupation_title": "Telecommunications Equipment Installers and Repairers, Except Line Installers",
+      "source": "ONET",
+      "verified": true
+    }
+  },
+  {
+    "id": "task-49-2022.00-11662",
+    "text": "Collaborate with other workers to locate and correct malfunctions.",
+    "metadata": {
+      "trade": "mobile_phone_repair",
+      "content_type": "task",
+      "category": "Core",
+      "onetsoc_code": "49-2022.00",
+      "occupation_title": "Telecommunications Equipment Installers and Repairers, Except Line Installers",
+      "source": "ONET",
+      "verified": true
+    }
+  },
+  {
+    "id": "task-49-2022.00-11653",
+    "text": "Repair or replace faulty equipment, such as defective and damaged telephones, wires, switching system components, and associated equipment.",
+    "metadata": {
+      "trade": "mobile_phone_repair",
+      "content_type": "task",
+      "category": "Core",
+      "onetsoc_code": "49-2022.00",
+      "occupation_title": "Telecommunications Equipment Installers and Repairers, Except Line Installers",
+      "source": "ONET",
+      "verified": true
+    }
+  },
+  {
+    "id": "task-49-2022.00-11674",
+    "text": "Maintain computer and manual records pertaining to facilities and equipment.",
+    "metadata": {
+      "trade": "mobile_phone_repair",
+      "content_type": "task",
+      "category": "Core",
+      "onetsoc_code": "49-2022.00",
+      "occupation_title": "Telecommunications Equipment Installers and Repairers, Except Line Installers",
+      "source": "ONET",
+      "verified": true
+    }
+  },
+  {
+    "id": "task-49-2022.00-11654",
+    "text": "Remove and remake connections to change circuit layouts, following work orders or diagrams.",
+    "metadata": {
+      "trade": "mobile_phone_repair",
+      "content_type": "task",
+      "category": "Core",
+      "onetsoc_code": "49-2022.00",
+      "occupation_title": "Telecommunications Equipment Installers and Repairers, Except Line Installers",
+      "source": "ONET",
+      "verified": true
+    }
+  },
+  {
+    "id": "task-49-2022.00-11671",
+    "text": "Clean and maintain tools, test equipment, and motor vehicles.",
+    "metadata": {
+      "trade": "mobile_phone_repair",
+      "content_type": "task",
+      "category": "Core",
+      "onetsoc_code": "49-2022.00",
+      "occupation_title": "Telecommunications Equipment Installers and Repairers, Except Line Installers",
+      "source": "ONET",
+      "verified": true
+    }
+  },
+  {
+    "id": "task-49-2022.00-11658",
+    "text": "Request support from technical service centers when on-site procedures fail to solve installation or maintenance problems.",
+    "metadata": {
+      "trade": "mobile_phone_repair",
+      "content_type": "task",
+      "category": "Core",
+      "onetsoc_code": "49-2022.00",
+      "occupation_title": "Telecommunications Equipment Installers and Repairers, Except Line Installers",
+      "source": "ONET",
+      "verified": true
+    }
+  },
+  {
+    "id": "task-49-2022.00-11656",
+    "text": "Analyze test readings, computer printouts, and trouble reports to determine equipment repair needs and required repair methods.",
+    "metadata": {
+      "trade": "mobile_phone_repair",
+      "content_type": "task",
+      "category": "Core",
+      "onetsoc_code": "49-2022.00",
+      "occupation_title": "Telecommunications Equipment Installers and Repairers, Except Line Installers",
+      "source": "ONET",
+      "verified": true
+    }
+  },
+  {
+    "id": "task-49-2022.00-11657",
+    "text": "Adjust or modify equipment to enhance equipment performance or to respond to customer requests.",
+    "metadata": {
+      "trade": "mobile_phone_repair",
+      "content_type": "task",
+      "category": "Core",
+      "onetsoc_code": "49-2022.00",
+      "occupation_title": "Telecommunications Equipment Installers and Repairers, Except Line Installers",
+      "source": "ONET",
+      "verified": true
+    }
+  },
+  {
+    "id": "task-49-2022.00-11669",
+    "text": "Remove and replace plug-in circuit equipment.",
+    "metadata": {
+      "trade": "mobile_phone_repair",
+      "content_type": "task",
+      "category": "Core",
+      "onetsoc_code": "49-2022.00",
+      "occupation_title": "Telecommunications Equipment Installers and Repairers, Except Line Installers",
+      "source": "ONET",
+      "verified": true
+    }
+  },
+  {
+    "id": "task-49-2022.00-11666",
+    "text": "Refer to manufacturers' manuals to obtain maintenance instructions pertaining to specific malfunctions.",
+    "metadata": {
+      "trade": "mobile_phone_repair",
+      "content_type": "task",
+      "category": "Core",
+      "onetsoc_code": "49-2022.00",
+      "occupation_title": "Telecommunications Equipment Installers and Repairers, Except Line Installers",
+      "source": "ONET",
+      "verified": true
+    }
+  },
+  {
+    "id": "task-49-2022.00-11675",
+    "text": "Install updated software and programs that maintain existing software or provide requested features, such as time-correlated call routing.",
+    "metadata": {
+      "trade": "mobile_phone_repair",
+      "content_type": "task",
+      "category": "Supplemental",
+      "onetsoc_code": "49-2022.00",
+      "occupation_title": "Telecommunications Equipment Installers and Repairers, Except Line Installers",
+      "source": "ONET",
+      "verified": true
+    }
+  },
+  {
+    "id": "task-49-2022.00-11681",
+    "text": "Perform routine maintenance on equipment, including adjusting and lubricating components and painting worn or exposed areas.",
+    "metadata": {
+      "trade": "mobile_phone_repair",
+      "content_type": "task",
+      "category": "Supplemental",
+      "onetsoc_code": "49-2022.00",
+      "occupation_title": "Telecommunications Equipment Installers and Repairers, Except Line Installers",
+      "source": "ONET",
+      "verified": true
+    }
+  },
+  {
+    "id": "task-49-2022.00-11683",
+    "text": "Clean switches and replace contact points, using vacuum hoses, solvents, and hand tools.",
+    "metadata": {
+      "trade": "mobile_phone_repair",
+      "content_type": "task",
+      "category": "Supplemental",
+      "onetsoc_code": "49-2022.00",
+      "occupation_title": "Telecommunications Equipment Installers and Repairers, Except Line Installers",
+      "source": "ONET",
+      "verified": true
+    }
+  },
+  {
+    "id": "task-49-2022.00-11678",
+    "text": "Address special issues or situations, such as illegal or unauthorized use of equipment, or cases of electrical or acoustic shock.",
+    "metadata": {
+      "trade": "mobile_phone_repair",
+      "content_type": "task",
+      "category": "Supplemental",
+      "onetsoc_code": "49-2022.00",
+      "occupation_title": "Telecommunications Equipment Installers and Repairers, Except Line Installers",
+      "source": "ONET",
+      "verified": true
+    }
+  },
+  {
+    "id": "task-49-2094.00-886",
+    "text": "Test faulty equipment to diagnose malfunctions, using test equipment or software, and applying knowledge of the functional operation of electronic units and systems.",
+    "metadata": {
+      "trade": "mobile_phone_repair",
+      "content_type": "task",
+      "category": "Core",
+      "onetsoc_code": "49-2094.00",
+      "occupation_title": "Electrical and Electronics Repairers, Commercial and Industrial Equipment",
+      "source": "ONET",
+      "verified": true
+    }
+  },
+  {
+    "id": "task-49-2094.00-892",
+    "text": "Maintain equipment logs that record performance problems, repairs, calibrations, or tests.",
+    "metadata": {
+      "trade": "mobile_phone_repair",
+      "content_type": "task",
+      "category": "Core",
+      "onetsoc_code": "49-2094.00",
+      "occupation_title": "Electrical and Electronics Repairers, Commercial and Industrial Equipment",
+      "source": "ONET",
+      "verified": true
+    }
+  },
+  {
+    "id": "task-49-2094.00-884",
+    "text": "Set up and test industrial equipment to ensure that it functions properly.",
+    "metadata": {
+      "trade": "mobile_phone_repair",
+      "content_type": "task",
+      "category": "Core",
+      "onetsoc_code": "49-2094.00",
+      "occupation_title": "Electrical and Electronics Repairers, Commercial and Industrial Equipment",
+      "source": "ONET",
+      "verified": true
+    }
+  },
+  {
+    "id": "task-49-2094.00-890",
+    "text": "Inspect components of industrial equipment for accurate assembly and installation or for defects, such as loose connections or frayed wires.",
+    "metadata": {
+      "trade": "mobile_phone_repair",
+      "content_type": "task",
+      "category": "Core",
+      "onetsoc_code": "49-2094.00",
+      "occupation_title": "Electrical and Electronics Repairers, Commercial and Industrial Equipment",
+      "source": "ONET",
+      "verified": true
+    }
+  },
+  {
+    "id": "task-49-2094.00-885",
+    "text": "Operate equipment to demonstrate proper use or to analyze malfunctions.",
+    "metadata": {
+      "trade": "mobile_phone_repair",
+      "content_type": "task",
+      "category": "Core",
+      "onetsoc_code": "49-2094.00",
+      "occupation_title": "Electrical and Electronics Repairers, Commercial and Industrial Equipment",
+      "source": "ONET",
+      "verified": true
+    }
+  },
+  {
+    "id": "task-49-2094.00-899",
+    "text": "Enter information into computer to copy program or to draw, modify, or store schematics, applying knowledge of software package used.",
+    "metadata": {
+      "trade": "mobile_phone_repair",
+      "content_type": "task",
+      "category": "Core",
+      "onetsoc_code": "49-2094.00",
+      "occupation_title": "Electrical and Electronics Repairers, Commercial and Industrial Equipment",
+      "source": "ONET",
+      "verified": true
+    }
+  },
+  {
+    "id": "task-49-2094.00-882",
+    "text": "Perform scheduled preventive maintenance tasks, such as checking, cleaning, or repairing equipment, to detect and prevent problems.",
+    "metadata": {
+      "trade": "mobile_phone_repair",
+      "content_type": "task",
+      "category": "Core",
+      "onetsoc_code": "49-2094.00",
+      "occupation_title": "Electrical and Electronics Repairers, Commercial and Industrial Equipment",
+      "source": "ONET",
+      "verified": true
+    }
+  },
+  {
+    "id": "task-49-2094.00-888",
+    "text": "Calibrate testing instruments and installed or repaired equipment to prescribed specifications.",
+    "metadata": {
+      "trade": "mobile_phone_repair",
+      "content_type": "task",
+      "category": "Core",
+      "onetsoc_code": "49-2094.00",
+      "occupation_title": "Electrical and Electronics Repairers, Commercial and Industrial Equipment",
+      "source": "ONET",
+      "verified": true
+    }
+  },
+  {
+    "id": "task-49-2094.00-887",
+    "text": "Repair or adjust equipment, machines, or defective components, replacing worn parts, such as gaskets or seals in watertight electrical equipment.",
+    "metadata": {
+      "trade": "mobile_phone_repair",
+      "content_type": "task",
+      "category": "Core",
+      "onetsoc_code": "49-2094.00",
+      "occupation_title": "Electrical and Electronics Repairers, Commercial and Industrial Equipment",
+      "source": "ONET",
+      "verified": true
+    }
+  },
+  {
+    "id": "task-49-2094.00-895",
+    "text": "Consult with customers, supervisors, or engineers to plan layout of equipment or to resolve problems in system operation or maintenance.",
+    "metadata": {
+      "trade": "mobile_phone_repair",
+      "content_type": "task",
+      "category": "Core",
+      "onetsoc_code": "49-2094.00",
+      "occupation_title": "Electrical and Electronics Repairers, Commercial and Industrial Equipment",
+      "source": "ONET",
+      "verified": true
+    }
+  },
+  {
+    "id": "task-49-2094.00-894",
+    "text": "Maintain inventory of spare parts.",
+    "metadata": {
+      "trade": "mobile_phone_repair",
+      "content_type": "task",
+      "category": "Core",
+      "onetsoc_code": "49-2094.00",
+      "occupation_title": "Electrical and Electronics Repairers, Commercial and Industrial Equipment",
+      "source": "ONET",
+      "verified": true
+    }
+  },
+  {
+    "id": "task-49-2094.00-891",
+    "text": "Study blueprints, schematics, manuals, or other specifications to determine installation procedures.",
+    "metadata": {
+      "trade": "mobile_phone_repair",
+      "content_type": "task",
+      "category": "Core",
+      "onetsoc_code": "49-2094.00",
+      "occupation_title": "Electrical and Electronics Repairers, Commercial and Industrial Equipment",
+      "source": "ONET",
+      "verified": true
+    }
+  },
+  {
+    "id": "task-49-2094.00-883",
+    "text": "Examine work orders and converse with equipment operators to detect equipment problems and to ascertain whether mechanical or human errors contributed to the problems.",
+    "metadata": {
+      "trade": "mobile_phone_repair",
+      "content_type": "task",
+      "category": "Core",
+      "onetsoc_code": "49-2094.00",
+      "occupation_title": "Electrical and Electronics Repairers, Commercial and Industrial Equipment",
+      "source": "ONET",
+      "verified": true
+    }
+  },
+  {
+    "id": "task-49-2094.00-896",
+    "text": "Send defective units to the manufacturer or to a specialized repair shop for repair.",
+    "metadata": {
+      "trade": "mobile_phone_repair",
+      "content_type": "task",
+      "category": "Core",
+      "onetsoc_code": "49-2094.00",
+      "occupation_title": "Electrical and Electronics Repairers, Commercial and Industrial Equipment",
+      "source": "ONET",
+      "verified": true
+    }
+  },
+  {
+    "id": "task-49-2096.00-13727",
+    "text": "Inspect and test electrical or electronic systems to locate and diagnose malfunctions, using visual inspections and testing instruments, such as oscilloscopes and voltmeters.",
+    "metadata": {
+      "trade": "mobile_phone_repair",
+      "content_type": "task",
+      "category": "Core",
+      "onetsoc_code": "49-2096.00",
+      "occupation_title": "Electronic Equipment Installers and Repairers, Motor Vehicles",
+      "source": "ONET",
+      "verified": true
+    }
+  },
+  {
+    "id": "task-49-2096.00-13725",
+    "text": "Splice wires with knives or cutting pliers, and solder connections to fixtures and equipment.",
+    "metadata": {
+      "trade": "mobile_phone_repair",
+      "content_type": "task",
+      "category": "Core",
+      "onetsoc_code": "49-2096.00",
+      "occupation_title": "Electronic Equipment Installers and Repairers, Motor Vehicles",
+      "source": "ONET",
+      "verified": true
+    }
+  },
+  {
+    "id": "task-49-2096.00-13726",
+    "text": "Diagnose or repair problems with electronic equipment, such as sound, navigation, communication, and security equipment, in motor vehicles.",
+    "metadata": {
+      "trade": "mobile_phone_repair",
+      "content_type": "task",
+      "category": "Core",
+      "onetsoc_code": "49-2096.00",
+      "occupation_title": "Electronic Equipment Installers and Repairers, Motor Vehicles",
+      "source": "ONET",
+      "verified": true
+    }
+  },
+  {
+    "id": "task-49-2096.00-13730",
+    "text": "Confer with customers to determine the nature of malfunctions.",
+    "metadata": {
+      "trade": "mobile_phone_repair",
+      "content_type": "task",
+      "category": "Core",
+      "onetsoc_code": "49-2096.00",
+      "occupation_title": "Electronic Equipment Installers and Repairers, Motor Vehicles",
+      "source": "ONET",
+      "verified": true
+    }
+  },
+  {
+    "id": "task-49-2096.00-13735",
+    "text": "Record results of diagnostic tests.",
+    "metadata": {
+      "trade": "mobile_phone_repair",
+      "content_type": "task",
+      "category": "Core",
+      "onetsoc_code": "49-2096.00",
+      "occupation_title": "Electronic Equipment Installers and Repairers, Motor Vehicles",
+      "source": "ONET",
+      "verified": true
+    }
+  },
+  {
+    "id": "task-49-2096.00-13733",
+    "text": "Replace and clean electrical or electronic components.",
+    "metadata": {
+      "trade": "mobile_phone_repair",
+      "content_type": "task",
+      "category": "Core",
+      "onetsoc_code": "49-2096.00",
+      "occupation_title": "Electronic Equipment Installers and Repairers, Motor Vehicles",
+      "source": "ONET",
+      "verified": true
+    }
+  },
+  {
+    "id": "task-49-2097.00-13738",
+    "text": "Install, service, and repair electronic equipment or instruments such as televisions, radios, and videocassette recorders.",
+    "metadata": {
+      "trade": "mobile_phone_repair",
+      "content_type": "task",
+      "category": "Core",
+      "onetsoc_code": "49-2097.00",
+      "occupation_title": "Audiovisual Equipment Installers and Repairers",
+      "source": "ONET",
+      "verified": true
+    }
+  },
+  {
+    "id": "task-49-2097.00-13739",
+    "text": "Calibrate and test equipment, and locate circuit and component faults, using hand and power tools and measuring and testing instruments such as resistance meters and oscilloscopes.",
+    "metadata": {
+      "trade": "mobile_phone_repair",
+      "content_type": "task",
+      "category": "Core",
+      "onetsoc_code": "49-2097.00",
+      "occupation_title": "Audiovisual Equipment Installers and Repairers",
+      "source": "ONET",
+      "verified": true
+    }
+  },
+  {
+    "id": "task-49-2097.00-13740",
+    "text": "Confer with customers to determine the nature of problems or to explain repairs.",
+    "metadata": {
+      "trade": "mobile_phone_repair",
+      "content_type": "task",
+      "category": "Core",
+      "onetsoc_code": "49-2097.00",
+      "occupation_title": "Audiovisual Equipment Installers and Repairers",
+      "source": "ONET",
+      "verified": true
+    }
+  },
+  {
+    "id": "task-49-2097.00-13742",
+    "text": "Instruct customers on the safe and proper use of equipment.",
+    "metadata": {
+      "trade": "mobile_phone_repair",
+      "content_type": "task",
+      "category": "Core",
+      "onetsoc_code": "49-2097.00",
+      "occupation_title": "Audiovisual Equipment Installers and Repairers",
+      "source": "ONET",
+      "verified": true
+    }
+  },
+  {
+    "id": "task-49-2097.00-13744",
+    "text": "Read and interpret electronic circuit diagrams, function block diagrams, specifications, engineering drawings, and service manuals.",
+    "metadata": {
+      "trade": "mobile_phone_repair",
+      "content_type": "task",
+      "category": "Core",
+      "onetsoc_code": "49-2097.00",
+      "occupation_title": "Audiovisual Equipment Installers and Repairers",
+      "source": "ONET",
+      "verified": true
+    }
+  },
+  {
+    "id": "task-49-2097.00-13745",
+    "text": "Keep records of work orders and test and maintenance reports.",
+    "metadata": {
+      "trade": "mobile_phone_repair",
+      "content_type": "task",
+      "category": "Core",
+      "onetsoc_code": "49-2097.00",
+      "occupation_title": "Audiovisual Equipment Installers and Repairers",
+      "source": "ONET",
+      "verified": true
+    }
+  },
+  {
+    "id": "task-49-2097.00-13737",
+    "text": "Disassemble entertainment equipment and repair or replace loose, worn, or defective components and wiring, using hand tools and soldering irons.",
+    "metadata": {
+      "trade": "mobile_phone_repair",
+      "content_type": "task",
+      "category": "Core",
+      "onetsoc_code": "49-2097.00",
+      "occupation_title": "Audiovisual Equipment Installers and Repairers",
+      "source": "ONET",
+      "verified": true
+    }
+  },
+  {
+    "id": "nbte-mobilephone-u01-lo1-pc1",
+    "text": "For occupational health and safety, the learner should be able to: identify relevant OHS regulations.",
+    "metadata": {
+      "trade": "mobile_phone_repair",
+      "content_type": "performance_criterion",
+      "category": "Occupational Health and Safety",
+      "unit_reference": "ICT/GRM/2/001",
+      "learning_objective": "Understand Occupational Health and Safety (OHS) Regulations",
+      "performance_criterion_id": "1.1",
+      "source": "NBTE",
+      "verified": true
+    }
+  },
+  {
+    "id": "nbte-mobilephone-u01-lo1-pc2",
+    "text": "For occupational health and safety, the learner should be able to: use relevant OHS laws and regulations.",
+    "metadata": {
+      "trade": "mobile_phone_repair",
+      "content_type": "performance_criterion",
+      "category": "Occupational Health and Safety",
+      "unit_reference": "ICT/GRM/2/001",
+      "learning_objective": "Understand Occupational Health and Safety (OHS) Regulations",
+      "performance_criterion_id": "1.2",
+      "source": "NBTE",
+      "verified": true
+    }
+  },
+  {
+    "id": "nbte-mobilephone-u01-lo1-pc3",
+    "text": "For occupational health and safety, the learner should be able to: identify potential hazards in a mobile phone repair setting, including risks from electrical equipment, toxic chemicals, ergonomic issues, and tools.",
+    "metadata": {
+      "trade": "mobile_phone_repair",
+      "content_type": "performance_criterion",
+      "category": "Occupational Health and Safety",
+      "unit_reference": "ICT/GRM/2/001",
+      "learning_objective": "Understand Occupational Health and Safety (OHS) Regulations",
+      "performance_criterion_id": "1.3",
+      "source": "NBTE",
+      "verified": true
+    }
+  },
+  {
+    "id": "nbte-mobilephone-u01-lo1-pc4",
+    "text": "For occupational health and safety, the learner should be able to: use appropriate safety measures needed in the mobile phone industry.",
+    "metadata": {
+      "trade": "mobile_phone_repair",
+      "content_type": "performance_criterion",
+      "category": "Occupational Health and Safety",
+      "unit_reference": "ICT/GRM/2/001",
+      "learning_objective": "Understand Occupational Health and Safety (OHS) Regulations",
+      "performance_criterion_id": "1.4",
+      "source": "NBTE",
+      "verified": true
+    }
+  },
+  {
+    "id": "nbte-mobilephone-u01-lo2-pc1",
+    "text": "For occupational health and safety, the learner should be able to: identify safety equipment.",
+    "metadata": {
+      "trade": "mobile_phone_repair",
+      "content_type": "performance_criterion",
+      "category": "Occupational Health and Safety",
+      "unit_reference": "ICT/GRM/2/001",
+      "learning_objective": "Use Safety Equipment in Mobile Phone Industry",
+      "performance_criterion_id": "2.1",
+      "source": "NBTE",
+      "verified": true
+    }
+  },
+  {
+    "id": "nbte-mobilephone-u01-lo2-pc2",
+    "text": "For occupational health and safety, the learner should be able to: explain how to use each safety equipment.",
+    "metadata": {
+      "trade": "mobile_phone_repair",
+      "content_type": "performance_criterion",
+      "category": "Occupational Health and Safety",
+      "unit_reference": "ICT/GRM/2/001",
+      "learning_objective": "Use Safety Equipment in Mobile Phone Industry",
+      "performance_criterion_id": "2.2",
+      "source": "NBTE",
+      "verified": true
+    }
+  },
+  {
+    "id": "nbte-mobilephone-u01-lo2-pc3",
+    "text": "For occupational health and safety, the learner should be able to: demonstrate how to handle each safety equipment.",
+    "metadata": {
+      "trade": "mobile_phone_repair",
+      "content_type": "performance_criterion",
+      "category": "Occupational Health and Safety",
+      "unit_reference": "ICT/GRM/2/001",
+      "learning_objective": "Use Safety Equipment in Mobile Phone Industry",
+      "performance_criterion_id": "2.3",
+      "source": "NBTE",
+      "verified": true
+    }
+  },
+  {
+    "id": "nbte-mobilephone-u01-lo3-pc1",
+    "text": "For occupational health and safety, the learner should be able to: identify standard operating procedures (SOP) that are in line with industry best practices when handling mobile phone repair and maintenance equipment.",
+    "metadata": {
+      "trade": "mobile_phone_repair",
+      "content_type": "performance_criterion",
+      "category": "Occupational Health and Safety",
+      "unit_reference": "ICT/GRM/2/001",
+      "learning_objective": "Adhere to Adequate Safety Precautions When Using Mobile Phone Equipment",
+      "performance_criterion_id": "3.1",
+      "source": "NBTE",
+      "verified": true
+    }
+  },
+  {
+    "id": "nbte-mobilephone-u01-lo3-pc2",
+    "text": "For occupational health and safety, the learner should be able to: use the standard operating procedures (SOP).",
+    "metadata": {
+      "trade": "mobile_phone_repair",
+      "content_type": "performance_criterion",
+      "category": "Occupational Health and Safety",
+      "unit_reference": "ICT/GRM/2/001",
+      "learning_objective": "Adhere to Adequate Safety Precautions When Using Mobile Phone Equipment",
+      "performance_criterion_id": "3.2",
+      "source": "NBTE",
+      "verified": true
+    }
+  },
+  {
+    "id": "nbte-mobilephone-u01-lo3-pc3",
+    "text": "For occupational health and safety, the learner should be able to: explain how to maintain a hygienic, safe and secure workplace.",
+    "metadata": {
+      "trade": "mobile_phone_repair",
+      "content_type": "performance_criterion",
+      "category": "Occupational Health and Safety",
+      "unit_reference": "ICT/GRM/2/001",
+      "learning_objective": "Adhere to Adequate Safety Precautions When Using Mobile Phone Equipment",
+      "performance_criterion_id": "3.3",
+      "source": "NBTE",
+      "verified": true
+    }
+  },
+  {
+    "id": "nbte-mobilephone-u01-lo3-pc4",
+    "text": "For occupational health and safety, the learner should be able to: explain the importance of using the correct tools during mobile phone repairs.",
+    "metadata": {
+      "trade": "mobile_phone_repair",
+      "content_type": "performance_criterion",
+      "category": "Occupational Health and Safety",
+      "unit_reference": "ICT/GRM/2/001",
+      "learning_objective": "Adhere to Adequate Safety Precautions When Using Mobile Phone Equipment",
+      "performance_criterion_id": "3.4",
+      "source": "NBTE",
+      "verified": true
+    }
+  },
+  {
+    "id": "nbte-mobilephone-u01-lo4-pc1",
+    "text": "For occupational health and safety, the learner should be able to: use proper disassembly and reassembly techniques to avoid damage to mobile phones and components.",
+    "metadata": {
+      "trade": "mobile_phone_repair",
+      "content_type": "performance_criterion",
+      "category": "Occupational Health and Safety",
+      "unit_reference": "ICT/GRM/2/001",
+      "learning_objective": "Safely Handle Mobile Phone Components and Tools",
+      "performance_criterion_id": "4.1",
+      "source": "NBTE",
+      "verified": true
+    }
+  },
+  {
+    "id": "nbte-mobilephone-u01-lo4-pc2",
+    "text": "For occupational health and safety, the learner should be able to: use sharp tools (e.g. screwdrivers, prying tools) and heated equipment (e.g. soldering irons) safely.",
+    "metadata": {
+      "trade": "mobile_phone_repair",
+      "content_type": "performance_criterion",
+      "category": "Occupational Health and Safety",
+      "unit_reference": "ICT/GRM/2/001",
+      "learning_objective": "Safely Handle Mobile Phone Components and Tools",
+      "performance_criterion_id": "4.2",
+      "source": "NBTE",
+      "verified": true
+    }
+  },
+  {
+    "id": "nbte-mobilephone-u01-lo4-pc3",
+    "text": "For occupational health and safety, the learner should be able to: use correct procedures for using electrical equipment like multimeters and power supplies.",
+    "metadata": {
+      "trade": "mobile_phone_repair",
+      "content_type": "performance_criterion",
+      "category": "Occupational Health and Safety",
+      "unit_reference": "ICT/GRM/2/001",
+      "learning_objective": "Safely Handle Mobile Phone Components and Tools",
+      "performance_criterion_id": "4.3",
+      "source": "NBTE",
+      "verified": true
+    }
+  },
+  {
+    "id": "nbte-mobilephone-u01-lo4-pc4",
+    "text": "For occupational health and safety, the learner should be able to: use safety protocols for ESD (Electrostatic Discharge).",
+    "metadata": {
+      "trade": "mobile_phone_repair",
+      "content_type": "performance_criterion",
+      "category": "Occupational Health and Safety",
+      "unit_reference": "ICT/GRM/2/001",
+      "learning_objective": "Safely Handle Mobile Phone Components and Tools",
+      "performance_criterion_id": "4.4",
+      "source": "NBTE",
+      "verified": true
+    }
+  },
+  {
+    "id": "nbte-mobilephone-u01-lo5-pc1",
+    "text": "For occupational health and safety, the learner should be able to: define emergency.",
+    "metadata": {
+      "trade": "mobile_phone_repair",
+      "content_type": "performance_criterion",
+      "category": "Occupational Health and Safety",
+      "unit_reference": "ICT/GRM/2/001",
+      "learning_objective": "Understand Emergency Preparedness and First Aid",
+      "performance_criterion_id": "5.1",
+      "source": "NBTE",
+      "verified": true
+    }
+  },
+  {
+    "id": "nbte-mobilephone-u01-lo5-pc2",
+    "text": "For occupational health and safety, the learner should be able to: define first aid.",
+    "metadata": {
+      "trade": "mobile_phone_repair",
+      "content_type": "performance_criterion",
+      "category": "Occupational Health and Safety",
+      "unit_reference": "ICT/GRM/2/001",
+      "learning_objective": "Understand Emergency Preparedness and First Aid",
+      "performance_criterion_id": "5.2",
+      "source": "NBTE",
+      "verified": true
+    }
+  },
+  {
+    "id": "nbte-mobilephone-u01-lo5-pc3",
+    "text": "For occupational health and safety, the learner should be able to: explain how to provide first aid to handle cuts and electrical shock.",
+    "metadata": {
+      "trade": "mobile_phone_repair",
+      "content_type": "performance_criterion",
+      "category": "Occupational Health and Safety",
+      "unit_reference": "ICT/GRM/2/001",
+      "learning_objective": "Understand Emergency Preparedness and First Aid",
+      "performance_criterion_id": "5.3",
+      "source": "NBTE",
+      "verified": true
+    }
+  },
+  {
+    "id": "nbte-mobilephone-u01-lo6-pc1",
+    "text": "For occupational health and safety, the learner should be able to: define Personal Protective Equipment (PPE).",
+    "metadata": {
+      "trade": "mobile_phone_repair",
+      "content_type": "performance_criterion",
+      "category": "Occupational Health and Safety",
+      "unit_reference": "ICT/GRM/2/001",
+      "learning_objective": "Apply Personal Protective Equipment (PPE)",
+      "performance_criterion_id": "6.1",
+      "source": "NBTE",
+      "verified": true
+    }
+  },
+  {
+    "id": "nbte-mobilephone-u01-lo6-pc2",
+    "text": "For occupational health and safety, the learner should be able to: demonstrate the correct use of PPE such as anti-static wristbands, safety goggles, gloves, and heat-resistant gloves to protect against physical, electrical, or chemical risks.",
+    "metadata": {
+      "trade": "mobile_phone_repair",
+      "content_type": "performance_criterion",
+      "category": "Occupational Health and Safety",
+      "unit_reference": "ICT/GRM/2/001",
+      "learning_objective": "Apply Personal Protective Equipment (PPE)",
+      "performance_criterion_id": "6.2",
+      "source": "NBTE",
+      "verified": true
+    }
+  },
+  {
+    "id": "nbte-mobilephone-u01-lo6-pc3",
+    "text": "For occupational health and safety, the learner should be able to: use PPE in various repair tasks, including when handling batteries, soldering, or disassembling devices.",
+    "metadata": {
+      "trade": "mobile_phone_repair",
+      "content_type": "performance_criterion",
+      "category": "Occupational Health and Safety",
+      "unit_reference": "ICT/GRM/2/001",
+      "learning_objective": "Apply Personal Protective Equipment (PPE)",
+      "performance_criterion_id": "6.3",
+      "source": "NBTE",
+      "verified": true
+    }
+  },
+  {
+    "id": "nbte-mobilephone-u02-lo1-pc1",
+    "text": "For communication in the mobile phones world, the learner should be able to: identify appropriate terms to use in the mobile phone industry.",
+    "metadata": {
+      "trade": "mobile_phone_repair",
+      "content_type": "performance_criterion",
+      "category": "Communication in the Mobile Phones World",
+      "unit_reference": "ICT/GRM/2/002",
+      "learning_objective": "Understand Terms and Terminologies Used in the Mobile Phones Industry",
+      "performance_criterion_id": "1.1",
+      "source": "NBTE",
+      "verified": true
+    }
+  },
+  {
+    "id": "nbte-mobilephone-u02-lo1-pc2",
+    "text": "For communication in the mobile phones world, the learner should be able to: define mobile phone terms.",
+    "metadata": {
+      "trade": "mobile_phone_repair",
+      "content_type": "performance_criterion",
+      "category": "Communication in the Mobile Phones World",
+      "unit_reference": "ICT/GRM/2/002",
+      "learning_objective": "Understand Terms and Terminologies Used in the Mobile Phones Industry",
+      "performance_criterion_id": "1.2",
+      "source": "NBTE",
+      "verified": true
+    }
+  },
+  {
+    "id": "nbte-mobilephone-u02-lo1-pc3",
+    "text": "For communication in the mobile phones world, the learner should be able to: explain mobile phone terms.",
+    "metadata": {
+      "trade": "mobile_phone_repair",
+      "content_type": "performance_criterion",
+      "category": "Communication in the Mobile Phones World",
+      "unit_reference": "ICT/GRM/2/002",
+      "learning_objective": "Understand Terms and Terminologies Used in the Mobile Phones Industry",
+      "performance_criterion_id": "1.3",
+      "source": "NBTE",
+      "verified": true
+    }
+  },
+  {
+    "id": "nbte-mobilephone-u02-lo1-pc4",
+    "text": "For communication in the mobile phones world, the learner should be able to: use appropriate terms to communicate effectively.",
+    "metadata": {
+      "trade": "mobile_phone_repair",
+      "content_type": "performance_criterion",
+      "category": "Communication in the Mobile Phones World",
+      "unit_reference": "ICT/GRM/2/002",
+      "learning_objective": "Understand Terms and Terminologies Used in the Mobile Phones Industry",
+      "performance_criterion_id": "1.4",
+      "source": "NBTE",
+      "verified": true
+    }
+  },
+  {
+    "id": "nbte-mobilephone-u02-lo2-pc1",
+    "text": "For communication in the mobile phones world, the learner should be able to: identify common acronyms used in the industry such as GSM, SIM, etc.",
+    "metadata": {
+      "trade": "mobile_phone_repair",
+      "content_type": "performance_criterion",
+      "category": "Communication in the Mobile Phones World",
+      "unit_reference": "ICT/GRM/2/002",
+      "learning_objective": "Apply the Appropriate Mobile Phone Acronyms Used in the Mobile Phone Industry",
+      "performance_criterion_id": "2.1",
+      "source": "NBTE",
+      "verified": true
+    }
+  },
+  {
+    "id": "nbte-mobilephone-u02-lo2-pc2",
+    "text": "For communication in the mobile phones world, the learner should be able to: explain the full meaning of each acronym.",
+    "metadata": {
+      "trade": "mobile_phone_repair",
+      "content_type": "performance_criterion",
+      "category": "Communication in the Mobile Phones World",
+      "unit_reference": "ICT/GRM/2/002",
+      "learning_objective": "Apply the Appropriate Mobile Phone Acronyms Used in the Mobile Phone Industry",
+      "performance_criterion_id": "2.2",
+      "source": "NBTE",
+      "verified": true
+    }
+  },
+  {
+    "id": "nbte-mobilephone-u02-lo2-pc3",
+    "text": "For communication in the mobile phones world, the learner should be able to: use appropriate acronyms to communicate effectively.",
+    "metadata": {
+      "trade": "mobile_phone_repair",
+      "content_type": "performance_criterion",
+      "category": "Communication in the Mobile Phones World",
+      "unit_reference": "ICT/GRM/2/002",
+      "learning_objective": "Apply the Appropriate Mobile Phone Acronyms Used in the Mobile Phone Industry",
+      "performance_criterion_id": "2.3",
+      "source": "NBTE",
+      "verified": true
+    }
+  },
+  {
+    "id": "nbte-mobilephone-u02-lo3-pc1",
+    "text": "For communication in the mobile phones world, the learner should be able to: identify appropriate timing to call or text someone.",
+    "metadata": {
+      "trade": "mobile_phone_repair",
+      "content_type": "performance_criterion",
+      "category": "Communication in the Mobile Phones World",
+      "unit_reference": "ICT/GRM/2/002",
+      "learning_objective": "Understand Digital Etiquette (Netiquette)",
+      "performance_criterion_id": "3.1",
+      "source": "NBTE",
+      "verified": true
+    }
+  },
+  {
+    "id": "nbte-mobilephone-u02-lo3-pc2",
+    "text": "For communication in the mobile phones world, the learner should be able to: demonstrate professionalism in communication through tone and content.",
+    "metadata": {
+      "trade": "mobile_phone_repair",
+      "content_type": "performance_criterion",
+      "category": "Communication in the Mobile Phones World",
+      "unit_reference": "ICT/GRM/2/002",
+      "learning_objective": "Understand Digital Etiquette (Netiquette)",
+      "performance_criterion_id": "3.2",
+      "source": "NBTE",
+      "verified": true
+    }
+  },
+  {
+    "id": "nbte-mobilephone-u02-lo3-pc3",
+    "text": "For communication in the mobile phones world, the learner should be able to: use neutral language when discussing sensitive topics over the phone.",
+    "metadata": {
+      "trade": "mobile_phone_repair",
+      "content_type": "performance_criterion",
+      "category": "Communication in the Mobile Phones World",
+      "unit_reference": "ICT/GRM/2/002",
+      "learning_objective": "Understand Digital Etiquette (Netiquette)",
+      "performance_criterion_id": "3.3",
+      "source": "NBTE",
+      "verified": true
+    }
+  },
+  {
+    "id": "nbte-mobilephone-u02-lo4-pc1",
+    "text": "For communication in the mobile phones world, the learner should be able to: use mobile phones efficiently — making calls, sending messages, using mobile data, and managing apps.",
+    "metadata": {
+      "trade": "mobile_phone_repair",
+      "content_type": "performance_criterion",
+      "category": "Communication in the Mobile Phones World",
+      "unit_reference": "ICT/GRM/2/002",
+      "learning_objective": "Understand Technical Communication Skills",
+      "performance_criterion_id": "4.1",
+      "source": "NBTE",
+      "verified": true
+    }
+  },
+  {
+    "id": "nbte-mobilephone-u02-lo4-pc2",
+    "text": "For communication in the mobile phones world, the learner should be able to: use translation apps to facilitate multilingual communication.",
+    "metadata": {
+      "trade": "mobile_phone_repair",
+      "content_type": "performance_criterion",
+      "category": "Communication in the Mobile Phones World",
+      "unit_reference": "ICT/GRM/2/002",
+      "learning_objective": "Understand Technical Communication Skills",
+      "performance_criterion_id": "4.2",
+      "source": "NBTE",
+      "verified": true
+    }
+  },
+  {
+    "id": "nbte-mobilephone-u02-lo4-pc3",
+    "text": "For communication in the mobile phones world, the learner should be able to: use emojis and media to communicate effectively.",
+    "metadata": {
+      "trade": "mobile_phone_repair",
+      "content_type": "performance_criterion",
+      "category": "Communication in the Mobile Phones World",
+      "unit_reference": "ICT/GRM/2/002",
+      "learning_objective": "Understand Technical Communication Skills",
+      "performance_criterion_id": "4.3",
+      "source": "NBTE",
+      "verified": true
+    }
+  },
+  {
+    "id": "nbte-mobilephone-u03-lo1-pc1",
+    "text": "For teamwork, the learner should be able to: list the advantages of working as a team.",
+    "metadata": {
+      "trade": "mobile_phone_repair",
+      "content_type": "performance_criterion",
+      "category": "Teamwork",
+      "unit_reference": "ICT/IT/2/003",
+      "learning_objective": "Understand the Benefits of Working in a Team at the Workplace",
+      "performance_criterion_id": "1.1",
+      "source": "NBTE",
+      "verified": true
+    }
+  },
+  {
+    "id": "nbte-mobilephone-u03-lo1-pc2",
+    "text": "For teamwork, the learner should be able to: describe the attributes of a team player: mutual respect, common goal, discipline, mutual understanding, trust, honesty and sincerity.",
+    "metadata": {
+      "trade": "mobile_phone_repair",
+      "content_type": "performance_criterion",
+      "category": "Teamwork",
+      "unit_reference": "ICT/IT/2/003",
+      "learning_objective": "Understand the Benefits of Working in a Team at the Workplace",
+      "performance_criterion_id": "1.2",
+      "source": "NBTE",
+      "verified": true
+    }
+  },
+  {
+    "id": "nbte-mobilephone-u03-lo1-pc3",
+    "text": "For teamwork, the learner should be able to: list members that constitute a team in the ICT work environment: systems analysts, software developers, database administrators, network engineers, security analysts, help desk technicians.",
+    "metadata": {
+      "trade": "mobile_phone_repair",
+      "content_type": "performance_criterion",
+      "category": "Teamwork",
+      "unit_reference": "ICT/IT/2/003",
+      "learning_objective": "Understand the Benefits of Working in a Team at the Workplace",
+      "performance_criterion_id": "1.3",
+      "source": "NBTE",
+      "verified": true
+    }
+  },
+  {
+    "id": "nbte-mobilephone-u03-lo1-pc4",
+    "text": "For teamwork, the learner should be able to: identify team members in an environment.",
+    "metadata": {
+      "trade": "mobile_phone_repair",
+      "content_type": "performance_criterion",
+      "category": "Teamwork",
+      "unit_reference": "ICT/IT/2/003",
+      "learning_objective": "Understand the Benefits of Working in a Team at the Workplace",
+      "performance_criterion_id": "1.4",
+      "source": "NBTE",
+      "verified": true
+    }
+  },
+  {
+    "id": "nbte-mobilephone-u03-lo2-pc1",
+    "text": "For teamwork, the learner should be able to: explain the need for good working relationships with team members at the workplace.",
+    "metadata": {
+      "trade": "mobile_phone_repair",
+      "content_type": "performance_criterion",
+      "category": "Teamwork",
+      "unit_reference": "ICT/IT/2/003",
+      "learning_objective": "Understand How to Relate with Team Members",
+      "performance_criterion_id": "2.1",
+      "source": "NBTE",
+      "verified": true
+    }
+  },
+  {
+    "id": "nbte-mobilephone-u03-lo2-pc2",
+    "text": "For teamwork, the learner should be able to: identify the roles of other team members.",
+    "metadata": {
+      "trade": "mobile_phone_repair",
+      "content_type": "performance_criterion",
+      "category": "Teamwork",
+      "unit_reference": "ICT/IT/2/003",
+      "learning_objective": "Understand How to Relate with Team Members",
+      "performance_criterion_id": "2.2",
+      "source": "NBTE",
+      "verified": true
+    }
+  },
+  {
+    "id": "nbte-mobilephone-u03-lo2-pc3",
+    "text": "For teamwork, the learner should be able to: discuss your own role in achieving the objectives of the team.",
+    "metadata": {
+      "trade": "mobile_phone_repair",
+      "content_type": "performance_criterion",
+      "category": "Teamwork",
+      "unit_reference": "ICT/IT/2/003",
+      "learning_objective": "Understand How to Relate with Team Members",
+      "performance_criterion_id": "2.3",
+      "source": "NBTE",
+      "verified": true
+    }
+  },
+  {
+    "id": "nbte-mobilephone-u03-lo2-pc4",
+    "text": "For teamwork, the learner should be able to: explain the role of a Network Administrator in an ICT work environment.",
+    "metadata": {
+      "trade": "mobile_phone_repair",
+      "content_type": "performance_criterion",
+      "category": "Teamwork",
+      "unit_reference": "ICT/IT/2/003",
+      "learning_objective": "Understand How to Relate with Team Members",
+      "performance_criterion_id": "2.4",
+      "source": "NBTE",
+      "verified": true
+    }
+  },
+  {
+    "id": "nbte-mobilephone-u03-lo2-pc5",
+    "text": "For teamwork, the learner should be able to: discuss the relationship between the Network Administrator and other positions within the ICT team.",
+    "metadata": {
+      "trade": "mobile_phone_repair",
+      "content_type": "performance_criterion",
+      "category": "Teamwork",
+      "unit_reference": "ICT/IT/2/003",
+      "learning_objective": "Understand How to Relate with Team Members",
+      "performance_criterion_id": "2.5",
+      "source": "NBTE",
+      "verified": true
+    }
+  },
+  {
+    "id": "nbte-mobilephone-u03-lo3-pc1",
+    "text": "For teamwork, the learner should be able to: state the qualities of a good Network Administrator: strong technical skills, problem-solving abilities, communication skills, customer service orientation, attention to detail, adaptability, teamwork.",
+    "metadata": {
+      "trade": "mobile_phone_repair",
+      "content_type": "performance_criterion",
+      "category": "Teamwork",
+      "unit_reference": "ICT/IT/2/003",
+      "learning_objective": "Observe Positive Work Relationships with Colleagues",
+      "performance_criterion_id": "3.1",
+      "source": "NBTE",
+      "verified": true
+    }
+  },
+  {
+    "id": "nbte-mobilephone-u03-lo3-pc2",
+    "text": "For teamwork, the learner should be able to: relate with other members at the workplace.",
+    "metadata": {
+      "trade": "mobile_phone_repair",
+      "content_type": "performance_criterion",
+      "category": "Teamwork",
+      "unit_reference": "ICT/IT/2/003",
+      "learning_objective": "Observe Positive Work Relationships with Colleagues",
+      "performance_criterion_id": "3.2",
+      "source": "NBTE",
+      "verified": true
+    }
+  },
+  {
+    "id": "nbte-mobilephone-u03-lo3-pc3",
+    "text": "For teamwork, the learner should be able to: explain the importance of effective communication and collaboration with other team members to ensure smooth operations.",
+    "metadata": {
+      "trade": "mobile_phone_repair",
+      "content_type": "performance_criterion",
+      "category": "Teamwork",
+      "unit_reference": "ICT/IT/2/003",
+      "learning_objective": "Observe Positive Work Relationships with Colleagues",
+      "performance_criterion_id": "3.3",
+      "source": "NBTE",
+      "verified": true
+    }
+  },
+  {
+    "id": "nbte-mobilephone-u03-lo3-pc4",
+    "text": "For teamwork, the learner should be able to: communicate information that may affect other workers.",
+    "metadata": {
+      "trade": "mobile_phone_repair",
+      "content_type": "performance_criterion",
+      "category": "Teamwork",
+      "unit_reference": "ICT/IT/2/003",
+      "learning_objective": "Observe Positive Work Relationships with Colleagues",
+      "performance_criterion_id": "3.4",
+      "source": "NBTE",
+      "verified": true
+    }
+  },
+  {
+    "id": "nbte-mobilephone-u04-lo1-pc1",
+    "text": "For introduction to mobile and wireless technologies, the learner should be able to: explain the basic principles of wireless communication, including signal propagation, frequency spectrum, and modulation techniques.",
+    "metadata": {
+      "trade": "mobile_phone_repair",
+      "content_type": "performance_criterion",
+      "category": "Introduction to Mobile and Wireless Technologies",
+      "unit_reference": "ICT/GRM/2/004",
+      "learning_objective": "Understand Wireless Communication",
+      "performance_criterion_id": "1.1",
+      "source": "NBTE",
+      "verified": true
+    }
+  },
+  {
+    "id": "nbte-mobilephone-u04-lo1-pc2",
+    "text": "For introduction to mobile and wireless technologies, the learner should be able to: discuss emerging trends in wireless technologies, such as 5G, the Internet of Things (IoT), and mobile edge computing.",
+    "metadata": {
+      "trade": "mobile_phone_repair",
+      "content_type": "performance_criterion",
+      "category": "Introduction to Mobile and Wireless Technologies",
+      "unit_reference": "ICT/GRM/2/004",
+      "learning_objective": "Understand Wireless Communication",
+      "performance_criterion_id": "1.2",
+      "source": "NBTE",
+      "verified": true
+    }
+  },
+  {
+    "id": "nbte-mobilephone-u04-lo1-pc3",
+    "text": "For introduction to mobile and wireless technologies, the learner should be able to: discuss the potential future applications of emerging trends in wireless technologies.",
+    "metadata": {
+      "trade": "mobile_phone_repair",
+      "content_type": "performance_criterion",
+      "category": "Introduction to Mobile and Wireless Technologies",
+      "unit_reference": "ICT/GRM/2/004",
+      "learning_objective": "Understand Wireless Communication",
+      "performance_criterion_id": "1.3",
+      "source": "NBTE",
+      "verified": true
+    }
+  },
+  {
+    "id": "nbte-mobilephone-u04-lo2-pc1",
+    "text": "For introduction to mobile and wireless technologies, the learner should be able to: identify the components of mobile and wireless communication networks, including cellular networks (2G, 3G, 4G, 5G), Wi-Fi, and Bluetooth.",
+    "metadata": {
+      "trade": "mobile_phone_repair",
+      "content_type": "performance_criterion",
+      "category": "Introduction to Mobile and Wireless Technologies",
+      "unit_reference": "ICT/GRM/2/004",
+      "learning_objective": "Know Components of Mobile and Wireless Network",
+      "performance_criterion_id": "2.1",
+      "source": "NBTE",
+      "verified": true
+    }
+  },
+  {
+    "id": "nbte-mobilephone-u04-lo2-pc2",
+    "text": "For introduction to mobile and wireless technologies, the learner should be able to: explain the functions of the components of mobile and wireless communication networks.",
+    "metadata": {
+      "trade": "mobile_phone_repair",
+      "content_type": "performance_criterion",
+      "category": "Introduction to Mobile and Wireless Technologies",
+      "unit_reference": "ICT/GRM/2/004",
+      "learning_objective": "Know Components of Mobile and Wireless Network",
+      "performance_criterion_id": "2.2",
+      "source": "NBTE",
+      "verified": true
+    }
+  },
+  {
+    "id": "nbte-mobilephone-u04-lo2-pc3",
+    "text": "For introduction to mobile and wireless technologies, the learner should be able to: describe various types of network topologies.",
+    "metadata": {
+      "trade": "mobile_phone_repair",
+      "content_type": "performance_criterion",
+      "category": "Introduction to Mobile and Wireless Technologies",
+      "unit_reference": "ICT/GRM/2/004",
+      "learning_objective": "Know Components of Mobile and Wireless Network",
+      "performance_criterion_id": "2.3",
+      "source": "NBTE",
+      "verified": true
+    }
+  },
+  {
+    "id": "nbte-mobilephone-u04-lo3-pc1",
+    "text": "For introduction to mobile and wireless technologies, the learner should be able to: identify key wireless communication standards such as GSM, CDMA, LTE, 5G, and Wi-Fi.",
+    "metadata": {
+      "trade": "mobile_phone_repair",
+      "content_type": "performance_criterion",
+      "category": "Introduction to Mobile and Wireless Technologies",
+      "unit_reference": "ICT/GRM/2/004",
+      "learning_objective": "Understand Wireless Communication Standards",
+      "performance_criterion_id": "3.1",
+      "source": "NBTE",
+      "verified": true
+    }
+  },
+  {
+    "id": "nbte-mobilephone-u04-lo3-pc2",
+    "text": "For introduction to mobile and wireless technologies, the learner should be able to: describe key wireless communication standards such as GSM, CDMA, LTE, 5G, and Wi-Fi.",
+    "metadata": {
+      "trade": "mobile_phone_repair",
+      "content_type": "performance_criterion",
+      "category": "Introduction to Mobile and Wireless Technologies",
+      "unit_reference": "ICT/GRM/2/004",
+      "learning_objective": "Understand Wireless Communication Standards",
+      "performance_criterion_id": "3.2",
+      "source": "NBTE",
+      "verified": true
+    }
+  },
+  {
+    "id": "nbte-mobilephone-u04-lo3-pc3",
+    "text": "For introduction to mobile and wireless technologies, the learner should be able to: explain the role of key wireless communication standards in enabling wireless communication.",
+    "metadata": {
+      "trade": "mobile_phone_repair",
+      "content_type": "performance_criterion",
+      "category": "Introduction to Mobile and Wireless Technologies",
+      "unit_reference": "ICT/GRM/2/004",
+      "learning_objective": "Understand Wireless Communication Standards",
+      "performance_criterion_id": "3.3",
+      "source": "NBTE",
+      "verified": true
+    }
+  },
+  {
+    "id": "nbte-mobilephone-u04-lo4-pc1",
+    "text": "For introduction to mobile and wireless technologies, the learner should be able to: identify various types of mobile devices, including their hardware components and mobile operating systems.",
+    "metadata": {
+      "trade": "mobile_phone_repair",
+      "content_type": "performance_criterion",
+      "category": "Introduction to Mobile and Wireless Technologies",
+      "unit_reference": "ICT/GRM/2/004",
+      "learning_objective": "Know Mobile Devices",
+      "performance_criterion_id": "4.1",
+      "source": "NBTE",
+      "verified": true
+    }
+  },
+  {
+    "id": "nbte-mobilephone-u04-lo4-pc2",
+    "text": "For introduction to mobile and wireless technologies, the learner should be able to: design simple mobile applications.",
+    "metadata": {
+      "trade": "mobile_phone_repair",
+      "content_type": "performance_criterion",
+      "category": "Introduction to Mobile and Wireless Technologies",
+      "unit_reference": "ICT/GRM/2/004",
+      "learning_objective": "Know Mobile Devices",
+      "performance_criterion_id": "4.2",
+      "source": "NBTE",
+      "verified": true
+    }
+  },
+  {
+    "id": "nbte-mobilephone-u04-lo4-pc3",
+    "text": "For introduction to mobile and wireless technologies, the learner should be able to: develop simple mobile applications.",
+    "metadata": {
+      "trade": "mobile_phone_repair",
+      "content_type": "performance_criterion",
+      "category": "Introduction to Mobile and Wireless Technologies",
+      "unit_reference": "ICT/GRM/2/004",
+      "learning_objective": "Know Mobile Devices",
+      "performance_criterion_id": "4.3",
+      "source": "NBTE",
+      "verified": true
+    }
+  },
+  {
+    "id": "nbte-mobilephone-u05-lo1-pc1",
+    "text": "For handling mobile phone batteries, the learner should be able to: identify different types of phone batteries.",
+    "metadata": {
+      "trade": "mobile_phone_repair",
+      "content_type": "performance_criterion",
+      "category": "Handling Mobile Phone Batteries",
+      "unit_reference": "ICT/GRM/2/005",
+      "learning_objective": "Understand Batteries Used in Mobile Phones",
+      "performance_criterion_id": "1.1",
+      "source": "NBTE",
+      "verified": true
+    }
+  },
+  {
+    "id": "nbte-mobilephone-u05-lo1-pc2",
+    "text": "For handling mobile phone batteries, the learner should be able to: describe their characteristics.",
+    "metadata": {
+      "trade": "mobile_phone_repair",
+      "content_type": "performance_criterion",
+      "category": "Handling Mobile Phone Batteries",
+      "unit_reference": "ICT/GRM/2/005",
+      "learning_objective": "Understand Batteries Used in Mobile Phones",
+      "performance_criterion_id": "1.2",
+      "source": "NBTE",
+      "verified": true
+    }
+  },
+  {
+    "id": "nbte-mobilephone-u05-lo1-pc3",
+    "text": "For handling mobile phone batteries, the learner should be able to: explain battery specifications.",
+    "metadata": {
+      "trade": "mobile_phone_repair",
+      "content_type": "performance_criterion",
+      "category": "Handling Mobile Phone Batteries",
+      "unit_reference": "ICT/GRM/2/005",
+      "learning_objective": "Understand Batteries Used in Mobile Phones",
+      "performance_criterion_id": "1.3",
+      "source": "NBTE",
+      "verified": true
+    }
+  },
+  {
+    "id": "nbte-mobilephone-u05-lo2-pc1",
+    "text": "For handling mobile phone batteries, the learner should be able to: identify battery problems.",
+    "metadata": {
+      "trade": "mobile_phone_repair",
+      "content_type": "performance_criterion",
+      "category": "Handling Mobile Phone Batteries",
+      "unit_reference": "ICT/GRM/2/005",
+      "learning_objective": "Diagnose Common Battery Issues",
+      "performance_criterion_id": "2.1",
+      "source": "NBTE",
+      "verified": true
+    }
+  },
+  {
+    "id": "nbte-mobilephone-u05-lo2-pc2",
+    "text": "For handling mobile phone batteries, the learner should be able to: describe the cause of battery problems.",
+    "metadata": {
+      "trade": "mobile_phone_repair",
+      "content_type": "performance_criterion",
+      "category": "Handling Mobile Phone Batteries",
+      "unit_reference": "ICT/GRM/2/005",
+      "learning_objective": "Diagnose Common Battery Issues",
+      "performance_criterion_id": "2.2",
+      "source": "NBTE",
+      "verified": true
+    }
+  },
+  {
+    "id": "nbte-mobilephone-u05-lo2-pc3",
+    "text": "For handling mobile phone batteries, the learner should be able to: test battery health.",
+    "metadata": {
+      "trade": "mobile_phone_repair",
+      "content_type": "performance_criterion",
+      "category": "Handling Mobile Phone Batteries",
+      "unit_reference": "ICT/GRM/2/005",
+      "learning_objective": "Diagnose Common Battery Issues",
+      "performance_criterion_id": "2.3",
+      "source": "NBTE",
+      "verified": true
+    }
+  },
+  {
+    "id": "nbte-mobilephone-u05-lo3-pc1",
+    "text": "For handling mobile phone batteries, the learner should be able to: identify tools used in handling and servicing batteries.",
+    "metadata": {
+      "trade": "mobile_phone_repair",
+      "content_type": "performance_criterion",
+      "category": "Handling Mobile Phone Batteries",
+      "unit_reference": "ICT/GRM/2/005",
+      "learning_objective": "Know Tools Used in Handling and Servicing Batteries",
+      "performance_criterion_id": "3.1",
+      "source": "NBTE",
+      "verified": true
+    }
+  },
+  {
+    "id": "nbte-mobilephone-u05-lo3-pc2",
+    "text": "For handling mobile phone batteries, the learner should be able to: explain the purpose of tools used in handling and servicing batteries.",
+    "metadata": {
+      "trade": "mobile_phone_repair",
+      "content_type": "performance_criterion",
+      "category": "Handling Mobile Phone Batteries",
+      "unit_reference": "ICT/GRM/2/005",
+      "learning_objective": "Know Tools Used in Handling and Servicing Batteries",
+      "performance_criterion_id": "3.2",
+      "source": "NBTE",
+      "verified": true
+    }
+  },
+  {
+    "id": "nbte-mobilephone-u05-lo3-pc3",
+    "text": "For handling mobile phone batteries, the learner should be able to: handle battery with care.",
+    "metadata": {
+      "trade": "mobile_phone_repair",
+      "content_type": "performance_criterion",
+      "category": "Handling Mobile Phone Batteries",
+      "unit_reference": "ICT/GRM/2/005",
+      "learning_objective": "Know Tools Used in Handling and Servicing Batteries",
+      "performance_criterion_id": "3.3",
+      "source": "NBTE",
+      "verified": true
+    }
+  },
+  {
+    "id": "nbte-mobilephone-u05-lo3-pc4",
+    "text": "For handling mobile phone batteries, the learner should be able to: demonstrate how to service a battery.",
+    "metadata": {
+      "trade": "mobile_phone_repair",
+      "content_type": "performance_criterion",
+      "category": "Handling Mobile Phone Batteries",
+      "unit_reference": "ICT/GRM/2/005",
+      "learning_objective": "Know Tools Used in Handling and Servicing Batteries",
+      "performance_criterion_id": "3.4",
+      "source": "NBTE",
+      "verified": true
+    }
+  },
+  {
+    "id": "nbte-mobilephone-u05-lo3-pc5",
+    "text": "For handling mobile phone batteries, the learner should be able to: replace damaged battery.",
+    "metadata": {
+      "trade": "mobile_phone_repair",
+      "content_type": "performance_criterion",
+      "category": "Handling Mobile Phone Batteries",
+      "unit_reference": "ICT/GRM/2/005",
+      "learning_objective": "Know Tools Used in Handling and Servicing Batteries",
+      "performance_criterion_id": "3.5",
+      "source": "NBTE",
+      "verified": true
+    }
+  },
+  {
+    "id": "nbte-mobilephone-u06-lo1-pc1",
+    "text": "For mobile phone repair tools, the learner should be able to: identify hardware repair tools.",
+    "metadata": {
+      "trade": "mobile_phone_repair",
+      "content_type": "performance_criterion",
+      "category": "Mobile Phone Repair Tools",
+      "unit_reference": "ICT/GRM/2/006",
+      "learning_objective": "Know Mobile Phone Repair Tools",
+      "performance_criterion_id": "1.1",
+      "source": "NBTE",
+      "verified": true
+    }
+  },
+  {
+    "id": "nbte-mobilephone-u06-lo1-pc2",
+    "text": "For mobile phone repair tools, the learner should be able to: identify software repair tools.",
+    "metadata": {
+      "trade": "mobile_phone_repair",
+      "content_type": "performance_criterion",
+      "category": "Mobile Phone Repair Tools",
+      "unit_reference": "ICT/GRM/2/006",
+      "learning_objective": "Know Mobile Phone Repair Tools",
+      "performance_criterion_id": "1.2",
+      "source": "NBTE",
+      "verified": true
+    }
+  },
+  {
+    "id": "nbte-mobilephone-u06-lo1-pc3",
+    "text": "For mobile phone repair tools, the learner should be able to: explain the purpose of each tool.",
+    "metadata": {
+      "trade": "mobile_phone_repair",
+      "content_type": "performance_criterion",
+      "category": "Mobile Phone Repair Tools",
+      "unit_reference": "ICT/GRM/2/006",
+      "learning_objective": "Know Mobile Phone Repair Tools",
+      "performance_criterion_id": "1.3",
+      "source": "NBTE",
+      "verified": true
+    }
+  },
+  {
+    "id": "nbte-mobilephone-u06-lo2-pc1",
+    "text": "For mobile phone repair tools, the learner should be able to: use various repair tools effectively and efficiently.",
+    "metadata": {
+      "trade": "mobile_phone_repair",
+      "content_type": "performance_criterion",
+      "category": "Mobile Phone Repair Tools",
+      "unit_reference": "ICT/GRM/2/006",
+      "learning_objective": "Use Mobile Phone Repair Tools",
+      "performance_criterion_id": "2.1",
+      "source": "NBTE",
+      "verified": true
+    }
+  },
+  {
+    "id": "nbte-mobilephone-u06-lo2-pc2",
+    "text": "For mobile phone repair tools, the learner should be able to: practice safety while using repair tools.",
+    "metadata": {
+      "trade": "mobile_phone_repair",
+      "content_type": "performance_criterion",
+      "category": "Mobile Phone Repair Tools",
+      "unit_reference": "ICT/GRM/2/006",
+      "learning_objective": "Use Mobile Phone Repair Tools",
+      "performance_criterion_id": "2.2",
+      "source": "NBTE",
+      "verified": true
+    }
+  },
+  {
+    "id": "nbte-mobilephone-u06-lo2-pc3",
+    "text": "For mobile phone repair tools, the learner should be able to: conduct repairs without damaging delicate parts.",
+    "metadata": {
+      "trade": "mobile_phone_repair",
+      "content_type": "performance_criterion",
+      "category": "Mobile Phone Repair Tools",
+      "unit_reference": "ICT/GRM/2/006",
+      "learning_objective": "Use Mobile Phone Repair Tools",
+      "performance_criterion_id": "2.3",
+      "source": "NBTE",
+      "verified": true
+    }
+  },
+  {
+    "id": "nbte-mobilephone-u06-lo3-pc1",
+    "text": "For mobile phone repair tools, the learner should be able to: identify common types of issues (hardware/software).",
+    "metadata": {
+      "trade": "mobile_phone_repair",
+      "content_type": "performance_criterion",
+      "category": "Mobile Phone Repair Tools",
+      "unit_reference": "ICT/GRM/2/006",
+      "learning_objective": "Diagnose Common Mobile Phone Issues",
+      "performance_criterion_id": "3.1",
+      "source": "NBTE",
+      "verified": true
+    }
+  },
+  {
+    "id": "nbte-mobilephone-u06-lo3-pc2",
+    "text": "For mobile phone repair tools, the learner should be able to: identify diagnostic tools and equipment to use.",
+    "metadata": {
+      "trade": "mobile_phone_repair",
+      "content_type": "performance_criterion",
+      "category": "Mobile Phone Repair Tools",
+      "unit_reference": "ICT/GRM/2/006",
+      "learning_objective": "Diagnose Common Mobile Phone Issues",
+      "performance_criterion_id": "3.2",
+      "source": "NBTE",
+      "verified": true
+    }
+  },
+  {
+    "id": "nbte-mobilephone-u06-lo3-pc3",
+    "text": "For mobile phone repair tools, the learner should be able to: diagnose an issue using a systematic troubleshooting process.",
+    "metadata": {
+      "trade": "mobile_phone_repair",
+      "content_type": "performance_criterion",
+      "category": "Mobile Phone Repair Tools",
+      "unit_reference": "ICT/GRM/2/006",
+      "learning_objective": "Diagnose Common Mobile Phone Issues",
+      "performance_criterion_id": "3.3",
+      "source": "NBTE",
+      "verified": true
+    }
+  },
+  {
+    "id": "nbte-mobilephone-u06-lo3-pc4",
+    "text": "For mobile phone repair tools, the learner should be able to: repair the phone issue.",
+    "metadata": {
+      "trade": "mobile_phone_repair",
+      "content_type": "performance_criterion",
+      "category": "Mobile Phone Repair Tools",
+      "unit_reference": "ICT/GRM/2/006",
+      "learning_objective": "Diagnose Common Mobile Phone Issues",
+      "performance_criterion_id": "3.4",
+      "source": "NBTE",
+      "verified": true
+    }
+  },
+  {
+    "id": "nbte-mobilephone-u06-lo4-pc1",
+    "text": "For mobile phone repair tools, the learner should be able to: identify Standard Operating Procedures (SOPs).",
+    "metadata": {
+      "trade": "mobile_phone_repair",
+      "content_type": "performance_criterion",
+      "category": "Mobile Phone Repair Tools",
+      "unit_reference": "ICT/GRM/2/006",
+      "learning_objective": "Observe Safety Protocols in Mobile Repair",
+      "performance_criterion_id": "4.1",
+      "source": "NBTE",
+      "verified": true
+    }
+  },
+  {
+    "id": "nbte-mobilephone-u06-lo4-pc2",
+    "text": "For mobile phone repair tools, the learner should be able to: use appropriate Personal Protective Equipment (PPE).",
+    "metadata": {
+      "trade": "mobile_phone_repair",
+      "content_type": "performance_criterion",
+      "category": "Mobile Phone Repair Tools",
+      "unit_reference": "ICT/GRM/2/006",
+      "learning_objective": "Observe Safety Protocols in Mobile Repair",
+      "performance_criterion_id": "4.2",
+      "source": "NBTE",
+      "verified": true
+    }
+  },
+  {
+    "id": "nbte-mobilephone-u06-lo4-pc3",
+    "text": "For mobile phone repair tools, the learner should be able to: use Electrostatic Discharge (ESD) prevention.",
+    "metadata": {
+      "trade": "mobile_phone_repair",
+      "content_type": "performance_criterion",
+      "category": "Mobile Phone Repair Tools",
+      "unit_reference": "ICT/GRM/2/006",
+      "learning_objective": "Observe Safety Protocols in Mobile Repair",
+      "performance_criterion_id": "4.3",
+      "source": "NBTE",
+      "verified": true
+    }
+  },
+  {
+    "id": "nbte-mobilephone-u06-lo4-pc4",
+    "text": "For mobile phone repair tools, the learner should be able to: handle tools safely and appropriately.",
+    "metadata": {
+      "trade": "mobile_phone_repair",
+      "content_type": "performance_criterion",
+      "category": "Mobile Phone Repair Tools",
+      "unit_reference": "ICT/GRM/2/006",
+      "learning_objective": "Observe Safety Protocols in Mobile Repair",
+      "performance_criterion_id": "4.4",
+      "source": "NBTE",
+      "verified": true
+    }
+  },
+  {
+    "id": "nbte-mobilephone-u06-lo4-pc5",
+    "text": "For mobile phone repair tools, the learner should be able to: use proper ventilation and chemical safety.",
+    "metadata": {
+      "trade": "mobile_phone_repair",
+      "content_type": "performance_criterion",
+      "category": "Mobile Phone Repair Tools",
+      "unit_reference": "ICT/GRM/2/006",
+      "learning_objective": "Observe Safety Protocols in Mobile Repair",
+      "performance_criterion_id": "4.5",
+      "source": "NBTE",
+      "verified": true
+    }
+  },
+  {
+    "id": "nbte-mobilephone-u06-lo4-pc6",
+    "text": "For mobile phone repair tools, the learner should be able to: perform work in a clean and organized environment.",
+    "metadata": {
+      "trade": "mobile_phone_repair",
+      "content_type": "performance_criterion",
+      "category": "Mobile Phone Repair Tools",
+      "unit_reference": "ICT/GRM/2/006",
+      "learning_objective": "Observe Safety Protocols in Mobile Repair",
+      "performance_criterion_id": "4.6",
+      "source": "NBTE",
+      "verified": true
+    }
+  },
+  {
+    "id": "nbte-mobilephone-u06-lo4-pc7",
+    "text": "For mobile phone repair tools, the learner should be able to: ensure device and data security.",
+    "metadata": {
+      "trade": "mobile_phone_repair",
+      "content_type": "performance_criterion",
+      "category": "Mobile Phone Repair Tools",
+      "unit_reference": "ICT/GRM/2/006",
+      "learning_objective": "Observe Safety Protocols in Mobile Repair",
+      "performance_criterion_id": "4.7",
+      "source": "NBTE",
+      "verified": true
+    }
+  },
+  {
+    "id": "nbte-mobilephone-u06-lo5-pc1",
+    "text": "For mobile phone repair tools, the learner should be able to: select appropriate tools for diagnosis.",
+    "metadata": {
+      "trade": "mobile_phone_repair",
+      "content_type": "performance_criterion",
+      "category": "Mobile Phone Repair Tools",
+      "unit_reference": "ICT/GRM/2/006",
+      "learning_objective": "Apply the Tools to Fix Phone Problems",
+      "performance_criterion_id": "5.1",
+      "source": "NBTE",
+      "verified": true
+    }
+  },
+  {
+    "id": "nbte-mobilephone-u06-lo5-pc2",
+    "text": "For mobile phone repair tools, the learner should be able to: use diagnostic software effectively.",
+    "metadata": {
+      "trade": "mobile_phone_repair",
+      "content_type": "performance_criterion",
+      "category": "Mobile Phone Repair Tools",
+      "unit_reference": "ICT/GRM/2/006",
+      "learning_objective": "Apply the Tools to Fix Phone Problems",
+      "performance_criterion_id": "5.2",
+      "source": "NBTE",
+      "verified": true
+    }
+  },
+  {
+    "id": "nbte-mobilephone-u06-lo5-pc3",
+    "text": "For mobile phone repair tools, the learner should be able to: troubleshoot battery and charging issues.",
+    "metadata": {
+      "trade": "mobile_phone_repair",
+      "content_type": "performance_criterion",
+      "category": "Mobile Phone Repair Tools",
+      "unit_reference": "ICT/GRM/2/006",
+      "learning_objective": "Apply the Tools to Fix Phone Problems",
+      "performance_criterion_id": "5.3",
+      "source": "NBTE",
+      "verified": true
+    }
+  },
+  {
+    "id": "nbte-mobilephone-u06-lo5-pc4",
+    "text": "For mobile phone repair tools, the learner should be able to: resolve connectivity issues (Wi-Fi, Bluetooth, etc.).",
+    "metadata": {
+      "trade": "mobile_phone_repair",
+      "content_type": "performance_criterion",
+      "category": "Mobile Phone Repair Tools",
+      "unit_reference": "ICT/GRM/2/006",
+      "learning_objective": "Apply the Tools to Fix Phone Problems",
+      "performance_criterion_id": "5.4",
+      "source": "NBTE",
+      "verified": true
+    }
+  },
+  {
+    "id": "nbte-mobilephone-u06-lo5-pc5",
+    "text": "For mobile phone repair tools, the learner should be able to: perform software reset and reinstallation.",
+    "metadata": {
+      "trade": "mobile_phone_repair",
+      "content_type": "performance_criterion",
+      "category": "Mobile Phone Repair Tools",
+      "unit_reference": "ICT/GRM/2/006",
+      "learning_objective": "Apply the Tools to Fix Phone Problems",
+      "performance_criterion_id": "5.5",
+      "source": "NBTE",
+      "verified": true
+    }
+  },
+  {
+    "id": "nbte-mobilephone-u06-lo5-pc6",
+    "text": "For mobile phone repair tools, the learner should be able to: test and verify repair success.",
+    "metadata": {
+      "trade": "mobile_phone_repair",
+      "content_type": "performance_criterion",
+      "category": "Mobile Phone Repair Tools",
+      "unit_reference": "ICT/GRM/2/006",
+      "learning_objective": "Apply the Tools to Fix Phone Problems",
+      "performance_criterion_id": "5.6",
+      "source": "NBTE",
+      "verified": true
+    }
+  },
+  {
+    "id": "nbte-mobilephone-u06-lo5-pc7",
+    "text": "For mobile phone repair tools, the learner should be able to: document the troubleshooting and repair process.",
+    "metadata": {
+      "trade": "mobile_phone_repair",
+      "content_type": "performance_criterion",
+      "category": "Mobile Phone Repair Tools",
+      "unit_reference": "ICT/GRM/2/006",
+      "learning_objective": "Apply the Tools to Fix Phone Problems",
+      "performance_criterion_id": "5.7",
+      "source": "NBTE",
+      "verified": true
+    }
+  },
+  {
+    "id": "nbte-mobilephone-u07-lo1-pc1",
+    "text": "For diagnosing and repairing mobile phones hardware, the learner should be able to: identify the various components of a phone.",
+    "metadata": {
+      "trade": "mobile_phone_repair",
+      "content_type": "performance_criterion",
+      "category": "Diagnosing and Repairing Mobile Phones Hardware",
+      "unit_reference": "ICT/GRM/2/007",
+      "learning_objective": "Understand the Structure and Function of Mobile Phone Hardware",
+      "performance_criterion_id": "1.1",
+      "source": "NBTE",
+      "verified": true
+    }
+  },
+  {
+    "id": "nbte-mobilephone-u07-lo1-pc2",
+    "text": "For diagnosing and repairing mobile phones hardware, the learner should be able to: differentiate between internal components (e.g. processor, RAM, storage) and external components (e.g. screen, casing, buttons).",
+    "metadata": {
+      "trade": "mobile_phone_repair",
+      "content_type": "performance_criterion",
+      "category": "Diagnosing and Repairing Mobile Phones Hardware",
+      "unit_reference": "ICT/GRM/2/007",
+      "learning_objective": "Understand the Structure and Function of Mobile Phone Hardware",
+      "performance_criterion_id": "1.2",
+      "source": "NBTE",
+      "verified": true
+    }
+  },
+  {
+    "id": "nbte-mobilephone-u07-lo1-pc3",
+    "text": "For diagnosing and repairing mobile phones hardware, the learner should be able to: describe the functions of each component.",
+    "metadata": {
+      "trade": "mobile_phone_repair",
+      "content_type": "performance_criterion",
+      "category": "Diagnosing and Repairing Mobile Phones Hardware",
+      "unit_reference": "ICT/GRM/2/007",
+      "learning_objective": "Understand the Structure and Function of Mobile Phone Hardware",
+      "performance_criterion_id": "1.3",
+      "source": "NBTE",
+      "verified": true
+    }
+  },
+  {
+    "id": "nbte-mobilephone-u07-lo1-pc4",
+    "text": "For diagnosing and repairing mobile phones hardware, the learner should be able to: recognize the various forms of each component.",
+    "metadata": {
+      "trade": "mobile_phone_repair",
+      "content_type": "performance_criterion",
+      "category": "Diagnosing and Repairing Mobile Phones Hardware",
+      "unit_reference": "ICT/GRM/2/007",
+      "learning_objective": "Understand the Structure and Function of Mobile Phone Hardware",
+      "performance_criterion_id": "1.4",
+      "source": "NBTE",
+      "verified": true
+    }
+  },
+  {
+    "id": "nbte-mobilephone-u07-lo2-pc1",
+    "text": "For diagnosing and repairing mobile phones hardware, the learner should be able to: identify hardware issues.",
+    "metadata": {
+      "trade": "mobile_phone_repair",
+      "content_type": "performance_criterion",
+      "category": "Diagnosing and Repairing Mobile Phones Hardware",
+      "unit_reference": "ICT/GRM/2/007",
+      "learning_objective": "Diagnose Common Hardware Problems",
+      "performance_criterion_id": "2.1",
+      "source": "NBTE",
+      "verified": true
+    }
+  },
+  {
+    "id": "nbte-mobilephone-u07-lo2-pc2",
+    "text": "For diagnosing and repairing mobile phones hardware, the learner should be able to: identify the possible causes of a problem.",
+    "metadata": {
+      "trade": "mobile_phone_repair",
+      "content_type": "performance_criterion",
+      "category": "Diagnosing and Repairing Mobile Phones Hardware",
+      "unit_reference": "ICT/GRM/2/007",
+      "learning_objective": "Diagnose Common Hardware Problems",
+      "performance_criterion_id": "2.2",
+      "source": "NBTE",
+      "verified": true
+    }
+  },
+  {
+    "id": "nbte-mobilephone-u07-lo2-pc3",
+    "text": "For diagnosing and repairing mobile phones hardware, the learner should be able to: select appropriate repair tools.",
+    "metadata": {
+      "trade": "mobile_phone_repair",
+      "content_type": "performance_criterion",
+      "category": "Diagnosing and Repairing Mobile Phones Hardware",
+      "unit_reference": "ICT/GRM/2/007",
+      "learning_objective": "Diagnose Common Hardware Problems",
+      "performance_criterion_id": "2.3",
+      "source": "NBTE",
+      "verified": true
+    }
+  },
+  {
+    "id": "nbte-mobilephone-u07-lo2-pc4",
+    "text": "For diagnosing and repairing mobile phones hardware, the learner should be able to: use tools to diagnose the problem.",
+    "metadata": {
+      "trade": "mobile_phone_repair",
+      "content_type": "performance_criterion",
+      "category": "Diagnosing and Repairing Mobile Phones Hardware",
+      "unit_reference": "ICT/GRM/2/007",
+      "learning_objective": "Diagnose Common Hardware Problems",
+      "performance_criterion_id": "2.4",
+      "source": "NBTE",
+      "verified": true
+    }
+  },
+  {
+    "id": "nbte-mobilephone-u07-lo2-pc5",
+    "text": "For diagnosing and repairing mobile phones hardware, the learner should be able to: disassemble a phone.",
+    "metadata": {
+      "trade": "mobile_phone_repair",
+      "content_type": "performance_criterion",
+      "category": "Diagnosing and Repairing Mobile Phones Hardware",
+      "unit_reference": "ICT/GRM/2/007",
+      "learning_objective": "Diagnose Common Hardware Problems",
+      "performance_criterion_id": "2.5",
+      "source": "NBTE",
+      "verified": true
+    }
+  },
+  {
+    "id": "nbte-mobilephone-u07-lo2-pc6",
+    "text": "For diagnosing and repairing mobile phones hardware, the learner should be able to: repair a phone using the correct tools.",
+    "metadata": {
+      "trade": "mobile_phone_repair",
+      "content_type": "performance_criterion",
+      "category": "Diagnosing and Repairing Mobile Phones Hardware",
+      "unit_reference": "ICT/GRM/2/007",
+      "learning_objective": "Diagnose Common Hardware Problems",
+      "performance_criterion_id": "2.6",
+      "source": "NBTE",
+      "verified": true
+    }
+  },
+  {
+    "id": "nbte-mobilephone-u07-lo2-pc7",
+    "text": "For diagnosing and repairing mobile phones hardware, the learner should be able to: assemble a phone.",
+    "metadata": {
+      "trade": "mobile_phone_repair",
+      "content_type": "performance_criterion",
+      "category": "Diagnosing and Repairing Mobile Phones Hardware",
+      "unit_reference": "ICT/GRM/2/007",
+      "learning_objective": "Diagnose Common Hardware Problems",
+      "performance_criterion_id": "2.7",
+      "source": "NBTE",
+      "verified": true
+    }
+  },
+  {
+    "id": "nbte-mobilephone-u07-lo2-pc8",
+    "text": "For diagnosing and repairing mobile phones hardware, the learner should be able to: test the repaired phone.",
+    "metadata": {
+      "trade": "mobile_phone_repair",
+      "content_type": "performance_criterion",
+      "category": "Diagnosing and Repairing Mobile Phones Hardware",
+      "unit_reference": "ICT/GRM/2/007",
+      "learning_objective": "Diagnose Common Hardware Problems",
+      "performance_criterion_id": "2.8",
+      "source": "NBTE",
+      "verified": true
+    }
+  },
+  {
+    "id": "nbte-mobilephone-u07-lo2-pc9",
+    "text": "For diagnosing and repairing mobile phones hardware, the learner should be able to: document the solution.",
+    "metadata": {
+      "trade": "mobile_phone_repair",
+      "content_type": "performance_criterion",
+      "category": "Diagnosing and Repairing Mobile Phones Hardware",
+      "unit_reference": "ICT/GRM/2/007",
+      "learning_objective": "Diagnose Common Hardware Problems",
+      "performance_criterion_id": "2.9",
+      "source": "NBTE",
+      "verified": true
+    }
+  },
+  {
+    "id": "nbte-mobilephone-u07-lo3-pc1",
+    "text": "For diagnosing and repairing mobile phones hardware, the learner should be able to: identify phone hardware issues/problems.",
+    "metadata": {
+      "trade": "mobile_phone_repair",
+      "content_type": "performance_criterion",
+      "category": "Diagnosing and Repairing Mobile Phones Hardware",
+      "unit_reference": "ICT/GRM/2/007",
+      "learning_objective": "Enhance Troubleshooting Skills",
+      "performance_criterion_id": "3.1",
+      "source": "NBTE",
+      "verified": true
+    }
+  },
+  {
+    "id": "nbte-mobilephone-u07-lo3-pc2",
+    "text": "For diagnosing and repairing mobile phones hardware, the learner should be able to: develop troubleshooting skills.",
+    "metadata": {
+      "trade": "mobile_phone_repair",
+      "content_type": "performance_criterion",
+      "category": "Diagnosing and Repairing Mobile Phones Hardware",
+      "unit_reference": "ICT/GRM/2/007",
+      "learning_objective": "Enhance Troubleshooting Skills",
+      "performance_criterion_id": "3.2",
+      "source": "NBTE",
+      "verified": true
+    }
+  },
+  {
+    "id": "nbte-mobilephone-u07-lo3-pc3",
+    "text": "For diagnosing and repairing mobile phones hardware, the learner should be able to: solve phone hardware related issues.",
+    "metadata": {
+      "trade": "mobile_phone_repair",
+      "content_type": "performance_criterion",
+      "category": "Diagnosing and Repairing Mobile Phones Hardware",
+      "unit_reference": "ICT/GRM/2/007",
+      "learning_objective": "Enhance Troubleshooting Skills",
+      "performance_criterion_id": "3.3",
+      "source": "NBTE",
+      "verified": true
+    }
+  },
+  {
+    "id": "nbte-mobilephone-u07-lo3-pc4",
+    "text": "For diagnosing and repairing mobile phones hardware, the learner should be able to: demonstrate to others what the problem is and how to repair it.",
+    "metadata": {
+      "trade": "mobile_phone_repair",
+      "content_type": "performance_criterion",
+      "category": "Diagnosing and Repairing Mobile Phones Hardware",
+      "unit_reference": "ICT/GRM/2/007",
+      "learning_objective": "Enhance Troubleshooting Skills",
+      "performance_criterion_id": "3.4",
+      "source": "NBTE",
+      "verified": true
+    }
+  },
+  {
+    "id": "nbte-mobilephone-u07-lo3-pc5",
+    "text": "For diagnosing and repairing mobile phones hardware, the learner should be able to: demonstrate documentation skills.",
+    "metadata": {
+      "trade": "mobile_phone_repair",
+      "content_type": "performance_criterion",
+      "category": "Diagnosing and Repairing Mobile Phones Hardware",
+      "unit_reference": "ICT/GRM/2/007",
+      "learning_objective": "Enhance Troubleshooting Skills",
+      "performance_criterion_id": "3.5",
+      "source": "NBTE",
+      "verified": true
+    }
+  },
+  {
+    "id": "nbte-mobilephone-u08-lo1-pc1",
+    "text": "For diagnosing and repairing mobile phones software, the learner should be able to: identify the major mobile phone OS platforms such as Android, iOS, etc.",
+    "metadata": {
+      "trade": "mobile_phone_repair",
+      "content_type": "performance_criterion",
+      "category": "Diagnosing and Repairing Mobile Phones Software",
+      "unit_reference": "ICT/GRM/2/008",
+      "learning_objective": "Understand Mobile Operating Systems (OS)",
+      "performance_criterion_id": "1.1",
+      "source": "NBTE",
+      "verified": true
+    }
+  },
+  {
+    "id": "nbte-mobilephone-u08-lo1-pc2",
+    "text": "For diagnosing and repairing mobile phones software, the learner should be able to: explain how the OS manages hardware, apps and interfaces.",
+    "metadata": {
+      "trade": "mobile_phone_repair",
+      "content_type": "performance_criterion",
+      "category": "Diagnosing and Repairing Mobile Phones Software",
+      "unit_reference": "ICT/GRM/2/008",
+      "learning_objective": "Understand Mobile Operating Systems (OS)",
+      "performance_criterion_id": "1.2",
+      "source": "NBTE",
+      "verified": true
+    }
+  },
+  {
+    "id": "nbte-mobilephone-u08-lo1-pc3",
+    "text": "For diagnosing and repairing mobile phones software, the learner should be able to: install mobile phone firmware and OS.",
+    "metadata": {
+      "trade": "mobile_phone_repair",
+      "content_type": "performance_criterion",
+      "category": "Diagnosing and Repairing Mobile Phones Software",
+      "unit_reference": "ICT/GRM/2/008",
+      "learning_objective": "Understand Mobile Operating Systems (OS)",
+      "performance_criterion_id": "1.3",
+      "source": "NBTE",
+      "verified": true
+    }
+  },
+  {
+    "id": "nbte-mobilephone-u08-lo1-pc4",
+    "text": "For diagnosing and repairing mobile phones software, the learner should be able to: update mobile phone OS.",
+    "metadata": {
+      "trade": "mobile_phone_repair",
+      "content_type": "performance_criterion",
+      "category": "Diagnosing and Repairing Mobile Phones Software",
+      "unit_reference": "ICT/GRM/2/008",
+      "learning_objective": "Understand Mobile Operating Systems (OS)",
+      "performance_criterion_id": "1.4",
+      "source": "NBTE",
+      "verified": true
+    }
+  },
+  {
+    "id": "nbte-mobilephone-u08-lo2-pc1",
+    "text": "For diagnosing and repairing mobile phones software, the learner should be able to: identify common software issues: operating system crashes, slow performance, application errors and crashes, connectivity issues (Wi-Fi, Bluetooth, GSM network), firmware corruption, security issues (malware, viruses).",
+    "metadata": {
+      "trade": "mobile_phone_repair",
+      "content_type": "performance_criterion",
+      "category": "Diagnosing and Repairing Mobile Phones Software",
+      "unit_reference": "ICT/GRM/2/008",
+      "learning_objective": "Troubleshoot Software Related Problems on Mobile Phones",
+      "performance_criterion_id": "2.1",
+      "source": "NBTE",
+      "verified": true
+    }
+  },
+  {
+    "id": "nbte-mobilephone-u08-lo2-pc2",
+    "text": "For diagnosing and repairing mobile phones software, the learner should be able to: identify the possible causes of the problem.",
+    "metadata": {
+      "trade": "mobile_phone_repair",
+      "content_type": "performance_criterion",
+      "category": "Diagnosing and Repairing Mobile Phones Software",
+      "unit_reference": "ICT/GRM/2/008",
+      "learning_objective": "Troubleshoot Software Related Problems on Mobile Phones",
+      "performance_criterion_id": "2.2",
+      "source": "NBTE",
+      "verified": true
+    }
+  },
+  {
+    "id": "nbte-mobilephone-u08-lo2-pc3",
+    "text": "For diagnosing and repairing mobile phones software, the learner should be able to: use appropriate repair tools to properly identify the root cause of a problem.",
+    "metadata": {
+      "trade": "mobile_phone_repair",
+      "content_type": "performance_criterion",
+      "category": "Diagnosing and Repairing Mobile Phones Software",
+      "unit_reference": "ICT/GRM/2/008",
+      "learning_objective": "Troubleshoot Software Related Problems on Mobile Phones",
+      "performance_criterion_id": "2.3",
+      "source": "NBTE",
+      "verified": true
+    }
+  },
+  {
+    "id": "nbte-mobilephone-u08-lo2-pc4",
+    "text": "For diagnosing and repairing mobile phones software, the learner should be able to: perform data backup whenever necessary.",
+    "metadata": {
+      "trade": "mobile_phone_repair",
+      "content_type": "performance_criterion",
+      "category": "Diagnosing and Repairing Mobile Phones Software",
+      "unit_reference": "ICT/GRM/2/008",
+      "learning_objective": "Troubleshoot Software Related Problems on Mobile Phones",
+      "performance_criterion_id": "2.4",
+      "source": "NBTE",
+      "verified": true
+    }
+  },
+  {
+    "id": "nbte-mobilephone-u08-lo2-pc5",
+    "text": "For diagnosing and repairing mobile phones software, the learner should be able to: perform the repairs.",
+    "metadata": {
+      "trade": "mobile_phone_repair",
+      "content_type": "performance_criterion",
+      "category": "Diagnosing and Repairing Mobile Phones Software",
+      "unit_reference": "ICT/GRM/2/008",
+      "learning_objective": "Troubleshoot Software Related Problems on Mobile Phones",
+      "performance_criterion_id": "2.5",
+      "source": "NBTE",
+      "verified": true
+    }
+  },
+  {
+    "id": "nbte-mobilephone-u08-lo2-pc6",
+    "text": "For diagnosing and repairing mobile phones software, the learner should be able to: perform firmware and OS updates where necessary.",
+    "metadata": {
+      "trade": "mobile_phone_repair",
+      "content_type": "performance_criterion",
+      "category": "Diagnosing and Repairing Mobile Phones Software",
+      "unit_reference": "ICT/GRM/2/008",
+      "learning_objective": "Troubleshoot Software Related Problems on Mobile Phones",
+      "performance_criterion_id": "2.6",
+      "source": "NBTE",
+      "verified": true
+    }
+  },
+  {
+    "id": "nbte-mobilephone-u08-lo2-pc7",
+    "text": "For diagnosing and repairing mobile phones software, the learner should be able to: apply mobile phone-specific software fixes where necessary.",
+    "metadata": {
+      "trade": "mobile_phone_repair",
+      "content_type": "performance_criterion",
+      "category": "Diagnosing and Repairing Mobile Phones Software",
+      "unit_reference": "ICT/GRM/2/008",
+      "learning_objective": "Troubleshoot Software Related Problems on Mobile Phones",
+      "performance_criterion_id": "2.7",
+      "source": "NBTE",
+      "verified": true
+    }
+  },
+  {
+    "id": "nbte-mobilephone-u08-lo2-pc8",
+    "text": "For diagnosing and repairing mobile phones software, the learner should be able to: perform recovery whenever necessary.",
+    "metadata": {
+      "trade": "mobile_phone_repair",
+      "content_type": "performance_criterion",
+      "category": "Diagnosing and Repairing Mobile Phones Software",
+      "unit_reference": "ICT/GRM/2/008",
+      "learning_objective": "Troubleshoot Software Related Problems on Mobile Phones",
+      "performance_criterion_id": "2.8",
+      "source": "NBTE",
+      "verified": true
+    }
+  },
+  {
+    "id": "nbte-mobilephone-u08-lo2-pc9",
+    "text": "For diagnosing and repairing mobile phones software, the learner should be able to: test and verify software repairs.",
+    "metadata": {
+      "trade": "mobile_phone_repair",
+      "content_type": "performance_criterion",
+      "category": "Diagnosing and Repairing Mobile Phones Software",
+      "unit_reference": "ICT/GRM/2/008",
+      "learning_objective": "Troubleshoot Software Related Problems on Mobile Phones",
+      "performance_criterion_id": "2.9",
+      "source": "NBTE",
+      "verified": true
+    }
+  },
+  {
+    "id": "nbte-mobilephone-u08-lo3-pc1",
+    "text": "For diagnosing and repairing mobile phones software, the learner should be able to: identify phone software issues/problems.",
+    "metadata": {
+      "trade": "mobile_phone_repair",
+      "content_type": "performance_criterion",
+      "category": "Diagnosing and Repairing Mobile Phones Software",
+      "unit_reference": "ICT/GRM/2/008",
+      "learning_objective": "Enhance Troubleshooting Skills",
+      "performance_criterion_id": "3.1",
+      "source": "NBTE",
+      "verified": true
+    }
+  },
+  {
+    "id": "nbte-mobilephone-u08-lo3-pc2",
+    "text": "For diagnosing and repairing mobile phones software, the learner should be able to: develop troubleshooting skills.",
+    "metadata": {
+      "trade": "mobile_phone_repair",
+      "content_type": "performance_criterion",
+      "category": "Diagnosing and Repairing Mobile Phones Software",
+      "unit_reference": "ICT/GRM/2/008",
+      "learning_objective": "Enhance Troubleshooting Skills",
+      "performance_criterion_id": "3.2",
+      "source": "NBTE",
+      "verified": true
+    }
+  },
+  {
+    "id": "nbte-mobilephone-u08-lo3-pc3",
+    "text": "For diagnosing and repairing mobile phones software, the learner should be able to: solve phone software related issues.",
+    "metadata": {
+      "trade": "mobile_phone_repair",
+      "content_type": "performance_criterion",
+      "category": "Diagnosing and Repairing Mobile Phones Software",
+      "unit_reference": "ICT/GRM/2/008",
+      "learning_objective": "Enhance Troubleshooting Skills",
+      "performance_criterion_id": "3.3",
+      "source": "NBTE",
+      "verified": true
+    }
+  },
+  {
+    "id": "nbte-mobilephone-u08-lo3-pc4",
+    "text": "For diagnosing and repairing mobile phones software, the learner should be able to: demonstrate to others what the problem is and how to repair it.",
+    "metadata": {
+      "trade": "mobile_phone_repair",
+      "content_type": "performance_criterion",
+      "category": "Diagnosing and Repairing Mobile Phones Software",
+      "unit_reference": "ICT/GRM/2/008",
+      "learning_objective": "Enhance Troubleshooting Skills",
+      "performance_criterion_id": "3.4",
+      "source": "NBTE",
+      "verified": true
+    }
+  },
+  {
+    "id": "nbte-mobilephone-u08-lo4-pc1",
+    "text": "For diagnosing and repairing mobile phones software, the learner should be able to: define backup and recovery.",
+    "metadata": {
+      "trade": "mobile_phone_repair",
+      "content_type": "performance_criterion",
+      "category": "Diagnosing and Repairing Mobile Phones Software",
+      "unit_reference": "ICT/GRM/2/008",
+      "learning_objective": "Know Data Backup and Recovery Procedures",
+      "performance_criterion_id": "4.1",
+      "source": "NBTE",
+      "verified": true
+    }
+  },
+  {
+    "id": "nbte-mobilephone-u08-lo4-pc2",
+    "text": "For diagnosing and repairing mobile phones software, the learner should be able to: explain the importance of regularly backing up user data such as contacts, photos, messages, etc.",
+    "metadata": {
+      "trade": "mobile_phone_repair",
+      "content_type": "performance_criterion",
+      "category": "Diagnosing and Repairing Mobile Phones Software",
+      "unit_reference": "ICT/GRM/2/008",
+      "learning_objective": "Know Data Backup and Recovery Procedures",
+      "performance_criterion_id": "4.2",
+      "source": "NBTE",
+      "verified": true
+    }
+  },
+  {
+    "id": "nbte-mobilephone-u08-lo4-pc3",
+    "text": "For diagnosing and repairing mobile phones software, the learner should be able to: describe the procedures for data backup and recovery.",
+    "metadata": {
+      "trade": "mobile_phone_repair",
+      "content_type": "performance_criterion",
+      "category": "Diagnosing and Repairing Mobile Phones Software",
+      "unit_reference": "ICT/GRM/2/008",
+      "learning_objective": "Know Data Backup and Recovery Procedures",
+      "performance_criterion_id": "4.3",
+      "source": "NBTE",
+      "verified": true
+    }
+  },
+  {
+    "id": "nbte-mobilephone-u08-lo4-pc4",
+    "text": "For diagnosing and repairing mobile phones software, the learner should be able to: identify the data to backup.",
+    "metadata": {
+      "trade": "mobile_phone_repair",
+      "content_type": "performance_criterion",
+      "category": "Diagnosing and Repairing Mobile Phones Software",
+      "unit_reference": "ICT/GRM/2/008",
+      "learning_objective": "Know Data Backup and Recovery Procedures",
+      "performance_criterion_id": "4.4",
+      "source": "NBTE",
+      "verified": true
+    }
+  },
+  {
+    "id": "nbte-mobilephone-u08-lo4-pc5",
+    "text": "For diagnosing and repairing mobile phones software, the learner should be able to: use different backup methods such as cloud storage or local backups.",
+    "metadata": {
+      "trade": "mobile_phone_repair",
+      "content_type": "performance_criterion",
+      "category": "Diagnosing and Repairing Mobile Phones Software",
+      "unit_reference": "ICT/GRM/2/008",
+      "learning_objective": "Know Data Backup and Recovery Procedures",
+      "performance_criterion_id": "4.5",
+      "source": "NBTE",
+      "verified": true
+    }
+  },
+  {
+    "id": "nbte-mobilephone-u08-lo4-pc6",
+    "text": "For diagnosing and repairing mobile phones software, the learner should be able to: perform data recovery.",
+    "metadata": {
+      "trade": "mobile_phone_repair",
+      "content_type": "performance_criterion",
+      "category": "Diagnosing and Repairing Mobile Phones Software",
+      "unit_reference": "ICT/GRM/2/008",
+      "learning_objective": "Know Data Backup and Recovery Procedures",
+      "performance_criterion_id": "4.6",
+      "source": "NBTE",
+      "verified": true
+    }
+  },
+  {
+    "id": "nbte-mobilephone-u09-lo1-pc1",
+    "text": "For data privacy and protection for mobile phones, the learner should be able to: define data privacy.",
+    "metadata": {
+      "trade": "mobile_phone_repair",
+      "content_type": "performance_criterion",
+      "category": "Data Privacy and Protection for Mobile Phones",
+      "unit_reference": "ICT/GRM/2/009",
+      "learning_objective": "Understand Data Privacy and Protection",
+      "performance_criterion_id": "1.1",
+      "source": "NBTE",
+      "verified": true
+    }
+  },
+  {
+    "id": "nbte-mobilephone-u09-lo1-pc2",
+    "text": "For data privacy and protection for mobile phones, the learner should be able to: define data protection.",
+    "metadata": {
+      "trade": "mobile_phone_repair",
+      "content_type": "performance_criterion",
+      "category": "Data Privacy and Protection for Mobile Phones",
+      "unit_reference": "ICT/GRM/2/009",
+      "learning_objective": "Understand Data Privacy and Protection",
+      "performance_criterion_id": "1.2",
+      "source": "NBTE",
+      "verified": true
+    }
+  },
+  {
+    "id": "nbte-mobilephone-u09-lo1-pc3",
+    "text": "For data privacy and protection for mobile phones, the learner should be able to: explain why data privacy and protection for mobile phones is important.",
+    "metadata": {
+      "trade": "mobile_phone_repair",
+      "content_type": "performance_criterion",
+      "category": "Data Privacy and Protection for Mobile Phones",
+      "unit_reference": "ICT/GRM/2/009",
+      "learning_objective": "Understand Data Privacy and Protection",
+      "performance_criterion_id": "1.3",
+      "source": "NBTE",
+      "verified": true
+    }
+  },
+  {
+    "id": "nbte-mobilephone-u09-lo2-pc1",
+    "text": "For data privacy and protection for mobile phones, the learner should be able to: define professional ethics.",
+    "metadata": {
+      "trade": "mobile_phone_repair",
+      "content_type": "performance_criterion",
+      "category": "Data Privacy and Protection for Mobile Phones",
+      "unit_reference": "ICT/GRM/2/009",
+      "learning_objective": "Understand Professional Ethics",
+      "performance_criterion_id": "2.1",
+      "source": "NBTE",
+      "verified": true
+    }
+  },
+  {
+    "id": "nbte-mobilephone-u09-lo2-pc2",
+    "text": "For data privacy and protection for mobile phones, the learner should be able to: identify privacy laws and regulations.",
+    "metadata": {
+      "trade": "mobile_phone_repair",
+      "content_type": "performance_criterion",
+      "category": "Data Privacy and Protection for Mobile Phones",
+      "unit_reference": "ICT/GRM/2/009",
+      "learning_objective": "Understand Professional Ethics",
+      "performance_criterion_id": "2.2",
+      "source": "NBTE",
+      "verified": true
+    }
+  },
+  {
+    "id": "nbte-mobilephone-u09-lo2-pc3",
+    "text": "For data privacy and protection for mobile phones, the learner should be able to: use privacy laws and regulations.",
+    "metadata": {
+      "trade": "mobile_phone_repair",
+      "content_type": "performance_criterion",
+      "category": "Data Privacy and Protection for Mobile Phones",
+      "unit_reference": "ICT/GRM/2/009",
+      "learning_objective": "Understand Professional Ethics",
+      "performance_criterion_id": "2.3",
+      "source": "NBTE",
+      "verified": true
+    }
+  },
+  {
+    "id": "nbte-mobilephone-u09-lo2-pc4",
+    "text": "For data privacy and protection for mobile phones, the learner should be able to: implement accountability practices.",
+    "metadata": {
+      "trade": "mobile_phone_repair",
+      "content_type": "performance_criterion",
+      "category": "Data Privacy and Protection for Mobile Phones",
+      "unit_reference": "ICT/GRM/2/009",
+      "learning_objective": "Understand Professional Ethics",
+      "performance_criterion_id": "2.4",
+      "source": "NBTE",
+      "verified": true
+    }
+  },
+  {
+    "id": "nbte-mobilephone-u09-lo2-pc5",
+    "text": "For data privacy and protection for mobile phones, the learner should be able to: use confidentiality.",
+    "metadata": {
+      "trade": "mobile_phone_repair",
+      "content_type": "performance_criterion",
+      "category": "Data Privacy and Protection for Mobile Phones",
+      "unit_reference": "ICT/GRM/2/009",
+      "learning_objective": "Understand Professional Ethics",
+      "performance_criterion_id": "2.5",
+      "source": "NBTE",
+      "verified": true
+    }
+  },
+  {
+    "id": "nbte-mobilephone-u09-lo2-pc6",
+    "text": "For data privacy and protection for mobile phones, the learner should be able to: demonstrate responsible data usage and ethical practices.",
+    "metadata": {
+      "trade": "mobile_phone_repair",
+      "content_type": "performance_criterion",
+      "category": "Data Privacy and Protection for Mobile Phones",
+      "unit_reference": "ICT/GRM/2/009",
+      "learning_objective": "Understand Professional Ethics",
+      "performance_criterion_id": "2.6",
+      "source": "NBTE",
+      "verified": true
+    }
+  },
+  {
+    "id": "nbte-mobilephone-u09-lo2-pc7",
+    "text": "For data privacy and protection for mobile phones, the learner should be able to: implement compliance with laws and regulations.",
+    "metadata": {
+      "trade": "mobile_phone_repair",
+      "content_type": "performance_criterion",
+      "category": "Data Privacy and Protection for Mobile Phones",
+      "unit_reference": "ICT/GRM/2/009",
+      "learning_objective": "Understand Professional Ethics",
+      "performance_criterion_id": "2.7",
+      "source": "NBTE",
+      "verified": true
+    }
+  },
+  {
+    "id": "nbte-mobilephone-u09-lo2-pc8",
+    "text": "For data privacy and protection for mobile phones, the learner should be able to: implement data retention policies.",
+    "metadata": {
+      "trade": "mobile_phone_repair",
+      "content_type": "performance_criterion",
+      "category": "Data Privacy and Protection for Mobile Phones",
+      "unit_reference": "ICT/GRM/2/009",
+      "learning_objective": "Understand Professional Ethics",
+      "performance_criterion_id": "2.8",
+      "source": "NBTE",
+      "verified": true
+    }
+  },
+  {
+    "id": "nbte-mobilephone-u09-lo3-pc1",
+    "text": "For data privacy and protection for mobile phones, the learner should be able to: define identity theft.",
+    "metadata": {
+      "trade": "mobile_phone_repair",
+      "content_type": "performance_criterion",
+      "category": "Data Privacy and Protection for Mobile Phones",
+      "unit_reference": "ICT/GRM/2/009",
+      "learning_objective": "Safeguard Personal Information",
+      "performance_criterion_id": "3.1",
+      "source": "NBTE",
+      "verified": true
+    }
+  },
+  {
+    "id": "nbte-mobilephone-u09-lo3-pc2",
+    "text": "For data privacy and protection for mobile phones, the learner should be able to: identify personal data to protect.",
+    "metadata": {
+      "trade": "mobile_phone_repair",
+      "content_type": "performance_criterion",
+      "category": "Data Privacy and Protection for Mobile Phones",
+      "unit_reference": "ICT/GRM/2/009",
+      "learning_objective": "Safeguard Personal Information",
+      "performance_criterion_id": "3.2",
+      "source": "NBTE",
+      "verified": true
+    }
+  },
+  {
+    "id": "nbte-mobilephone-u09-lo3-pc3",
+    "text": "For data privacy and protection for mobile phones, the learner should be able to: identify measures to protect personal data.",
+    "metadata": {
+      "trade": "mobile_phone_repair",
+      "content_type": "performance_criterion",
+      "category": "Data Privacy and Protection for Mobile Phones",
+      "unit_reference": "ICT/GRM/2/009",
+      "learning_objective": "Safeguard Personal Information",
+      "performance_criterion_id": "3.3",
+      "source": "NBTE",
+      "verified": true
+    }
+  },
+  {
+    "id": "nbte-mobilephone-u09-lo3-pc4",
+    "text": "For data privacy and protection for mobile phones, the learner should be able to: implement measures to protect personal data.",
+    "metadata": {
+      "trade": "mobile_phone_repair",
+      "content_type": "performance_criterion",
+      "category": "Data Privacy and Protection for Mobile Phones",
+      "unit_reference": "ICT/GRM/2/009",
+      "learning_objective": "Safeguard Personal Information",
+      "performance_criterion_id": "3.4",
+      "source": "NBTE",
+      "verified": true
+    }
+  },
+  {
+    "id": "nbte-mobilephone-u09-lo4-pc1",
+    "text": "For data privacy and protection for mobile phones, the learner should be able to: explain unauthorized access and data breaches.",
+    "metadata": {
+      "trade": "mobile_phone_repair",
+      "content_type": "performance_criterion",
+      "category": "Data Privacy and Protection for Mobile Phones",
+      "unit_reference": "ICT/GRM/2/009",
+      "learning_objective": "Prevent Unauthorized Access and Data Breaches",
+      "performance_criterion_id": "4.1",
+      "source": "NBTE",
+      "verified": true
+    }
+  },
+  {
+    "id": "nbte-mobilephone-u09-lo4-pc2",
+    "text": "For data privacy and protection for mobile phones, the learner should be able to: use encryption and secure authentication techniques.",
+    "metadata": {
+      "trade": "mobile_phone_repair",
+      "content_type": "performance_criterion",
+      "category": "Data Privacy and Protection for Mobile Phones",
+      "unit_reference": "ICT/GRM/2/009",
+      "learning_objective": "Prevent Unauthorized Access and Data Breaches",
+      "performance_criterion_id": "4.2",
+      "source": "NBTE",
+      "verified": true
+    }
+  },
+  {
+    "id": "nbte-mobilephone-u09-lo4-pc3",
+    "text": "For data privacy and protection for mobile phones, the learner should be able to: implement mitigation measures to minimize data breach risks.",
+    "metadata": {
+      "trade": "mobile_phone_repair",
+      "content_type": "performance_criterion",
+      "category": "Data Privacy and Protection for Mobile Phones",
+      "unit_reference": "ICT/GRM/2/009",
+      "learning_objective": "Prevent Unauthorized Access and Data Breaches",
+      "performance_criterion_id": "4.3",
+      "source": "NBTE",
+      "verified": true
+    }
+  },
+  {
+    "id": "nbte-mobilephone-u09-lo5-pc1",
+    "text": "For data privacy and protection for mobile phones, the learner should be able to: identify unauthorized monitoring.",
+    "metadata": {
+      "trade": "mobile_phone_repair",
+      "content_type": "performance_criterion",
+      "category": "Data Privacy and Protection for Mobile Phones",
+      "unit_reference": "ICT/GRM/2/009",
+      "learning_objective": "Prevent Surveillance and Monitoring",
+      "performance_criterion_id": "5.1",
+      "source": "NBTE",
+      "verified": true
+    }
+  },
+  {
+    "id": "nbte-mobilephone-u09-lo5-pc2",
+    "text": "For data privacy and protection for mobile phones, the learner should be able to: identify techniques to prevent unauthorized monitoring.",
+    "metadata": {
+      "trade": "mobile_phone_repair",
+      "content_type": "performance_criterion",
+      "category": "Data Privacy and Protection for Mobile Phones",
+      "unit_reference": "ICT/GRM/2/009",
+      "learning_objective": "Prevent Surveillance and Monitoring",
+      "performance_criterion_id": "5.2",
+      "source": "NBTE",
+      "verified": true
+    }
+  },
+  {
+    "id": "nbte-mobilephone-u09-lo5-pc3",
+    "text": "For data privacy and protection for mobile phones, the learner should be able to: implement measures that will prevent unauthorized monitoring.",
+    "metadata": {
+      "trade": "mobile_phone_repair",
+      "content_type": "performance_criterion",
+      "category": "Data Privacy and Protection for Mobile Phones",
+      "unit_reference": "ICT/GRM/2/009",
+      "learning_objective": "Prevent Surveillance and Monitoring",
+      "performance_criterion_id": "5.3",
+      "source": "NBTE",
+      "verified": true
+    }
+  },
+  {
+    "id": "nbte-mobilephone-u10-lo1-pc1",
+    "text": "For components of a mobile phone, the learner should be able to: identify the key hardware components of a mobile phone such as the motherboard, battery, screen, camera, speakers, antennas, etc.",
+    "metadata": {
+      "trade": "mobile_phone_repair",
+      "content_type": "performance_criterion",
+      "category": "Components of a Mobile Phone",
+      "unit_reference": "ICT/GRM/2/010",
+      "learning_objective": "Understand the Components of a Mobile Phone",
+      "performance_criterion_id": "1.1",
+      "source": "NBTE",
+      "verified": true
+    }
+  },
+  {
+    "id": "nbte-mobilephone-u10-lo1-pc2",
+    "text": "For components of a mobile phone, the learner should be able to: explain the roles of each component and how they contribute to the phone's overall functionality.",
+    "metadata": {
+      "trade": "mobile_phone_repair",
+      "content_type": "performance_criterion",
+      "category": "Components of a Mobile Phone",
+      "unit_reference": "ICT/GRM/2/010",
+      "learning_objective": "Understand the Components of a Mobile Phone",
+      "performance_criterion_id": "1.2",
+      "source": "NBTE",
+      "verified": true
+    }
+  },
+  {
+    "id": "nbte-mobilephone-u10-lo1-pc3",
+    "text": "For components of a mobile phone, the learner should be able to: identify the key software of a mobile phone such as the operating system (OS), firmware, and applications.",
+    "metadata": {
+      "trade": "mobile_phone_repair",
+      "content_type": "performance_criterion",
+      "category": "Components of a Mobile Phone",
+      "unit_reference": "ICT/GRM/2/010",
+      "learning_objective": "Understand the Components of a Mobile Phone",
+      "performance_criterion_id": "1.3",
+      "source": "NBTE",
+      "verified": true
+    }
+  },
+  {
+    "id": "nbte-mobilephone-u10-lo1-pc4",
+    "text": "For components of a mobile phone, the learner should be able to: explain how the hardware and software components interact to perform various tasks like calling, texting, and browsing the internet.",
+    "metadata": {
+      "trade": "mobile_phone_repair",
+      "content_type": "performance_criterion",
+      "category": "Components of a Mobile Phone",
+      "unit_reference": "ICT/GRM/2/010",
+      "learning_objective": "Understand the Components of a Mobile Phone",
+      "performance_criterion_id": "1.4",
+      "source": "NBTE",
+      "verified": true
+    }
+  },
+  {
+    "id": "nbte-mobilephone-u10-lo2-pc1",
+    "text": "For components of a mobile phone, the learner should be able to: identify faulty components.",
+    "metadata": {
+      "trade": "mobile_phone_repair",
+      "content_type": "performance_criterion",
+      "category": "Components of a Mobile Phone",
+      "unit_reference": "ICT/GRM/2/010",
+      "learning_objective": "Know Mobile Phone Repair and Maintenance",
+      "performance_criterion_id": "2.1",
+      "source": "NBTE",
+      "verified": true
+    }
+  },
+  {
+    "id": "nbte-mobilephone-u10-lo2-pc2",
+    "text": "For components of a mobile phone, the learner should be able to: determine necessary repairs or replacements.",
+    "metadata": {
+      "trade": "mobile_phone_repair",
+      "content_type": "performance_criterion",
+      "category": "Components of a Mobile Phone",
+      "unit_reference": "ICT/GRM/2/010",
+      "learning_objective": "Know Mobile Phone Repair and Maintenance",
+      "performance_criterion_id": "2.2",
+      "source": "NBTE",
+      "verified": true
+    }
+  },
+  {
+    "id": "nbte-mobilephone-u10-lo2-pc3",
+    "text": "For components of a mobile phone, the learner should be able to: troubleshoot common problems, such as screen malfunctions, power issues, network problems, and software bugs.",
+    "metadata": {
+      "trade": "mobile_phone_repair",
+      "content_type": "performance_criterion",
+      "category": "Components of a Mobile Phone",
+      "unit_reference": "ICT/GRM/2/010",
+      "learning_objective": "Know Mobile Phone Repair and Maintenance",
+      "performance_criterion_id": "2.3",
+      "source": "NBTE",
+      "verified": true
+    }
+  },
+  {
+    "id": "nbte-mobilephone-u10-lo3-pc1",
+    "text": "For components of a mobile phone, the learner should be able to: disassemble mobile phones.",
+    "metadata": {
+      "trade": "mobile_phone_repair",
+      "content_type": "performance_criterion",
+      "category": "Components of a Mobile Phone",
+      "unit_reference": "ICT/GRM/2/010",
+      "learning_objective": "Assembly and Disassembly of a Mobile Phone",
+      "performance_criterion_id": "3.1",
+      "source": "NBTE",
+      "verified": true
+    }
+  },
+  {
+    "id": "nbte-mobilephone-u10-lo3-pc2",
+    "text": "For components of a mobile phone, the learner should be able to: assemble mobile phones.",
+    "metadata": {
+      "trade": "mobile_phone_repair",
+      "content_type": "performance_criterion",
+      "category": "Components of a Mobile Phone",
+      "unit_reference": "ICT/GRM/2/010",
+      "learning_objective": "Assembly and Disassembly of a Mobile Phone",
+      "performance_criterion_id": "3.2",
+      "source": "NBTE",
+      "verified": true
+    }
+  },
+  {
+    "id": "nbte-mobilephone-u10-lo3-pc3",
+    "text": "For components of a mobile phone, the learner should be able to: use specialized tools required for mobile phone repairs, such as screwdrivers, opening picks, suction cups, and anti-static equipment.",
+    "metadata": {
+      "trade": "mobile_phone_repair",
+      "content_type": "performance_criterion",
+      "category": "Components of a Mobile Phone",
+      "unit_reference": "ICT/GRM/2/010",
+      "learning_objective": "Assembly and Disassembly of a Mobile Phone",
+      "performance_criterion_id": "3.3",
+      "source": "NBTE",
+      "verified": true
+    }
+  },
+  {
+    "id": "synth-charge-001",
+    "text": "Phone only charges with the original charger. A different charger (same phone brand claim, different amperage) shows 'charging' briefly then stops, or doesn't charge at all.",
+    "metadata": {
+      "trade": "mobile_phone_repair",
+      "content_type": "troubleshooting_scenario",
+      "category": "charge",
+      "difficulty": "intermediate",
+      "device_context": "Tecno Spark-class Android phone",
+      "correct_diagnosis": "Charger/cable mismatch — the alternate charger doesn't meet the current/voltage handshake the phone's charging IC expects, often due to a non-original or underpowered charger, not a hardware fault in the phone.",
+      "distractor_causes": [
+        "Battery is faulty",
+        "Charging port is physically damaged",
+        "Software update needed"
+      ],
+      "diagnostic_steps": [
+        "Test with 2-3 different known-good cables/chargers, not just one alternate.",
+        "Check if charging works via a USB port on a laptop (lower current) — if it charges slowly there, port and battery are likely fine.",
+        "Inspect the charging port visually/with a flashlight for debris before assuming electrical fault."
+      ],
+      "fix_summary": "No repair needed if isolated to charger — advise customer on compatible charger; only proceed to port/IC-level diagnosis if original charger also fails intermittently.",
+      "generated_question_example": "A customer says their phone charges fine with the box charger but not with a friend's charger. Do you replace the charging port immediately? Why or why not?",
+      "source": "llm_generated_synthetic",
+      "verified": false
+    }
+  },
+  {
+    "id": "synth-charge-002",
+    "text": "Phone doesn't charge at all with any charger. No response, no charging icon, screen stays off when plugged in.",
+    "metadata": {
+      "trade": "mobile_phone_repair",
+      "content_type": "troubleshooting_scenario",
+      "category": "charge",
+      "difficulty": "beginner",
+      "device_context": "Generic Android smartphone",
+      "correct_diagnosis": "Debris (lint, dust, oxidation) lodged in the charging port blocking pin contact — extremely common and often mistaken for a bigger hardware fault.",
+      "distractor_causes": [
+        "Battery is completely dead and needs replacement",
+        "Motherboard is dead"
+      ],
+      "diagnostic_steps": [
+        "Visually inspect the port with a flashlight and magnification before opening the device.",
+        "Gently clean with a wooden toothpick or anti-static brush, no metal objects.",
+        "Retest with original charger after cleaning before assuming battery or board failure."
+      ],
+      "fix_summary": "Clean the port; retest. Only escalate to battery/board diagnostics if cleaning doesn't resolve it.",
+      "generated_question_example": "Before you conclude a phone's motherboard is dead because it won't charge, what's the first thing you should physically check, and why?",
+      "source": "llm_generated_synthetic",
+      "verified": false
+    }
+  },
+  {
+    "id": "synth-charge-battery-003",
+    "text": "After a previous repair (screen + battery both replaced elsewhere), phone now charges very slowly and overheats near the charging port, but only when the screen is on and in use.",
+    "metadata": {
+      "trade": "mobile_phone_repair",
+      "content_type": "troubleshooting_scenario",
+      "category": "charge",
+      "difficulty": "advanced",
+      "device_context": "Infinix Note-class phone, recently had screen AND battery replaced by another technician",
+      "correct_diagnosis": "Overheating tied specifically to screen-on usage suggests a possible short or poor connection from the screen replacement (e.g. a pinched flex cable near the board), drawing excess current — not the battery itself, even though a battery was also recently replaced and is an easy scapegoat.",
+      "distractor_causes": [
+        "The replacement battery is faulty",
+        "Charging port was damaged during the previous repair"
+      ],
+      "diagnostic_steps": [
+        "Isolate variables: does overheating happen with screen off but phone actively charging? If not, focus on the display assembly/flex routing, not the battery.",
+        "Reopen the device and inspect flex cable routing near the previous screen replacement for pinching or improper seating.",
+        "Only replace the battery again if a load test shows it's degrading independently of the screen-on condition."
+      ],
+      "fix_summary": "Re-seat/re-route the display flex cable; avoid assuming the most recently replaced part (battery) is automatically at fault just because it's newest.",
+      "generated_question_example": "A phone had its screen and battery both replaced elsewhere last week. Now it overheats while charging, but only when the screen is actively on. Which part would you investigate first, and why not the battery?",
+      "source": "llm_generated_synthetic",
+      "verified": false
+    }
+  },
+  {
+    "id": "synth-battery-004",
+    "text": "Phone shows 100% battery, then suddenly shuts off within minutes of unplugging, even though it was 'fully charged'.",
+    "metadata": {
+      "trade": "mobile_phone_repair",
+      "content_type": "troubleshooting_scenario",
+      "category": "battery",
+      "difficulty": "intermediate",
+      "device_context": "Samsung Galaxy A-series",
+      "correct_diagnosis": "Swollen or degraded battery cell — the battery reports voltage that appears high but can't sustain load, a classic sign of internal cell degradation rather than a reporting/software issue alone.",
+      "distractor_causes": [
+        "Charging port fault",
+        "Software battery calibration bug only"
+      ],
+      "diagnostic_steps": [
+        "Physically inspect the battery for swelling (screen lifting slightly at edges is a common tell) before assuming it's purely software.",
+        "Load-test: check voltage drop under active use (camera, screen brightness) vs idle.",
+        "If swelling is present, treat as urgent — safety risk, not just a performance issue."
+      ],
+      "fix_summary": "Replace battery. Flag swollen batteries as a safety issue requiring careful disposal, not just a routine swap.",
+      "generated_question_example": "A phone shows full battery then shuts off almost immediately after unplugging. What physical check should you do before assuming this is a software calibration issue?",
+      "source": "llm_generated_synthetic",
+      "verified": false
+    }
+  },
+  {
+    "id": "synth-lcd-005",
+    "text": "Screen shows a dark patch that slowly spreads over days, like ink spreading under the glass, though the phone still functions and responds to touch.",
+    "metadata": {
+      "trade": "mobile_phone_repair",
+      "content_type": "troubleshooting_scenario",
+      "category": "LCD",
+      "difficulty": "beginner",
+      "device_context": "itel-class budget smartphone",
+      "correct_diagnosis": "Liquid damage to the LCD layer — the spreading dark patch pattern strongly suggests moisture intrusion degrading the display over time, not a static defect or software issue.",
+      "distractor_causes": [
+        "Simple dead pixels",
+        "Software display glitch"
+      ],
+      "diagnostic_steps": [
+        "Ask the customer about any recent water/liquid exposure, even minor (rain, spill, humidity).",
+        "Check for corrosion on the display connector when opening the device.",
+        "Distinguish from dead pixels: dead pixels are static and don't spread; this pattern growing over days points to ongoing liquid damage."
+      ],
+      "fix_summary": "Replace the LCD/display assembly; also check and clean the board for corrosion if liquid damage is confirmed.",
+      "generated_question_example": "A customer's screen has a dark patch that has grown bigger every day for a week. Is this the same issue as a few dead pixels? What would you ask the customer?",
+      "source": "llm_generated_synthetic",
+      "verified": false
+    }
+  },
+  {
+    "id": "synth-touch-006",
+    "text": "Touch is unresponsive only in one corner of the screen, rest of the screen works fine.",
+    "metadata": {
+      "trade": "mobile_phone_repair",
+      "content_type": "troubleshooting_scenario",
+      "category": "touch",
+      "difficulty": "intermediate",
+      "device_context": "Generic Android phone with a screen protector installed",
+      "correct_diagnosis": "Localized touch failure is more consistent with a partial digitizer fault or a lifted/loose flex connector at that specific edge, or even a bubbled/damaged screen protector interfering — not necessarily a full digitizer or board-level failure.",
+      "distractor_causes": [
+        "Entire digitizer needs replacement",
+        "Motherboard touch controller is dead"
+      ],
+      "diagnostic_steps": [
+        "First remove the screen protector entirely and retest — cheap or damaged protectors can cause localized touch issues.",
+        "If issue persists, check if the affected corner correlates with where the display flex connects to the board (common failure zone).",
+        "Only conclude full digitizer replacement is needed after ruling out the protector and connector reseating."
+      ],
+      "fix_summary": "Remove protector and retest first; if unresolved, reseat or replace the display flex connection before replacing the whole screen.",
+      "generated_question_example": "Only one corner of a phone's screen isn't responding to touch. What's the cheapest, fastest thing to check before you quote the customer for a full screen replacement?",
+      "source": "llm_generated_synthetic",
+      "verified": false
+    }
+  },
+  {
+    "id": "synth-sound-007",
+    "text": "Speaker sound is muffled and quiet, especially during calls, but loud enough during music playback through the same speaker.",
+    "metadata": {
+      "trade": "mobile_phone_repair",
+      "content_type": "troubleshooting_scenario",
+      "category": "sound",
+      "difficulty": "beginner",
+      "device_context": "Generic Android phone",
+      "correct_diagnosis": "Dust/debris accumulation in the speaker mesh/grill is a very common and cheap-to-fix cause of muffled sound, distinct from actual speaker hardware failure — the fact that music playback is louder than calls can indicate the earpiece speaker (used in calls) vs the loudspeaker (used for media) are different components, worth distinguishing.",
+      "distractor_causes": [
+        "Speaker component is fully damaged and must be replaced"
+      ],
+      "diagnostic_steps": [
+        "Clarify with the customer: is this the earpiece speaker (calls, held to ear) or the loudspeaker (media, speakerphone) that's affected — they're usually separate components.",
+        "Clean the relevant speaker grill with a soft dry brush before assuming hardware failure.",
+        "Retest with a diagnostic dialer code or app to isolate speaker component tests, if available."
+      ],
+      "fix_summary": "Clean grill first; if still muffled after cleaning, then test/replace the specific speaker component (earpiece vs loudspeaker) identified.",
+      "generated_question_example": "A customer says calls sound muffled but music is fine. Are these likely the same speaker component? What would you clean or test first before quoting a speaker replacement?",
+      "source": "llm_generated_synthetic",
+      "verified": false
+    }
+  },
+  {
+    "id": "synth-mic-008",
+    "text": "Caller can't hear the phone's user during calls, but voice recording (voice memo app) works fine.",
+    "metadata": {
+      "trade": "mobile_phone_repair",
+      "content_type": "troubleshooting_scenario",
+      "category": "mic",
+      "difficulty": "intermediate",
+      "device_context": "Generic Android phone",
+      "correct_diagnosis": "Since the voice memo app works, the microphone hardware itself is functional — the issue is more likely in call-specific audio routing/software or a call-only microphone path (some phones have a secondary mic dedicated to calls/noise cancellation) rather than the primary mic being dead.",
+      "distractor_causes": [
+        "Microphone hardware is completely dead"
+      ],
+      "diagnostic_steps": [
+        "Confirm the distinction: does voice recording via an app work? If yes, don't jump to 'mic hardware needs replacement.'",
+        "Check if this phone has multiple microphones (common on mid/high-end phones for noise cancellation) — a secondary mic fault can affect calls specifically.",
+        "Test with a different calling app (WhatsApp vs native dialer) to rule out software/app-specific bugs before hardware."
+      ],
+      "fix_summary": "Don't replace the primary mic if recording works; investigate secondary mic or software call routing first.",
+      "generated_question_example": "A phone's voice memo recordings sound fine, but callers can't hear the user on phone calls. Does this mean the microphone is faulty? What should you check first?",
+      "source": "llm_generated_synthetic",
+      "verified": false
+    }
+  },
+  {
+    "id": "synth-off-009",
+    "text": "Phone turns off randomly during use, no pattern to when, sometimes works fine for hours, sometimes shuts off within minutes. Charges normally when off.",
+    "metadata": {
+      "trade": "mobile_phone_repair",
+      "content_type": "troubleshooting_scenario",
+      "category": "off",
+      "difficulty": "advanced",
+      "device_context": "Generic Android phone",
+      "correct_diagnosis": "Random unpredictable shutdowns with normal charging behavior often point to a loose/poor board-level connection (e.g. battery connector, power IC solder joint) or a software crash loop, rather than a straightforward battery failure — battery issues are usually more predictable and load-correlated, not fully random.",
+      "distractor_causes": [
+        "Battery needs replacement (most common first guess)",
+        "Faulty power button (stuck contact)"
+      ],
+      "diagnostic_steps": [
+        "Ask about correlation: does it happen more during heavy use (gaming, camera) suggesting heat/power draw, or truly randomly including at idle?",
+        "Reseat the battery connector on the board as a first low-cost step.",
+        "If random even at idle with low load, consider software crash logs (if accessible) before assuming hardware."
+      ],
+      "fix_summary": "Reseat connections first; escalate to board-level diagnosis only if reseating doesn't resolve it, and don't default to battery replacement without ruling out connector/software causes.",
+      "generated_question_example": "A phone shuts off randomly with no clear pattern, but charges fine. A junior tech wants to replace the battery immediately. What would you check first, and why might random (not load-correlated) shutdowns not be a simple battery issue?",
+      "source": "llm_generated_synthetic",
+      "verified": false
+    }
+  },
+  {
+    "id": "synth-flash-010",
+    "text": "Phone shows the brand logo, restarts, shows logo again, in a continuous loop. Doesn't reach the home screen.",
+    "metadata": {
+      "trade": "mobile_phone_repair",
+      "content_type": "troubleshooting_scenario",
+      "category": "flash",
+      "difficulty": "advanced",
+      "device_context": "Generic Android phone stuck in boot loop after a failed OS update",
+      "correct_diagnosis": "A boot loop immediately following a failed/interrupted OS update is a strong signal of corrupted firmware/software, not hardware failure — this is the classic case for reflashing rather than component replacement.",
+      "distractor_causes": [
+        "Hardware failure (board or storage chip is dead)"
+      ],
+      "diagnostic_steps": [
+        "Confirm timeline with customer: did this start right after an update or app install? Strong software signal if yes.",
+        "Attempt boot into recovery/download mode — if the phone responds to button combinations for recovery mode, the hardware/board is very likely fine.",
+        "Only suspect hardware if the phone doesn't respond to recovery mode attempts at all."
+      ],
+      "fix_summary": "Reflash firmware via recovery/download mode tools appropriate to the device; back up data first if at all possible before wiping.",
+      "generated_question_example": "A phone is stuck looping on the boot logo right after a failed software update. Should you open the phone to check hardware first, or try something else? What's your first diagnostic step?",
+      "source": "llm_generated_synthetic",
+      "verified": false
+    }
+  },
+  {
+    "id": "synth-lock-011",
+    "text": "Customer forgot their screen lock PIN and wants it removed/bypassed.",
+    "metadata": {
+      "trade": "mobile_phone_repair",
+      "content_type": "troubleshooting_scenario",
+      "category": "lock",
+      "difficulty": "beginner",
+      "device_context": "Generic Android phone",
+      "correct_diagnosis": "This is a passcode/lock removal request, not a hardware fault. Ethically and often legally, technicians should verify proof of ownership before bypassing any lock screen, to avoid facilitating theft of stolen devices.",
+      "distractor_causes": [],
+      "diagnostic_steps": [
+        "Request proof of ownership (receipt, ID matching device registration, or account recovery info) before attempting bypass.",
+        "Distinguish between owner-forgotten-PIN cases (legitimate) vs unclear-ownership cases (red flag).",
+        "Use manufacturer-supported account recovery methods where possible instead of third-party bypass tools that may violate device security intentionally."
+      ],
+      "fix_summary": "Verify ownership first; use legitimate recovery methods over generic bypass tools where possible.",
+      "generated_question_example": "A customer brings in a phone locked with a PIN they say they forgot and asks you to unlock it. What should you check before doing anything technical?",
+      "source": "llm_generated_synthetic",
+      "verified": false
+    }
+  },
+  {
+    "id": "synth-frp-012",
+    "text": "After a factory reset, phone asks for the previous Google account login (Factory Reset Protection) and the customer doesn't remember the account credentials.",
+    "metadata": {
+      "trade": "mobile_phone_repair",
+      "content_type": "troubleshooting_scenario",
+      "category": "FRP",
+      "difficulty": "intermediate",
+      "device_context": "Generic Android phone, previously factory reset",
+      "correct_diagnosis": "FRP triggers specifically because the device was reset without first removing the Google account — this is expected security behavior, not a fault. Same ownership-verification caution as lock bypass applies, since FRP removal tools are also commonly misused on stolen devices.",
+      "distractor_causes": [],
+      "diagnostic_steps": [
+        "Verify ownership (proof of purchase, matching ID) before attempting any FRP bypass.",
+        "Try legitimate account recovery via Google's own recovery flow first (if the customer has any residual account access, e.g. recovery email/phone).",
+        "Only use bypass tools as a last resort, and be aware some methods can trip additional security flags on certain brands."
+      ],
+      "fix_summary": "Prioritize legitimate account recovery over bypass tools; verify ownership regardless of method used.",
+      "generated_question_example": "A customer's phone is locked by Factory Reset Protection after a reset and they don't remember their Google login. What's the responsible first step before using any bypass tool?",
+      "source": "llm_generated_synthetic",
+      "verified": false
+    }
+  },
+  {
+    "id": "synth-charge-battery-013",
+    "text": "Phone charges fine when the screen is off, but stops charging (or charges very slowly) whenever the screen is on and being used.",
+    "metadata": {
+      "trade": "mobile_phone_repair",
+      "content_type": "troubleshooting_scenario",
+      "category": "charge",
+      "difficulty": "advanced",
+      "device_context": "Generic Android phone",
+      "correct_diagnosis": "This pattern usually means power draw while screen-on exceeds what the charger/port can supply on top of active usage — often normal behavior with a low-wattage charger or cable on a phone with a bright/large screen, not necessarily a fault at all.",
+      "distractor_causes": [
+        "Charging port is damaged",
+        "Battery is faulty"
+      ],
+      "diagnostic_steps": [
+        "Check the charger's wattage rating against the phone's expected fast-charge spec — a mismatch is the most likely and cheapest-to-rule-out explanation.",
+        "Test with a known higher-wattage original-spec charger before assuming any component fault.",
+        "Only investigate port/battery hardware if the issue persists even with a confirmed correctly-rated charger."
+      ],
+      "fix_summary": "Often no repair needed — educate the customer on charger wattage; escalate to hardware diagnosis only if a proper charger still shows the issue.",
+      "generated_question_example": "A phone won't charge while the screen is on and in use, but charges fine with the screen off. Is this necessarily a broken charging port? What would you check first?",
+      "source": "llm_generated_synthetic",
+      "verified": false
+    }
+  },
+  {
+    "id": "synth-touch-lcd-014",
+    "text": "After a screen replacement, display looks fine but touch is unresponsive across the whole screen.",
+    "metadata": {
+      "trade": "mobile_phone_repair",
+      "content_type": "troubleshooting_scenario",
+      "category": "touch",
+      "difficulty": "advanced",
+      "device_context": "Generic Android phone after a screen replacement done elsewhere",
+      "correct_diagnosis": "Full touch failure right after a screen replacement is very often a loose or improperly seated digitizer/display flex connector from the installation itself, not necessarily a defective replacement part — this should be checked before assuming the part is bad.",
+      "distractor_causes": [
+        "The new replacement screen is defective and must be swapped again immediately"
+      ],
+      "diagnostic_steps": [
+        "Reopen and check that all display flex connectors are fully and correctly seated, especially the touch-specific connector if separate from the display connector.",
+        "Check for any pinched or damaged flex cables from the reassembly process.",
+        "Only conclude the replacement part is defective after confirming correct, undamaged connector seating."
+      ],
+      "fix_summary": "Reseat/inspect connectors first; avoid unnecessarily swapping the part again if it's a seating issue.",
+      "generated_question_example": "A screen was just replaced and the display looks perfect, but touch doesn't work at all. Should your first assumption be that the new screen is defective? What would you check before reordering a part?",
+      "source": "llm_generated_synthetic",
+      "verified": false
+    }
+  },
+  {
+    "id": "synth-battery-015",
+    "text": "Phone's back cover appears slightly puffed/lifted at the edges; phone still turns on and functions.",
+    "metadata": {
+      "trade": "mobile_phone_repair",
+      "content_type": "troubleshooting_scenario",
+      "category": "battery",
+      "difficulty": "beginner",
+      "device_context": "Generic Android phone, several years old",
+      "correct_diagnosis": "A puffed back cover on an aging phone is a classic external sign of a swollen battery — this should be treated as a safety priority (fire/chemical risk), not a cosmetic issue, even though the phone still functions normally.",
+      "distractor_causes": [
+        "Cosmetic issue only, not urgent"
+      ],
+      "diagnostic_steps": [
+        "Do not press on the puffed area or attempt to force the back cover flat.",
+        "Advise the customer to stop using/charging the phone until the battery is inspected/replaced.",
+        "Handle and dispose of the swollen battery according to safe battery-handling practice, not as ordinary e-waste."
+      ],
+      "fix_summary": "Treat as urgent safety issue; replace the battery promptly and handle disposal carefully.",
+      "generated_question_example": "A customer says their phone's back cover looks puffed but the phone still works fine, so they're not worried about it. How would you explain the urgency of this to them?",
+      "source": "llm_generated_synthetic",
+      "verified": false
+    }
+  },
+  {
+    "id": "synth-charge-016",
+    "text": "Charging cable feels loose in the port and phone only charges when the cable is held at a specific angle.",
+    "metadata": {
+      "trade": "mobile_phone_repair",
+      "content_type": "troubleshooting_scenario",
+      "category": "charge",
+      "difficulty": "beginner",
+      "device_context": "Generic Android phone",
+      "correct_diagnosis": "Worn or bent charging port pins causing intermittent physical contact — a mechanical port issue, not battery or software.",
+      "distractor_causes": [
+        "Battery is failing",
+        "Software charging bug"
+      ],
+      "diagnostic_steps": [
+        "Physically wiggle-test the cable at different angles while observing the charging indicator.",
+        "Inspect port pins visually for bending or wear compared to a known-good port.",
+        "Rule out cable-side wear by testing the same cable in another device."
+      ],
+      "fix_summary": "Replace the charging port assembly if pins are confirmed bent/worn.",
+      "generated_question_example": "A phone only charges when the cable is held at a certain angle. Is this more likely a battery, software, or mechanical issue? Why?",
+      "source": "llm_generated_synthetic",
+      "verified": false
+    }
+  },
+  {
+    "id": "synth-battery-017",
+    "text": "Battery percentage jumps erratically — e.g. 40% suddenly shows 15%, then back to 35% seconds later.",
+    "metadata": {
+      "trade": "mobile_phone_repair",
+      "content_type": "troubleshooting_scenario",
+      "category": "battery",
+      "difficulty": "intermediate",
+      "device_context": "Generic Android phone",
+      "correct_diagnosis": "Battery cell degradation causing unstable voltage readings, which the phone's battery gauge misreports as erratic percentage jumps — a battery health issue, not a display or port fault.",
+      "distractor_causes": [
+        "Charging port fault",
+        "Screen display glitch unrelated to battery"
+      ],
+      "diagnostic_steps": [
+        "Confirm the jumps happen regardless of charging state (plugged in or not).",
+        "Check battery health via diagnostic dialer codes or a battery health app if available.",
+        "Rule out display issues by cross-checking percentage in two different places (status bar vs settings)."
+      ],
+      "fix_summary": "Replace battery; erratic percentage reporting with a healthy battery would be rare and points to software, but should be checked after hardware is ruled out.",
+      "generated_question_example": "A phone's battery percentage jumps around unpredictably even while just sitting idle. What would you check to confirm this is the battery and not the screen or software?",
+      "source": "llm_generated_synthetic",
+      "verified": false
+    }
+  },
+  {
+    "id": "synth-lcd-018",
+    "text": "Screen displays fine but has a few thin vertical lines of discoloration that appeared right after a drop.",
+    "metadata": {
+      "trade": "mobile_phone_repair",
+      "content_type": "troubleshooting_scenario",
+      "category": "LCD",
+      "difficulty": "intermediate",
+      "device_context": "Generic Android phone, recently dropped",
+      "correct_diagnosis": "Impact damage to the LCD's internal ribbon/connector from the drop, causing physical display artifacts — directly tied to the drop, not software or a coincidental defect.",
+      "distractor_causes": [
+        "Software display driver bug",
+        "Pre-existing manufacturing defect unrelated to the drop"
+      ],
+      "diagnostic_steps": [
+        "Correlate timing precisely: did the lines appear immediately after the drop or gradually before it?",
+        "Rule out software by booting into recovery mode — if lines persist outside the OS, it's hardware.",
+        "Check if lines shift or change when gently flexing the screen edge (indicates loose connector vs panel damage)."
+      ],
+      "fix_summary": "Replace the LCD/display assembly; if lines shift with flexing, try reseating the connector first before replacing.",
+      "generated_question_example": "A customer's screen shows thin colored lines that appeared right after they dropped the phone. How would you confirm this is drop-related hardware damage and not a coincidence?",
+      "source": "llm_generated_synthetic",
+      "verified": false
+    }
+  },
+  {
+    "id": "synth-touch-019",
+    "text": "Touch becomes unresponsive or erratic specifically in humid weather or when the user's hands are wet.",
+    "metadata": {
+      "trade": "mobile_phone_repair",
+      "content_type": "troubleshooting_scenario",
+      "category": "touch",
+      "difficulty": "beginner",
+      "device_context": "Generic Android phone, user has wet/sweaty hands often",
+      "correct_diagnosis": "Capacitive touchscreens are sensitive to moisture on the screen surface or fingers — this is often expected behavior with wet hands, not a hardware fault, unless it happens even with fully dry hands and screen.",
+      "distractor_causes": [
+        "Digitizer needs full replacement"
+      ],
+      "diagnostic_steps": [
+        "Test touch response with the screen and hands completely dry before assuming any fault.",
+        "Ask the customer to describe exactly when it happens — only in rain/humidity, or also indoors when dry.",
+        "If it only occurs with visible moisture present, this may not need repair at all."
+      ],
+      "fix_summary": "Often no repair needed; educate customer on capacitive touchscreen behavior with moisture. Investigate hardware only if issue persists when fully dry.",
+      "generated_question_example": "A customer complains their touchscreen doesn't work well in the rain or with wet hands. Is this necessarily a hardware fault? What would you ask before quoting a digitizer replacement?",
+      "source": "llm_generated_synthetic",
+      "verified": false
+    }
+  },
+  {
+    "id": "synth-sound-020",
+    "text": "Speaker produces a crackling/distorted sound only at high volume; sounds fine at low-medium volume.",
+    "metadata": {
+      "trade": "mobile_phone_repair",
+      "content_type": "troubleshooting_scenario",
+      "category": "sound",
+      "difficulty": "intermediate",
+      "device_context": "Generic Android phone",
+      "correct_diagnosis": "Distortion specifically at high volume, with clean sound at lower volume, often indicates a partially damaged speaker cone or a loose speaker housing rattling — not full speaker failure, and sometimes fixable without full replacement.",
+      "distractor_causes": [
+        "Speaker is completely dead and must be replaced"
+      ],
+      "diagnostic_steps": [
+        "Test across the full volume range to confirm the distortion threshold precisely.",
+        "Check if the speaker housing/frame is loose or if the rattling is from a loose back cover instead of the speaker itself.",
+        "Try reseating the speaker component before ordering a replacement part."
+      ],
+      "fix_summary": "Reseat speaker/check housing first; replace only if distortion persists after confirming secure mounting.",
+      "generated_question_example": "A phone's speaker crackles at high volume but sounds clean otherwise. Does this always mean the speaker is dead? What else could cause this?",
+      "source": "llm_generated_synthetic",
+      "verified": false
+    }
+  },
+  {
+    "id": "synth-mic-021",
+    "text": "Caller says the user's voice sounds muffled/far away during calls.",
+    "metadata": {
+      "trade": "mobile_phone_repair",
+      "content_type": "troubleshooting_scenario",
+      "category": "mic",
+      "difficulty": "beginner",
+      "device_context": "Generic Android phone with a case/cover installed",
+      "correct_diagnosis": "A phone case or screen protector covering or partially blocking the microphone hole is a very common and easily overlooked cause of muffled call audio.",
+      "distractor_causes": [
+        "Microphone hardware is faulty"
+      ],
+      "diagnostic_steps": [
+        "Remove any case/cover and retest a call before any internal diagnosis.",
+        "Visually check the mic hole for blockage from the case design itself, not just debris.",
+        "If muffled audio persists with the case removed, proceed to check for physical debris or hardware fault."
+      ],
+      "fix_summary": "Often no repair needed — remove obstructing case; investigate mic hardware only if issue persists without any case.",
+      "generated_question_example": "A customer says people can't hear them clearly on calls. What's a completely non-technical first check before opening the phone?",
+      "source": "llm_generated_synthetic",
+      "verified": false
+    }
+  },
+  {
+    "id": "synth-off-022",
+    "text": "Phone only shuts off unexpectedly when the battery is below roughly 20-30%, never at higher charge levels.",
+    "metadata": {
+      "trade": "mobile_phone_repair",
+      "content_type": "troubleshooting_scenario",
+      "category": "off",
+      "difficulty": "intermediate",
+      "device_context": "Generic Android phone",
+      "correct_diagnosis": "A battery that can't sustain voltage under load as charge drops is a classic aging-battery symptom — the phone's voltage cutoff is being triggered prematurely because the battery can't maintain sufficient voltage at lower charge percentages, even though it reports a non-zero percentage.",
+      "distractor_causes": [
+        "Random software bug",
+        "Power button is stuck"
+      ],
+      "diagnostic_steps": [
+        "Confirm the pattern precisely: does it always happen below a similar percentage threshold, or truly randomly?",
+        "If threshold-correlated, this points strongly to battery capacity/voltage sag rather than software or button issues.",
+        "Load-test the battery (e.g. camera flash use) at that charge level to see if voltage drops sharply."
+      ],
+      "fix_summary": "Replace the battery; threshold-correlated shutdowns are a strong, specific signal distinct from the fully random shutdown case covered elsewhere.",
+      "generated_question_example": "A phone always shuts off once it drops below about 25% battery, never above that. Is this the same kind of problem as a phone shutting off completely at random? What does the pattern tell you?",
+      "source": "llm_generated_synthetic",
+      "verified": false
+    }
+  },
+  {
+    "id": "synth-flash-023",
+    "text": "After a factory reset done by the customer themselves (not a failed update), phone runs noticeably slower and apps crash more than before.",
+    "metadata": {
+      "trade": "mobile_phone_repair",
+      "content_type": "troubleshooting_scenario",
+      "category": "flash",
+      "difficulty": "intermediate",
+      "device_context": "Generic Android phone",
+      "correct_diagnosis": "Post-reset slowness with crashing is more often caused by a bad/corrupted restore of backed-up apps and data, or a pre-existing storage near-full condition carried over, rather than new hardware failure coinciding suspiciously with the reset.",
+      "distractor_causes": [
+        "Hardware degradation causing slowdown",
+        "Storage chip failing"
+      ],
+      "diagnostic_steps": [
+        "Check available storage space — a reset doesn't help if the backup restore fills storage back up near capacity.",
+        "Ask if the slowness started immediately after restoring apps from backup vs immediately after the reset itself.",
+        "Run a storage health check only after ruling out software/restore causes, since hardware failure coinciding exactly with a user-initiated reset is less likely."
+      ],
+      "fix_summary": "Investigate restored data/storage fullness before assuming new hardware failure; clean reinstall without full backup restore as a test.",
+      "generated_question_example": "A customer resets their own phone to fix slowness, restores their backup, and it's still slow. Should you suspect new hardware failure, or something else first?",
+      "source": "llm_generated_synthetic",
+      "verified": false
+    }
+  },
+  {
+    "id": "synth-charge-024",
+    "text": "Phone charges normally but customer reports it now takes noticeably longer to charge than before a previous charging port repair.",
+    "metadata": {
+      "trade": "mobile_phone_repair",
+      "content_type": "troubleshooting_scenario",
+      "category": "charge",
+      "difficulty": "advanced",
+      "device_context": "Generic Android phone, previously repaired for charging port by another technician",
+      "correct_diagnosis": "A previous charging port repair using a non-original or lower-spec port component can silently disable fast-charging support even though basic charging works — worth checking before assuming battery degradation.",
+      "distractor_causes": [
+        "Battery has degraded coincidentally around the same time"
+      ],
+      "diagnostic_steps": [
+        "Ask what charger/cable is being used and whether it's the same one used before the repair.",
+        "Check if the phone's fast-charge indicator/icon still appears when charging (many phones show this).",
+        "Compare charging speed with a different, confirmed-original-spec port/cable combination if possible before concluding it's the battery."
+      ],
+      "fix_summary": "If fast-charge capability was lost, the replacement port component is likely non-original spec; consider a proper fast-charge-compatible port replacement rather than assuming battery fault.",
+      "generated_question_example": "A phone charges slower than before, after having its charging port replaced elsewhere a month ago. What would you check before quoting a battery replacement?",
+      "source": "llm_generated_synthetic",
+      "verified": false
+    }
+  },
+  {
+    "id": "synth-lock-frp-025",
+    "text": "Customer says they bought the phone secondhand and it's locked with someone else's PIN/account, and they have no proof of purchase.",
+    "metadata": {
+      "trade": "mobile_phone_repair",
+      "content_type": "troubleshooting_scenario",
+      "category": "lock",
+      "difficulty": "intermediate",
+      "device_context": "Generic Android phone",
+      "correct_diagnosis": "This scenario carries a real risk the device may be stolen or improperly resold while still tied to the original owner — this is fundamentally different from the earlier 'forgot own PIN' case and should be handled with more caution, not treated as a routine unlock job.",
+      "distractor_causes": [],
+      "diagnostic_steps": [
+        "Distinguish this clearly from a simple forgotten-PIN case: no proof of purchase plus secondhand origin is a higher-risk combination.",
+        "Ask for any documentation of the secondhand sale (receipt, messages with seller, IMEI check against loss/theft databases if accessible).",
+        "Consider declining the bypass request if ownership can't be reasonably established, even if the customer seems genuine."
+      ],
+      "fix_summary": "Treat with more scrutiny than a standard forgotten-PIN job; document your reasoning if you proceed or decline.",
+      "generated_question_example": "A customer wants a secondhand phone unlocked but has no proof of purchase and doesn't know the previous owner. How is this different from someone forgetting their own phone's PIN, and how should you handle it?",
+      "source": "llm_generated_synthetic",
+      "verified": false
+    }
+  }
+]

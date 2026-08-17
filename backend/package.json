@@ -1,0 +1,29 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "backend application for verivo",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/atosin056/verivoBackend.git"
+  },
+  "author": "Tosin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/atosin056/verivoBackend/issues"
+  },
+  "homepage": "https://github.com/atosin056/verivoBackend#readme",
+  "dependencies": {
+    "@google/genai": "^2.17.1",
+    "@pinecone-database/pinecone": "^8.2.0",
+    "axios": "^1.19.0",
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "lucide-react": "^1.28.0",
+    "mysql2": "^3.23.2"
+  }
+}
