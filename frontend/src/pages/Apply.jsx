@@ -122,7 +122,8 @@ export default function Apply() {
       console.log(`${baseUrl}/creatuser`);
       const response = await axios.post(`${baseUrl}/api/createuser`, payload);
       if (response.status === 200) {
-        navigate("/auth/login");
+        localStorage.setItem("token", response.data.token);
+        navigate("/app");
       }
     } catch (err) {
       console.log(err);

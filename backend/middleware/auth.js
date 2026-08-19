@@ -1,0 +1,25 @@
+import jwt from "jsonwebtoken";
+
+const requireAuth = (req, res, next) => {
+  const authHeader = req.headers.authorization;
+
+  if (!authHeader) {
+    return res
+      .status(403)
+      .json({ success: false, message: "no token provided" });
+  }
+
+  const token = authHeader.split(" ")[1];
+
+  try {
+    const decoded = jwt.verify(token, process.env.JWT_SECRET);
+    req.userId = decoded.userId;
+    next();
+  } catch (err) {
+    return res
+      .status(401)
+      .json({ success: false, message: "invalid or expired token" });
+  }
+};
+
+export default requireAuth;
