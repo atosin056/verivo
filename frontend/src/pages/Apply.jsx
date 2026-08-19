@@ -19,7 +19,6 @@ import LanguageSelect from "../components/LanguageSelect.jsx";
 import ReferenceList from "../components/Referencelist.jsx";
 import BankVerify from "../components/BankVerify.jsx";
 import VoicePrintCard from "../components/Voiceprintcard.jsx";
-
 const STEPS = [
   { label: "Who you are", subSteps: 3 },
   { label: "Your story", subSteps: 4 },
@@ -84,6 +83,7 @@ export default function Apply() {
   const [formData, setFormData] = useState(getInitialFormData);
   const [submitting, setSubmitting] = useState(false);
   const [submitError, setSubmitError] = useState("");
+  const baseUrl = import.meta.env.VITE_BASE_URL;
 
   // Auto-save on every formData change so a refresh mid-application
   // doesn't lose progress. This is what the topbar's "Auto-saved · just
@@ -115,6 +115,18 @@ export default function Apply() {
   const handleSubmit = async () => {
     setSubmitError("");
     setSubmitting(true);
+
+    //Make request to backend to create the user
+    const payload = formData;
+    try {
+      console.log(`${baseUrl}/creatuser`);
+      const response = await axios.post(`${baseUrl}/api/createuser`, payload);
+      if (response.status === 200) {
+        navigate("/auth/login");
+      }
+    } catch (err) {
+      console.log(err);
+    }
 
     console.log(formData);
   };
