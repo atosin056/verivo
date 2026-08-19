@@ -6,7 +6,7 @@ const insertTools = async (userId, tools) => {
     //Map the userId to each tool and get the newly formatted array
     const values = tools.map((tool) => [userId, tool]);
 
-    await db.execute("INSERT INTO userTools (userId, tool) VALUES ?", [values]);
+    await db.query("INSERT INTO userTools (userId, tool) VALUES ?", [values]);
   }
   return;
 };
@@ -27,7 +27,7 @@ const insertReferences = async (userId, references) => {
     ref.howTheyKnowYou.trim() || null,
   ]);
 
-  await db.execute(
+  await db.query(
     "INSERT INTO userReferences (userId, name, phone, howTheyKnowYou) VALUES ?",
     [values],
   );
@@ -56,7 +56,7 @@ const insertWorkplaces = async (userId, workplaces) => {
     workplace.yearTo || null,
   ]);
 
-  await db.execute(
+  await db.query(
     "INSERT INTO workplaces (userId, place, role, yearFrom, yearTo) VALUES ?",
     [values],
   );
@@ -75,7 +75,7 @@ const insertSubSpecialties = async (userId, subSpecialties) => {
   const values = sanitizedData.map((subSpecialty) => [userId, subSpecialty]);
 
   //Insert Batch
-  await db.execute(
+  await db.query(
     "INSERT INTO usersSubSpecialties (userId, subSpecialty) VALUES ?",
     [values],
   );
@@ -102,8 +102,8 @@ const createUserService = async ({
   tools, // array → user_tools
   references, // array → user_references
 }) => {
-  const [result] = await db.execute(
-    "INSERT INTO users (name, role, phone, trade, nickname, city, marketarea, yearsetup, mastersname, yearlearned, language, pitch, proudjobstory, diffictultcustomerstory) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)",
+  const [result] = await db.query(
+    "INSERT INTO users (name, role, phone, trade, nickname, city, marketarea, yearsetup, mastersname, yearlearned, language, pitch, proudjobstory, difficultcustomerstory) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)",
     [
       fullName,
       role,
@@ -122,14 +122,13 @@ const createUserService = async ({
     ],
   );
   const userId = result.insertId;
-  await db.execute(
-    Promise.all(
-      insertTools(userId, tools),
-      insertReferences(userId, references),
-      insertWorkplaces(userId, workplaces),
-      insertSubSpecialties(userId, subSpecialties),
-    ),
-  );
+
+  await Promise.all([
+    insertTools(userId, tools),
+    insertReferences(userId, references),
+    insertWorkplaces(userId, workplaces),
+    insertSubSpecialties(userId, subSpecialties),
+  ]);
 
   return userId;
 };
