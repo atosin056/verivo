@@ -8,6 +8,7 @@ import { Link, useNavigate } from "react-router-dom";
 import Primaryactionbtn from "../components/Primaryactionbtn.jsx";
 import OtpInput from "../components/Otpinput.jsx";
 import OtpToast from "../components/OtpToast.jsx";
+import api from "../api.js";
 import { useState } from "react";
 export default function Login() {
   const navigate = useNavigate();
@@ -94,7 +95,8 @@ export default function Login() {
           otp: code,
           purpose: "login",
         };
-        await axios.post("http://localhost:3000/otp/verify", payload);
+        const response = await api.post("/otp/verify", payload);
+        localStorage.setItem("token", response.data.token);
         setVerified(true);
         setVerifying(false);
         navigate("/app");

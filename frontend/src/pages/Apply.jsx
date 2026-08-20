@@ -19,6 +19,7 @@ import LanguageSelect from "../components/LanguageSelect.jsx";
 import ReferenceList from "../components/Referencelist.jsx";
 import BankVerify from "../components/BankVerify.jsx";
 import VoicePrintCard from "../components/Voiceprintcard.jsx";
+import api from "../api.js";
 const STEPS = [
   { label: "Who you are", subSteps: 3 },
   { label: "Your story", subSteps: 4 },
@@ -120,7 +121,7 @@ export default function Apply() {
     const payload = formData;
     try {
       console.log(`${baseUrl}/creatuser`);
-      const response = await axios.post(`${baseUrl}/api/createuser`, payload);
+      const response = await api.post("/api/createuser", payload);
       if (response.status === 200) {
         localStorage.setItem("token", response.data.token);
         navigate("/app");

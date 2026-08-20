@@ -5,10 +5,31 @@ import WalletCard from "../components/Walletcard.jsx";
 import StatCard from "../components/StatCard.jsx";
 import useBreakpoint from "../hooks/useBreakpoint.js";
 import { useNavigate } from "react-router-dom";
+import api from "../api.js";
+import { useEffect } from "react";
+import { useState } from "react";
 
 export default function Dashboard() {
   const navigate = useNavigate();
   const { isTablet, isMobile } = useBreakpoint();
+  const [userData, setUserData] = useState({});
+
+  useEffect(() => {
+    async function getUserData() {
+      const token = localStorage.getItem("token");
+      if (!token) {
+        return (window.location.href = "/auth/login");
+      }
+      try {
+        const response = await api.get("/api/me");
+        setUserData(response.data.userInfo);
+        console.log(response.data);
+      } catch (err) {
+        console.log(err.message);
+      }
+    }
+    getUserData();
+  }, []);
 
   return (
     <AppShell>

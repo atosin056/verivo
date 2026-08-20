@@ -11,6 +11,8 @@ import {
   calculateIseScore,
   transcribe,
 } from "./controllers/diagnostic.js";
+import requireAuth from "./middleware/auth.js";
+import { getMe } from "./controllers/fetchuser.js";
 
 const app = express();
 const PORT = process.env.PORT;
@@ -26,6 +28,7 @@ app.post("/api/uploadchunks", uploadtopinecone);
 app.post("/api/generateqa", generateQa);
 app.post("/api/calculatescore", calculateIseScore);
 app.post("/api/transcribe", transcribe);
+app.get("/api/me", requireAuth, getMe);
 
 app.listen(PORT, () => {
   console.log(`🚀 Server running on port ${PORT}`);

@@ -1,9 +1,25 @@
+import db from "../db/connection.js";
+import jwt from "jsonwebtoken";
+import * as otpService from "../services/otp.service.js";
+
+export const generateOtp = async (req, res) => {
+  const { phone, purpose } = req.body;
+  try {
+    const otp = await otpService.generateOtp(phone, purpose);
+    res.status(200).json({ success: true, otp: otp });
+  } catch (err) {
+    res.status(500).json({
+      success: false,
+      message: err.message,
+    });
+  }
+};
+
 export const verifyOtp = async (req, res) => {
   const { phone, otp, purpose } = req.body;
   try {
     await otpService.verifyOtp(phone, otp, purpose);
 
-    // only issue a token if this OTP was for logging in
     if (purpose === "login") {
       const [rows] = await db.query("SELECT id FROM users WHERE phone = ?", [
         phone,
@@ -30,7 +46,6 @@ export const verifyOtp = async (req, res) => {
       });
     }
 
-    // any other purpose (e.g. registration) — just confirm OTP was correct, no token yet
     return res.status(200).json({
       success: true,
       message: "OTP verified successfully",

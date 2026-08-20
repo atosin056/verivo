@@ -20,7 +20,8 @@ export const generateOtp = async (phone, purpose) => {
 
 export const verifyOtp = async (phone, otp, purpose) => {
   try {
-    const [checkOtp] = await db.execute(
+    console.log("Checking:", { phone, otp, purpose });
+    const [checkOtp] = await db.query(
       `SELECT * FROM otp
        WHERE phone = ?
        AND otp_hash = ?
