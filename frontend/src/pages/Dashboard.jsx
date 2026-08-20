@@ -1,40 +1,21 @@
-import AppShell from "../components/AppShell.jsx";
 import TodayHero from "../components/Todayhero.jsx";
 import IseScoreCard from "../components/Isescorecard.jsx";
 import WalletCard from "../components/Walletcard.jsx";
 import StatCard from "../components/StatCard.jsx";
 import useBreakpoint from "../hooks/useBreakpoint.js";
 import { useNavigate } from "react-router-dom";
-import api from "../api.js";
-import { useEffect } from "react";
-import { useState } from "react";
+import AppShell from "../components/AppShell.jsx";
+import { useUserData } from "../UserDataContext.js";
 
 export default function Dashboard() {
   const navigate = useNavigate();
+  const userData = useUserData();
   const { isTablet, isMobile } = useBreakpoint();
-  const [userData, setUserData] = useState({});
-
-  useEffect(() => {
-    async function getUserData() {
-      const token = localStorage.getItem("token");
-      if (!token) {
-        return (window.location.href = "/auth/login");
-      }
-      try {
-        const response = await api.get("/api/me");
-        setUserData(response.data.userInfo);
-        console.log(response.data);
-      } catch (err) {
-        console.log(err.message);
-      }
-    }
-    getUserData();
-  }, []);
 
   return (
     <AppShell>
       <TodayHero
-        name="Oluwatosin"
+        name={userData.user.name}
         iseScore={0}
         jobsCompleted={0}
         emphasis="No new matches yet"
@@ -50,7 +31,6 @@ export default function Dashboard() {
           gap: "20px",
         }}
       >
-        {/* score + wallet: side by side on desktop, stacked on tablet/mobile */}
         <div
           style={{
             display: "flex",
@@ -82,7 +62,6 @@ export default function Dashboard() {
           </div>
         </div>
 
-        {/* stat cards: 4 across desktop -> 2 across tablet -> 1 across mobile */}
         <div
           style={{
             display: "grid",

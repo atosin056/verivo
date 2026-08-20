@@ -12,7 +12,7 @@ import Disputes from "./pages/Disputes";
 import "./App.css";
 import Diagnostic from "./pages/Diagnostic";
 import Apply from "./pages/Apply";
-import { Apple } from "lucide-react";
+import ProtectedLayout from "./components/ProtectedLayout.jsx";
 
 export default function App() {
   return (
@@ -20,13 +20,17 @@ export default function App() {
       <Route path="/" element={<Homepage />} />
       <Route path="/auth/login" element={<Login />} />
       <Route path="/auth" element={<Register />} />
-      <Route path="/app" element={<Dashboard />} />
-      <Route path="/app/offers" element={<Offers />} />
-      <Route path="/app/jobs" element={<Jobs />} />
-      <Route path="/app/wallet" element={<Wallet />} />
-      <Route path="/app/profile" element={<Profile />} />
-      <Route path="/app/disputes" element={<Disputes />} />
-      <Route path="/app/diagnostic" element={<Diagnostic />} />
+
+      <Route element={<ProtectedLayout />}>
+        <Route path="/app" element={<Dashboard />} />
+        <Route path="/app/offers" element={<Offers />} />
+        <Route path="/app/jobs" element={<Jobs />} />
+        <Route path="/app/wallet" element={<Wallet />} />
+        <Route path="/app/profile" element={<Profile />} />
+        <Route path="/app/disputes" element={<Disputes />} />
+        <Route path="/app/diagnostic" element={<Diagnostic />} />
+      </Route>
+
       <Route path="/apply" element={<Apply />} />
     </Routes>
   );

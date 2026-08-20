@@ -3,6 +3,7 @@ import { useNavigate, useLocation } from "react-router-dom";
 import Animate from "../components/Animate.jsx";
 import logo from "../assets/logo.png";
 import useBreakpoint from "../hooks/useBreakpoint.js";
+import { useUserData } from "../UserDataContext.js";
 import {
   Home,
   HandCoins,
@@ -169,7 +170,7 @@ function ProfileCard({ name, role, score }) {
   );
 }
 
-function SidebarContent({ activeKey, handleNavigate }) {
+function SidebarContent({ activeKey, handleNavigate, userData }) {
   return (
     <>
       {/* Logo */}
@@ -198,7 +199,11 @@ function SidebarContent({ activeKey, handleNavigate }) {
       />
 
       {/* Profile card */}
-      <ProfileCard name="Oluwatosin Akinfenwa" role="Phone Repair" score={0} />
+      <ProfileCard
+        name={userData.user.name}
+        role={userData.user.trade}
+        score={userData.iseScore ?? 0}
+      />
 
       <div style={{ height: "18px" }} />
 
@@ -215,7 +220,6 @@ function SidebarContent({ activeKey, handleNavigate }) {
         ))}
       </nav>
 
-      {/* Spacer pushes bottom links down */}
       <div style={{ flex: 1 }} />
 
       <div style={{ display: "flex", flexDirection: "column", gap: "4px" }}>
@@ -243,18 +247,17 @@ export default function Sidebar({ active, onNavigate }) {
   const location = useLocation();
   const { isTablet } = useBreakpoint();
   const [drawerOpen, setDrawerOpen] = useState(false);
+  const userData = useUserData();
 
-  // Falls back to the route if the parent doesn't explicitly pass `active`
-  const path = location.pathname.replace(/^\/app\/?/, ""); // strips leading "/app" or "/app/"
+  const path = location.pathname.replace(/^\/app\/?/, "");
   const activeKey = active ?? (path || "today");
   const handleNavigate =
     onNavigate ??
     ((key) => {
       navigate(key === "today" ? "/app" : `/app/${key}`);
-      setDrawerOpen(false); // close the drawer after picking a page on mobile
+      setDrawerOpen(false);
     });
 
-  // ---- Desktop / tablet-and-up: same fixed sidebar as before ----
   if (!isTablet) {
     return (
       <div
@@ -272,12 +275,15 @@ export default function Sidebar({ active, onNavigate }) {
           boxSizing: "border-box",
         }}
       >
-        <SidebarContent activeKey={activeKey} handleNavigate={handleNavigate} />
+        <SidebarContent
+          activeKey={activeKey}
+          handleNavigate={handleNavigate}
+          userData={userData}
+        />
       </div>
     );
   }
 
-  // ---- Mobile / tablet: collapsed top bar + slide-in drawer ----
   return (
     <>
       <div
@@ -317,7 +323,6 @@ export default function Sidebar({ active, onNavigate }) {
 
       {drawerOpen && (
         <>
-          {/* backdrop */}
           <div
             onClick={() => setDrawerOpen(false)}
             style={{
@@ -327,7 +332,6 @@ export default function Sidebar({ active, onNavigate }) {
               zIndex: 40,
             }}
           />
-          {/* drawer panel */}
           <div
             style={{
               position: "fixed",
@@ -369,6 +373,7 @@ export default function Sidebar({ active, onNavigate }) {
             <SidebarContent
               activeKey={activeKey}
               handleNavigate={handleNavigate}
+              userData={userData}
             />
           </div>
         </>
