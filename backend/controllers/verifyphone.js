@@ -13,10 +13,20 @@ const verifyphone = async (req, res) => {
     ]);
 
     if (rows.length === 0) {
-      return res.status(404).json({
-        success: false,
-        message: "No account found with this number.",
-      });
+      const [second] = await db.query(
+        "SELECT * FROM employers WHERE phone = ?",
+        [phone],
+      );
+      if (second.length === 0) {
+        return res.status(404).json({
+          success: false,
+          message: "No account found with this number.",
+        });
+      } else {
+        return res.status(200).json({
+          success: true,
+        });
+      }
     }
 
     return res.status(200).json({

@@ -21,28 +21,52 @@ export const verifyOtp = async (req, res) => {
     await otpService.verifyOtp(phone, otp, purpose);
 
     if (purpose === "login") {
-      const [rows] = await db.query("SELECT id FROM users WHERE phone = ?", [
+      const [users] = await db.query("SELECT id FROM users WHERE phone = ?", [
         phone,
       ]);
 
-      if (rows.length === 0) {
+      if (users.length > 0) {
+        const userId = users[0].id;
+        const token = jwt.sign(
+          { userId, accountType: "worker" },
+          process.env.JWT_SECRET,
+          { expiresIn: "7d" },
+        );
+
+        return res.status(200).json({
+          success: true,
+          message: "OTP verified successfully",
+          token,
+          userId,
+          accountType: "worker",
+        });
+      }
+
+      const [employers] = await db.query(
+        "SELECT id FROM employers WHERE phone = ?",
+        [phone],
+      );
+
+      if (employers.length === 0) {
         return res.status(404).json({
           success: false,
           message: "No account found with this number.",
         });
       }
 
-      const userId = rows[0].id;
-
-      const token = jwt.sign({ userId }, process.env.JWT_SECRET, {
-        expiresIn: "7d",
-      });
+      const employerId = employers[0].id;
+      const token = jwt.sign(
+        { employerId, accountType: "employer" },
+        process.env.JWT_SECRET,
+        { expiresIn: "7d" },
+      );
 
       return res.status(200).json({
         success: true,
         message: "OTP verified successfully",
         token,
-        userId,
+        employerId,
+        accountType: "employer",
       });
     }
 

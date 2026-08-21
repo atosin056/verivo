@@ -43,10 +43,10 @@ export default function AuthIntro({ eyebrow, children, description }) {
       {description && (
         <p
           style={{
-            fontFamily: "Poppins",
-            fontSize: "17px",
+            fontFamily: "Instrument Sans",
+            fontSize: "14px",
             color: "#2a2521",
-            lineHeight: "27px",
+            lineHeight: "22px",
           }}
         >
           {description}

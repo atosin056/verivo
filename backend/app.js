@@ -11,6 +11,7 @@ import {
   calculateIseScore,
   transcribe,
 } from "./controllers/diagnostic.js";
+import { createemployer } from "./controllers/createemployer.js";
 import requireAuth from "./middleware/auth.js";
 import { getMe } from "./controllers/fetchuser.js";
 
@@ -29,6 +30,7 @@ app.post("/api/generateqa", generateQa);
 app.post("/api/calculatescore", calculateIseScore);
 app.post("/api/transcribe", transcribe);
 app.get("/api/me", requireAuth, getMe);
+app.post("/api/createemployer", createemployer);
 
 app.listen(PORT, () => {
   console.log(`🚀 Server running on port ${PORT}`);

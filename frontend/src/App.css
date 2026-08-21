@@ -492,9 +492,9 @@ a {
   margin: 0 auto;
   display: flex;
   flex-direction: column;
-  justify-content: center; /* not center — center is what breaks on overflow */
+  justify-content: flex-start; /* was center — center breaks scroll+overflow */
   height: 100%;
-  min-height: 0; /* critical: lets overflow-y:auto actually work */
+  min-height: 0;
   overflow-y: auto;
   padding-inline: 0;
   box-sizing: border-box;

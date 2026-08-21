@@ -85,9 +85,9 @@ export default function RoleToggle({
                 background: isActive ? "#f4efe6" : "transparent",
                 color: isActive || isHovered ? "#14110f" : "#6b6055",
                 fontFamily: "'Poppins', sans-serif",
-                fontSize: "14.5px",
+                fontSize: "12.5px",
                 fontWeight: 500,
-                padding: "1rem 20px",
+                padding: "0.8rem 20px",
 
                 borderRadius: "1rem",
                 outline: "none",

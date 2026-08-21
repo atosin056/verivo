@@ -13,7 +13,8 @@ import "./App.css";
 import Diagnostic from "./pages/Diagnostic";
 import Apply from "./pages/Apply";
 import ProtectedLayout from "./components/ProtectedLayout.jsx";
-
+import ProtectedEmployerLayout from "./components/ProtectedEmployerLayout.jsx";
+import EmployerDashboard from "./pages/EmployerDashboard.jsx";
 export default function App() {
   return (
     <Routes>
@@ -30,7 +31,10 @@ export default function App() {
         <Route path="/app/disputes" element={<Disputes />} />
         <Route path="/app/diagnostic" element={<Diagnostic />} />
       </Route>
-
+      <Route element={<ProtectedEmployerLayout />}>
+        <Route path="/employer" element={<EmployerDashboard />} />
+        {/* etc */}
+      </Route>
       <Route path="/apply" element={<Apply />} />
     </Routes>
   );

@@ -99,7 +99,12 @@ export default function Login() {
         localStorage.setItem("token", response.data.token);
         setVerified(true);
         setVerifying(false);
-        navigate("/app");
+
+        if (response.data.accountType === "employer") {
+          navigate("/employer");
+        } else {
+          navigate("/app");
+        }
       } catch (err) {
         console.log(err.message);
         setVerified(false);

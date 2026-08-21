@@ -14,6 +14,7 @@ import PrimaryActionButton from "../components/PrimaryActionBtn";
 import TrustBadge from "../components/TrustBadge";
 import OtpInput from "../components/Otpinput";
 import OtpToast from "../components/OtpToast";
+import api from "../api.js";
 export default function Register() {
   const navigate = useNavigate();
   const [hover, setHover] = useState(false);
@@ -62,7 +63,7 @@ export default function Register() {
       setContinueError("Enter your phone number.");
       return;
     }
-    if (!formData.trade) {
+    if (!formData.trade && role !== "employer") {
       setContinueError("Pick a trade.");
       return;
     }
@@ -117,8 +118,23 @@ export default function Register() {
           }),
         );
 
-        navigate("/apply");
-
+        if (role === "worker") {
+          navigate("/apply");
+        }
+        //create the employer
+        if (role === "employer") {
+          const payload = {
+            fullName: formData.name.trim(),
+            phone: formData.phone.trim(),
+            role: formData.role,
+            trade: formData.trade,
+          };
+          const response = await api.post("/api/createemployer", payload);
+          if (response.status === 200) {
+            localStorage.setItem("token", response.data.token);
+            navigate("/employer");
+          }
+        }
         //setRegStep(1);
       } catch (err) {
         console.log(err.message);
@@ -241,12 +257,17 @@ export default function Register() {
                           onChange={(e) => updateField("phone", e.target.value)}
                         />
                       </div>
-                      <div>
-                        <TradeSelect
-                          value={formData.trade}
-                          onChange={(key) => updateField("trade", key)}
-                        />
-                      </div>
+                      {role === "employer" ? (
+                        ""
+                      ) : (
+                        <div>
+                          <TradeSelect
+                            value={formData.trade}
+                            onChange={(key) => updateField("trade", key)}
+                          />
+                        </div>
+                      )}
+
                       <div>
                         <AgreementCheckbox
                           checked={formData.agreed}
@@ -436,7 +457,7 @@ export default function Register() {
                 </div>
               ) : (
                 <>
-                  <div style={{ paddingTop: "100px" }}>
+                  <div>
                     <Link to="/">
                       <Animate
                         delay={0.05}

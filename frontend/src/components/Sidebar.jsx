@@ -29,15 +29,24 @@ const tokens = {
   gold: "#B08D57",
 };
 
-const navItems = [
-  { key: "today", label: "Today", icon: Home },
-  { key: "offers", label: "Offers", icon: HandCoins },
-  { key: "jobs", label: "Jobs", icon: Briefcase },
-  { key: "wallet", label: "Wallet", icon: CreditCard },
-  { key: "ise-score", label: "Işẹ́ Score", icon: PieChart },
-  { key: "disputes", label: "Disputes", icon: Gavel },
-  { key: "profile", label: "Profile", icon: User },
-];
+const navItemsByType = {
+  freelancer: [
+    { key: "today", label: "Today", icon: Home },
+    { key: "offers", label: "Offers", icon: HandCoins },
+    { key: "jobs", label: "Jobs", icon: Briefcase },
+    { key: "wallet", label: "Wallet", icon: CreditCard },
+    { key: "ise-score", label: "Işẹ́ Score", icon: PieChart },
+    { key: "disputes", label: "Disputes", icon: Gavel },
+    { key: "profile", label: "Profile", icon: User },
+  ],
+  employer: [
+    { key: "today", label: "Today", icon: Home },
+    { key: "post-job", label: "Post a job", icon: Briefcase },
+    { key: "applicants", label: "Applicants", icon: User },
+    { key: "wallet", label: "Wallet", icon: CreditCard },
+    { key: "disputes", label: "Disputes", icon: Gavel },
+  ],
+};
 
 function SidebarLink({ label, icon: Icon, active, onClick, muted = false }) {
   const [hovered, setHovered] = useState(false);
@@ -85,6 +94,7 @@ function ProfileCard({ name, role, score }) {
     .slice(0, 2)
     .join("")
     .toUpperCase();
+  const hasScore = score !== undefined && score !== null;
 
   return (
     <div
@@ -143,34 +153,39 @@ function ProfileCard({ name, role, score }) {
         </div>
       </div>
 
-      <div style={{ textAlign: "center", flexShrink: 0 }}>
-        <div
-          style={{
-            fontFamily: "'Fraunces', monospace",
-            fontSize: "20px",
-            fontWeight: 400,
-            color: tokens.ink,
-            lineHeight: 1,
-          }}
-        >
-          {score}
+      {hasScore && (
+        <div style={{ textAlign: "center", flexShrink: 0 }}>
+          <div
+            style={{
+              fontFamily: "'Fraunces', monospace",
+              fontSize: "20px",
+              fontWeight: 400,
+              color: tokens.ink,
+              lineHeight: 1,
+            }}
+          >
+            {score}
+          </div>
+          <div
+            style={{
+              fontFamily: "'Instrument Sans', sans-serif",
+              fontSize: "10px",
+              color: tokens.inkMuted,
+              marginTop: "2px",
+            }}
+          >
+            Işẹ́
+          </div>
         </div>
-        <div
-          style={{
-            fontFamily: "'Instrument Sans', sans-serif",
-            fontSize: "10px",
-            color: tokens.inkMuted,
-            marginTop: "2px",
-          }}
-        >
-          Işẹ́
-        </div>
-      </div>
+      )}
     </div>
   );
 }
 
 function SidebarContent({ activeKey, handleNavigate, userData }) {
+  const navItems =
+    navItemsByType[userData.accountType] ?? navItemsByType.freelancer;
+
   return (
     <>
       {/* Logo */}
@@ -201,8 +216,8 @@ function SidebarContent({ activeKey, handleNavigate, userData }) {
       {/* Profile card */}
       <ProfileCard
         name={userData.user.name}
-        role={userData.user.trade}
-        score={userData.iseScore ?? 0}
+        role={userData.user.role}
+        score={userData.iseScore}
       />
 
       <div style={{ height: "18px" }} />
@@ -220,6 +235,7 @@ function SidebarContent({ activeKey, handleNavigate, userData }) {
         ))}
       </nav>
 
+      {/* Spacer pushes bottom links down */}
       <div style={{ flex: 1 }} />
 
       <div style={{ display: "flex", flexDirection: "column", gap: "4px" }}>
@@ -249,15 +265,19 @@ export default function Sidebar({ active, onNavigate }) {
   const [drawerOpen, setDrawerOpen] = useState(false);
   const userData = useUserData();
 
-  const path = location.pathname.replace(/^\/app\/?/, "");
+  const basePath = userData.accountType === "employer" ? "/employer" : "/app";
+
+  // Falls back to the route if the parent doesn't explicitly pass `active`
+  const path = location.pathname.replace(new RegExp(`^${basePath}/?`), "");
   const activeKey = active ?? (path || "today");
   const handleNavigate =
     onNavigate ??
     ((key) => {
-      navigate(key === "today" ? "/app" : `/app/${key}`);
-      setDrawerOpen(false);
+      navigate(key === "today" ? basePath : `${basePath}/${key}`);
+      setDrawerOpen(false); // close the drawer after picking a page on mobile
     });
 
+  // ---- Desktop / tablet-and-up: same fixed sidebar as before ----
   if (!isTablet) {
     return (
       <div
@@ -284,6 +304,7 @@ export default function Sidebar({ active, onNavigate }) {
     );
   }
 
+  // ---- Mobile / tablet: collapsed top bar + slide-in drawer ----
   return (
     <>
       <div
@@ -323,6 +344,7 @@ export default function Sidebar({ active, onNavigate }) {
 
       {drawerOpen && (
         <>
+          {/* backdrop */}
           <div
             onClick={() => setDrawerOpen(false)}
             style={{
@@ -332,6 +354,7 @@ export default function Sidebar({ active, onNavigate }) {
               zIndex: 40,
             }}
           />
+          {/* drawer panel */}
           <div
             style={{
               position: "fixed",
