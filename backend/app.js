@@ -14,6 +14,7 @@ import {
 import { createemployer } from "./controllers/createemployer.js";
 import requireAuth from "./middleware/auth.js";
 import { getMe } from "./controllers/fetchuser.js";
+import { fetchEmployer } from "./controllers/fetchemployer.js";
 
 const app = express();
 const PORT = process.env.PORT;
@@ -31,6 +32,7 @@ app.post("/api/calculatescore", calculateIseScore);
 app.post("/api/transcribe", transcribe);
 app.get("/api/me", requireAuth, getMe);
 app.post("/api/createemployer", createemployer);
+app.get("/api/employer/me", requireAuth, fetchEmployer);
 
 app.listen(PORT, () => {
   console.log(`🚀 Server running on port ${PORT}`);

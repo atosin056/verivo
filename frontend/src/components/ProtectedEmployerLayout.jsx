@@ -20,7 +20,19 @@ export default function ProtectedEmployerLayout() {
     async function getUserData() {
       try {
         const response = await api.get("/api/employer/me"); // <- swap to your real endpoint
-        if (!cancelled) setUserData(response.data.userInfo);
+        const employer = response.data.employer;
+        if (!cancelled && employer) {
+          setUserData({
+            accountType: "employer",
+            user: {
+              ...employer,
+              name: employer.fullName,
+              role: "Employer",
+            },
+            employer,
+            iseScore: null,
+          });
+        }
       } catch (err) {
         console.log(err.message);
         if (!cancelled) navigate("/auth/login");
