@@ -4,9 +4,13 @@ import WalletCard from "../components/Employerwalletcard";
 import StatCard from "../components/StatCard";
 import useBreakpoint from "../hooks/useBreakpoint.js";
 import LedgerCard from "../components/Ledgercard.jsx";
+import TopUpModal from "../components/Topupmodal.jsx";
+import { useState } from "react";
 export default function Billing() {
-  const { isTablet, isMobile } = useBreakpoint();
+  const { isMobile } = useBreakpoint();
+  const [isTopup, setIsTopup] = useState(true);
   function handleTopUp() {
+    setIsTopup(true);
     console.log("Top up clicked");
     // e.g. openTopUpModal()
   }
@@ -69,62 +73,76 @@ export default function Billing() {
     ],
   };
   return (
-    <AppShell>
-      <div style={{ display: "flex", flexDirection: "column", gap: 20 }}>
-        <div>
-          <SectionHeader
-            eyebrow="Billing & escrow"
-            emphasisText="Per-job"
-            trailText="escrow, settled by Paystack"
-            description="Top up once. Fund each job into its own Virtual Account. Release on confirm. Unused funds stay in your master account, withdrawable anytime."
-          />
-        </div>
-        <div>
-          <div
-            style={{
-              display: "grid",
-              gridTemplateColumns: "1.2fr 1fr",
-              gap: 20,
-            }}
-          >
-            <div>
-              <WalletCard
-                amount={37400}
-                onTopUp={handleTopUp}
-                onWithdraw={handleWithdraw}
-              />
-            </div>
+    <>
+      {isTopup ? (
+        <TopUpModal
+          isOpen={isTopup}
+          onClose={() => setIsTopup(false)}
+          onSubmit={(amount) => {
+            console.log("top up requested:", amount);
+            setIsTopup(false);
+          }}
+        />
+      ) : (
+        ""
+      )}
+      <AppShell>
+        <div style={{ display: "flex", flexDirection: "column", gap: 20 }}>
+          <div>
+            <SectionHeader
+              eyebrow="Billing & escrow"
+              emphasisText="Per-job"
+              trailText="escrow, settled by Paystack"
+              description="Top up once. Fund each job into its own Virtual Account. Release on confirm. Unused funds stay in your master account, withdrawable anytime."
+            />
+          </div>
+          <div>
             <div
               style={{
                 display: "grid",
-                gridTemplateColumns: isMobile ? "1fr" : "repeat(2, 1fr)",
-                gap: "10px",
+                gridTemplateColumns: "1.2fr 1fr",
+                gap: 20,
               }}
             >
-              <StatCard label="Active Escrows" value={0} />
-              <StatCard label="Pending Disputes" value={0} />
-              <StatCard
-                label="Platform fee paid"
-                prefix="₦"
-                value={0}
-                description="3% on completed jobs"
-              />
-              <StatCard
-                label="AVG PAYOUT TIME"
-                value={47}
-                suffix="s"
-                description="Paystack Transfer API"
-              />
+              <div>
+                <WalletCard
+                  amount={37400}
+                  onTopUp={handleTopUp}
+                  onWithdraw={handleWithdraw}
+                />
+              </div>
+              <div
+                style={{
+                  display: "grid",
+                  gridTemplateColumns: isMobile ? "1fr" : "repeat(2, 1fr)",
+                  gap: "10px",
+                }}
+              >
+                <StatCard label="Active Escrows" value={0} />
+                <StatCard label="Pending Disputes" value={0} />
+                <StatCard
+                  label="Platform fee paid"
+                  prefix="₦"
+                  value={0}
+                  description="3% on completed jobs"
+                />
+                <StatCard
+                  label="AVG PAYOUT TIME"
+                  value={47}
+                  suffix="s"
+                  description="Paystack Transfer API"
+                />
+              </div>
             </div>
           </div>
+          <div>
+            <LedgerCard
+              transactions={ledgerResponse.transactions}
+              dateRangeLabel={ledgerResponse.dateRangeLabel}
+            />
+          </div>
         </div>
-        <div>
-          <LedgerCard
-            transactions={ledgerResponse.transactions}
-            dateRangeLabel={ledgerResponse.dateRangeLabel}
-          />
-        </div>
-      </div>
-    </AppShell>
+      </AppShell>
+    </>
   );
 }
