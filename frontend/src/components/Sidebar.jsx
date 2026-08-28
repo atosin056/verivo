@@ -11,6 +11,7 @@ import {
   CreditCard,
   PieChart,
   Gavel,
+  Plus,
   User,
   Settings,
   LogOut,
@@ -40,11 +41,12 @@ const navItemsByType = {
     { key: "profile", label: "Profile", icon: User },
   ],
   employer: [
-    { key: "today", label: "Today", icon: Home },
-    { key: "post-job", label: "Post a job", icon: Briefcase },
-    { key: "applicants", label: "Applicants", icon: User },
-    { key: "wallet", label: "Wallet", icon: CreditCard },
-    { key: "disputes", label: "Disputes", icon: Gavel },
+    { key: "today", label: "Overview", icon: Home },
+    { key: "post-job", label: "Post a job", icon: Plus },
+    { key: "candidates", label: "Candidates", icon: User },
+    { key: "offers", label: "Offers", icon: HandCoins },
+    { key: "jobs", label: "Jobs", icon: Briefcase },
+    { key: "billing", label: "Billing", icon: CreditCard },
   ],
 };
 

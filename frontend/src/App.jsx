@@ -15,6 +15,8 @@ import Apply from "./pages/Apply";
 import ProtectedLayout from "./components/ProtectedLayout.jsx";
 import ProtectedEmployerLayout from "./components/ProtectedEmployerLayout.jsx";
 import EmployerDashboard from "./pages/EmployerDashboard.jsx";
+import Postjob from "./pages/Postjob.jsx";
+import Billing from "./pages/Billing.jsx";
 export default function App() {
   return (
     <Routes>
@@ -33,7 +35,8 @@ export default function App() {
       </Route>
       <Route element={<ProtectedEmployerLayout />}>
         <Route path="/employer" element={<EmployerDashboard />} />
-        {/* etc */}
+        <Route path="/employer/post-job" element={<Postjob />} />
+        <Route path="/employer/billing" element={<Billing />} />
       </Route>
       <Route path="/apply" element={<Apply />} />
     </Routes>
