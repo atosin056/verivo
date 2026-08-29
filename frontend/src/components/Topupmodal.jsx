@@ -123,7 +123,7 @@ export default function TopUpModal({
                 onClick={() => handlePresetClick(preset)}
                 style={{
                   padding: "10px 0",
-                  fontFamily: "Instrument Sans",
+                  fontFamily: "Jetbrains Mono",
                   borderRadius: 999,
                   border: isSelected
                     ? "1.5px solid #1c1917"

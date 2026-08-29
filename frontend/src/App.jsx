@@ -17,6 +17,8 @@ import ProtectedEmployerLayout from "./components/ProtectedEmployerLayout.jsx";
 import EmployerDashboard from "./pages/EmployerDashboard.jsx";
 import Postjob from "./pages/Postjob.jsx";
 import Billing from "./pages/Billing.jsx";
+import Employerjobs from "./pages/Employerjobs.jsx";
+import Candidates from "./pages/Candidates.jsx";
 export default function App() {
   return (
     <Routes>
@@ -37,6 +39,8 @@ export default function App() {
         <Route path="/employer" element={<EmployerDashboard />} />
         <Route path="/employer/post-job" element={<Postjob />} />
         <Route path="/employer/billing" element={<Billing />} />
+        <Route path="/employer/jobs" element={<Employerjobs />} />
+        <Route path="/employer/candidates" element={<Candidates />} />
       </Route>
       <Route path="/apply" element={<Apply />} />
     </Routes>

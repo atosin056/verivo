@@ -2,23 +2,57 @@ import SectionHeader from "../components/Sectionheader";
 import AppShell from "../components/AppShell";
 import WalletCard from "../components/Employerwalletcard";
 import StatCard from "../components/StatCard";
+import { UserDataContext, useUserData } from "../UserDataContext.js";
 import useBreakpoint from "../hooks/useBreakpoint.js";
 import LedgerCard from "../components/Ledgercard.jsx";
 import TopUpModal from "../components/Topupmodal.jsx";
-import { useState } from "react";
+import TopUpMasterAccountModal from "../components/Topupmasteraccount.jsx";
+import { useEffect, useState } from "react";
+import axios from "axios";
+
 export default function Billing() {
   const { isMobile } = useBreakpoint();
-  const [isTopup, setIsTopup] = useState(true);
+  const [isTopup, setIsTopup] = useState(false);
+  const [paymentDetails, setPaymentDetails] = useState(0);
+  const [balance, setBalance] = useState(0);
+  const userData = useUserData();
+
+  const baseUrl = import.meta.env.VITE_BASE_URL;
+
+  // Only sync from context when userData actually changes —
+  // not on every render (that was overwriting optimistic updates).
+  useEffect(() => {
+    if (userData?.employer?.balance !== undefined) {
+      setBalance(userData.employer.balance);
+    }
+  }, [userData]);
+
   function handleTopUp() {
     setIsTopup(true);
-    console.log("Top up clicked");
-    // e.g. openTopUpModal()
   }
 
   function handleWithdraw() {
     console.log("Withdraw clicked");
     // e.g. openWithdrawModal()
   }
+
+  function handleSimulate(employerId, amount) {
+    // Optimistic update — bump the balance right away so the UI feels
+    // instant, don't wait for the network call.
+    setBalance((prev) => prev + amount);
+
+    // Fire the actual request in the background. We deliberately don't
+    // await this in the caller — UI has already moved on.
+    axios
+      .post(`${baseUrl}/api/employer/topup`, { employerId, amount })
+      .catch((err) => {
+        console.log(err.message);
+        // Request failed — roll back the optimistic bump so balance
+        // doesn't drift from what's actually in the DB.
+        setBalance((prev) => prev - amount);
+      });
+  }
+
   const ledgerResponse = {
     dateRangeLabel: "Last 7 days",
     transactions: [
@@ -72,20 +106,48 @@ export default function Billing() {
       },
     ],
   };
+
   return (
     <>
-      {isTopup ? (
+      {paymentDetails !== 0 && (
+        <TopUpMasterAccountModal
+          amount={paymentDetails}
+          accountNumber="7061234567"
+          bankName="GTBank"
+          railName="Paystack rails"
+          etaSeconds={60}
+          sandbox={true}
+          onClose={() => {
+            setPaymentDetails(0);
+            // Balance stays whatever it currently is — no reset needed
+            // since we're not optimistically bumping it before the
+            // webhook confirms anymore.
+          }}
+          onChangeAmount={() => {
+            setIsTopup(true);
+            setPaymentDetails(0);
+          }}
+          onSimulateWebhook={() => {
+            handleSimulate(userData.employer.id, paymentDetails);
+            setPaymentDetails(0); // close the modal immediately
+          }}
+        />
+      )}
+
+      {isTopup && (
         <TopUpModal
           isOpen={isTopup}
           onClose={() => setIsTopup(false)}
           onSubmit={(amount) => {
             console.log("top up requested:", amount);
             setIsTopup(false);
+            setPaymentDetails(amount);
+            // No optimistic balance bump here — balance only updates
+            // once handleSimulate confirms the webhook actually landed.
           }}
         />
-      ) : (
-        ""
       )}
+
       <AppShell>
         <div style={{ display: "flex", flexDirection: "column", gap: 20 }}>
           <div>
@@ -96,6 +158,7 @@ export default function Billing() {
               description="Top up once. Fund each job into its own Virtual Account. Release on confirm. Unused funds stay in your master account, withdrawable anytime."
             />
           </div>
+
           <div>
             <div
               style={{
@@ -106,7 +169,14 @@ export default function Billing() {
             >
               <div>
                 <WalletCard
-                  amount={37400}
+                  badgeLabel={userData.employer.fullName}
+                  amount={balance}
+                  escrow={{
+                    value: userData.employer.escrowbalance,
+                    sub: `${0} job locked`,
+                  }}
+                  released={{ value: 184000, sub: "12 jobs", month: "May" }}
+                  fees={{ value: 5520, sub: "3% paid" }}
                   onTopUp={handleTopUp}
                   onWithdraw={handleWithdraw}
                 />
@@ -135,6 +205,7 @@ export default function Billing() {
               </div>
             </div>
           </div>
+
           <div>
             <LedgerCard
               transactions={ledgerResponse.transactions}

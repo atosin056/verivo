@@ -6,12 +6,36 @@ import SectionHeader from "../components/Sectionheader.jsx";
 import { JobInputCard } from "../components/Jobinputcard.jsx";
 import { useState } from "react";
 import TopMatches from "../components/Topmatches.jsx";
+import axios from "axios";
 
 export default function Postjob() {
   const userData = useUserData();
   const [formInput, setFormInput] = useState("");
   const { isTablet, isMobile } = useBreakpoint();
+  const [isParsing, setIsParsing] = useState(false);
   const navigate = useNavigate();
+
+  const baseUrl = import.meta.env.VITE_BASE_URL;
+
+  async function handleParse(text) {
+    setIsParsing(true);
+    const payload = { data: text };
+    console.log(payload);
+    try {
+      const data = await axios.post(
+        `${baseUrl}/api/employer/jobs/parse`,
+        payload,
+      );
+      console.log(data);
+      if (data.data.success === true) {
+        setFormInput(data.data.message);
+      }
+    } catch (err) {
+      console.log(err.message);
+    } finally {
+      setIsParsing(false);
+    }
+  }
 
   //API RESPONSE SIMULATION..
 
@@ -69,12 +93,10 @@ export default function Postjob() {
                   "Phone repair · Ikeja · today",
                   "Generator service · Sabon Gari",
                 ]}
-                //   onParse={(text) =>
-                //     fetch("/api/jobs/parse.php", {
-                //       method: "POST",
-                //       body: JSON.stringify({ text }),
-                //     })
-                //   }
+                parsing={isParsing}
+                onParse={(text) => {
+                  handleParse(text);
+                }}
               />
             </div>
             <div>

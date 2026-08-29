@@ -11,6 +11,9 @@ function formatNaira(amount) {
 }
 
 function StatBlock({ label, value, sub, strikethrough }) {
+  const formattedValue =
+    typeof value === "number" ? `₦${value.toLocaleString()}` : value;
+
   return (
     <div>
       <p
@@ -37,7 +40,7 @@ function StatBlock({ label, value, sub, strikethrough }) {
           textDecorationColor: "rgba(242, 237, 228, 0.4)",
         }}
       >
-        {value}
+        {formattedValue}
       </p>
       <p
         style={{
@@ -56,7 +59,7 @@ function StatBlock({ label, value, sub, strikethrough }) {
 
 export default function WalletCard({
   amount,
-  badgeLabel = "Adaeze Atelier · Master VA",
+  badgeLabel,
   squadLabel = "GTCO Squad",
   isLive = true,
   escrow = { value: "₦24,500", sub: "1 job locked" },
@@ -238,7 +241,7 @@ export default function WalletCard({
             strikethrough
           />
           <StatBlock
-            label="Recivo fees"
+            label="Verivo fees"
             value={fees.value}
             sub={fees.sub}
             strikethrough
