@@ -29,7 +29,7 @@ Return only the rewritten description. No preamble, no quotes, no explanation.
 # Client's input: ${input}`;
 
   const response = await ai.models.generateContent({
-    model: "gemini-3.7-flash",
+    model: "gemini-3.6-flash",
     contents: system_prompt,
     config: {
       thinkingConfig: {
