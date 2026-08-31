@@ -1,11 +1,12 @@
 import { GoogleGenAI } from "@google/genai";
 import "dotenv/config";
+
+const ai = new GoogleGenAI({});
 const parsejobinfo = async (info) => {
   //sanitize the data
   const input = info.trim();
 
   //connect to gemini ai
-  const ai = new GoogleGenAI({});
 
   //create system prompt
   const system_prompt = `# Role
@@ -29,11 +30,11 @@ Return only the rewritten description. No preamble, no quotes, no explanation.
 # Client's input: ${input}`;
 
   const response = await ai.models.generateContent({
-    model: "gemini-3.6-flash",
+    model: "gemini-3.5-flash-lite",
     contents: system_prompt,
     config: {
       thinkingConfig: {
-        thinkingLevel: "low", // Balanced reasoning effort for complex tasks
+        thinkingLevel: "minimal", // Balanced reasoning effort for complex tasks
       },
     },
   });

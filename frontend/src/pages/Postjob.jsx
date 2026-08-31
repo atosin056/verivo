@@ -67,6 +67,7 @@ export default function Postjob() {
   const { isTablet, isMobile } = useBreakpoint();
   const [isParsing, setIsParsing] = useState(false);
   const navigate = useNavigate();
+  const employerId = userData.employer.id;
 
   const finalDesc = description.trim() ? description : formInput;
 
@@ -77,6 +78,7 @@ export default function Postjob() {
     state,
     deadline,
     description: finalDesc,
+    employerId,
   };
 
   const baseUrl = import.meta.env.VITE_BASE_URL;
@@ -117,8 +119,7 @@ export default function Postjob() {
     if (!budget) newErrors.budget = "This field is required";
     if (!state) newErrors.state = "This field is required";
     if (!deadline) newErrors.deadline = "This field is required";
-    if (!description?.trim()) newErrors.description = "This field is required";
-
+    if (!finalDesc?.trim()) newErrors.description = "This field is required"; // was `description`
     setErrors(newErrors);
     return Object.keys(newErrors).length === 0;
   }
@@ -128,15 +129,21 @@ export default function Postjob() {
 
     setIsSubmitting(true);
     console.log(formData);
-    // try {
-    //   const res = await axios.post(`${baseUrl}/api/employer/jobs`, formData);
-    //   console.log(res.data);
-    //   // navigate(`/jobs/${res.data.jobId}`)
-    // } catch (err) {
-    //   console.log(err.message);
-    // } finally {
-    //   setIsSubmitting(false);
-    // }
+
+    try {
+      const res = await axios.post(
+        `${baseUrl}/api/employer/jobs/post`,
+        formData,
+      );
+      console.log(res.data);
+      // navigate(`/jobs/${res.data.jobId}`)
+    } catch (err) {
+      console.log(err.message);
+    } finally {
+      setIsSubmitting(false);
+      setPostJob(false);
+      setCreated(true);
+    }
   }
 
   //API RESPONSE SIMULATION..
