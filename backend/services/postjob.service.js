@@ -17,11 +17,15 @@ const postjobservice = async ({
   if (rows.length === 0) {
     throw new Error("EMPLOYER_NOT_FOUND");
   }
-
-  await db.execute(
-    "INSERT INTO jobs (title, location, description, budget, state, employer_id, deadline, created_at, updated_at) VALUES (?, ?, ?, ?, ?, ?, ?, NOW(), NOW())",
-    [title, location, description, budget, state, employerId, deadline],
-  );
+  await Promise.all([
+    db.execute(
+      "INSERT INTO jobs (title, location, description, budget, state, employer_id, deadline, created_at, updated_at) VALUES (?, ?, ?, ?, ?, ?, ?, NOW(), NOW())",
+      [title, location, description, budget, state, employerId, deadline],
+    ),
+    db.execute("UPDATE employers SET jobCount = jobCount + 1 WHERE id = ?", [
+      employerId,
+    ]),
+  ]);
 
   return true;
 };

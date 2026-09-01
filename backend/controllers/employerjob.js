@@ -1,5 +1,7 @@
 import parsejobinfo from "../services/parsejobinfo.service.js";
 import postjobservice from "../services/postjob.service.js";
+import deductBalanceService from "../services/deductbalance.service.js";
+import fetchjobsservice from "../services/fetchjobs.service.js";
 
 //parse job controller
 const parsejob = async (req, res) => {
@@ -23,16 +25,18 @@ const postjob = async (req, res) => {
   const { title, location, budget, state, deadline, description, employerId } =
     req.body;
   try {
-    await postjobservice({
-      title,
-      location,
-      budget,
-      state,
-      deadline,
-      description,
-      employerId,
-    });
-
+    await Promise.all([
+      postjobservice({
+        title,
+        location,
+        budget,
+        state,
+        deadline,
+        description,
+        employerId,
+      }),
+      deductBalanceService(employerId, budget),
+    ]);
     res.status(200).json({
       success: true,
       message: "Job Created Successfully",
@@ -45,4 +49,20 @@ const postjob = async (req, res) => {
   }
 };
 
-export { parsejob, postjob };
+const fetchJobs = async (req, res) => {
+  const { employerId } = req.query;
+  try {
+    const jobs = await fetchjobsservice(employerId);
+    res.status(200).json({
+      success: true,
+      data: jobs,
+    });
+  } catch (err) {
+    res.status(500).json({
+      success: false,
+      message: err.message,
+    });
+  }
+};
+
+export { parsejob, postjob, fetchJobs };

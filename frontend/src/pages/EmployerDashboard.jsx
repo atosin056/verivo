@@ -9,11 +9,32 @@ import ReplayFeatureCard from "../components/ReplayFeatureCard.jsx";
 import WorkerPoolTable from "../components/Workerpooltable.jsx";
 import EscrowStatusCard from "../components/Escrowstatuscard.jsx";
 import { useNavigate } from "react-router-dom";
+import { useEffect } from "react";
+import axios from "axios";
 
 export default function EmployerDashboard() {
+  const baseUrl = import.meta.env.VITE_BASE_URL;
   const userData = useUserData();
+  useEffect(() => {
+    document.title = "Dashboard | Verivo";
+    const fetchJobs = async (employerId) => {
+      const payload = {
+        employerId: employerId,
+      };
+      const response = await axios.get(
+        `${baseUrl}/api/employer/jobs/fetch`,
+        payload,
+      );
+      console.log("Jobs fetched:", response.data);
+    };
+    fetchJobs(userData.employer.id);
+  });
+
   const { isTablet, isMobile } = useBreakpoint();
   const navigate = useNavigate();
+
+  const escrowbalance = userData.employer.escrowbalance;
+  const jobCount = userData.employer.jobCount;
 
   return (
     <AppShell>
@@ -37,8 +58,13 @@ export default function EmployerDashboard() {
             gap: "16px",
           }}
         >
-          <StatCard label="Open jobs" value={0} description="0 funded" />
-          <StatCard label="In escrow" value={0} prefix="₦" note="Locked" />
+          <StatCard label="Open jobs" value={jobCount} description="0 funded" />
+          <StatCard
+            label="In escrow"
+            value={escrowbalance}
+            prefix="₦"
+            note="Locked"
+          />
           <StatCard label="Spent (This month)" value={0} prefix="₦" />
           <StatCard
             label="Verified pool"
