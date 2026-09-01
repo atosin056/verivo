@@ -69,7 +69,11 @@ export default function EmployerDashboard() {
             gap: "16px",
           }}
         >
-          <StatCard label="Open jobs" value={jobCount} description="0 funded" />
+          <StatCard
+            label="Open jobs"
+            value={jobCount}
+            description={jobCount + " funded"}
+          />
           <StatCard
             label="In escrow"
             value={escrowbalance}
@@ -84,30 +88,68 @@ export default function EmployerDashboard() {
           />
         </div>
         <div
-          style={{ display: "grid", gridTemplateColumns: "1.3fr 1fr", gap: 20 }}
+          style={{
+            display: "grid",
+            gridTemplateColumns: "1.3fr 1fr",
+            gap: 20,
+            marginTop: 20,
+          }}
         >
-          <div>
+          <div style={{ display: "flex", flexDirection: "column", gap: 15 }}>
             <div>
               <h3
                 style={{
                   fontWeight: 400,
                   fontSize: 28,
                   letterSpacing: "-0.025em",
+                  margin: 0,
                 }}
               >
                 Your jobs
               </h3>
             </div>
-            <div style={{ display: "flex", flexDirection: "column", gap: 12 }}>
-              {jobdata.map((job) => (
-                <EmployerJobCard
-                  key={job.id}
-                  title={job.title}
-                  location={job.location}
-                  price={job.budget}
-                  status={job.status}
-                />
-              ))}
+            <div
+              style={{
+                display: "flex",
+                flexDirection: "column",
+                gap: 12,
+                overflowY: "auto",
+                maxHeight: 400,
+              }}
+            >
+              {jobdata.length !== 0 ? (
+                jobdata.map((job) => (
+                  <EmployerJobCard
+                    key={job.id}
+                    title={job.title}
+                    location={job.location}
+                    price={job.budget}
+                    status={job.status}
+                  />
+                ))
+              ) : (
+                <div>
+                  <div
+                    style={{
+                      width: "100%",
+                      padding: "10px 20px",
+                      border: "1px solid #d6cdb8",
+                      borderRadius: 15,
+                    }}
+                  >
+                    <p
+                      style={{
+                        color: "#6b6055",
+                        fontFamily: "Instrument Sans",
+                        fontSize: 13,
+                        textAlign: "center",
+                      }}
+                    >
+                      No Jobs Found
+                    </p>
+                  </div>
+                </div>
+              )}
             </div>
           </div>
           <div>

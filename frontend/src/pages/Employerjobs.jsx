@@ -37,9 +37,9 @@ export default function Employerjobs() {
       location: "Lekki",
       postedRelative: "yesterday",
       worker: {
-        name: "Emeka Nwosu",
-        idNumber: "58",
-        avatarUrl: "https://i.pravatar.cc/40?img=15",
+        // name: "Emeka Nwosu",
+        // idNumber: "58",
+        // avatarUrl: "https://i.pravatar.cc/40?img=15",
       },
       budget: 35000,
       state: "in_progress",
