@@ -124,6 +124,7 @@ const styles = {
     fontSize: "11px",
     background: "#e2d9c3",
     letterSpacing: "0.14em",
+    textTransform: "uppercase",
     color: "#6b6055",
     padding: "7px",
     borderRadius: "4px",

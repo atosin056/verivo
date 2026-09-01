@@ -9,26 +9,37 @@ import ReplayFeatureCard from "../components/ReplayFeatureCard.jsx";
 import WorkerPoolTable from "../components/Workerpooltable.jsx";
 import EscrowStatusCard from "../components/Escrowstatuscard.jsx";
 import { useNavigate } from "react-router-dom";
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 import axios from "axios";
 
 export default function EmployerDashboard() {
   const baseUrl = import.meta.env.VITE_BASE_URL;
+  const [jobdata, setJobdata] = useState([]);
+  console.log("jobdata:", jobdata);
   const userData = useUserData();
   useEffect(() => {
     document.title = "Dashboard | Verivo";
+
+    if (!userData?.employer?.id) return;
+
     const fetchJobs = async (employerId) => {
-      const payload = {
-        employerId: employerId,
-      };
-      const response = await axios.get(
-        `${baseUrl}/api/employer/jobs/fetch`,
-        payload,
-      );
-      console.log("Jobs fetched:", response.data);
+      try {
+        const response = await axios.get(`${baseUrl}/api/employer/jobs/fetch`, {
+          params: {
+            employerId: employerId,
+          },
+        });
+        if (response.status === 200) {
+          setJobdata(response.data.data);
+        }
+        console.log("Jobs fetched:", response.data.data);
+      } catch (error) {
+        console.error("Error fetching jobs:", error);
+      }
     };
+
     fetchJobs(userData.employer.id);
-  });
+  }, [userData?.employer?.id, baseUrl]);
 
   const { isTablet, isMobile } = useBreakpoint();
   const navigate = useNavigate();
@@ -88,16 +99,15 @@ export default function EmployerDashboard() {
               </h3>
             </div>
             <div style={{ display: "flex", flexDirection: "column", gap: 12 }}>
-              <EmployerJobCard
-                title="job 1"
-                location="Nigeria, Lagos"
-                price="20,000"
-              />
-              <EmployerJobCard
-                title="job 1"
-                location="Nigeria, Lagos"
-                price="20,000"
-              />
+              {jobdata.map((job) => (
+                <EmployerJobCard
+                  key={job.id}
+                  title={job.title}
+                  location={job.location}
+                  price={job.budget}
+                  status={job.status}
+                />
+              ))}
             </div>
           </div>
           <div>

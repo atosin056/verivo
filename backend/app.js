@@ -16,7 +16,7 @@ import requireAuth from "./middleware/auth.js";
 import { getMe } from "./controllers/fetchuser.js";
 import { fetchEmployer } from "./controllers/fetchemployer.js";
 import topupemployer from "./controllers/employertopup.js";
-import { parsejob, postjob } from "./controllers/employerjob.js";
+import { parsejob, postjob, fetchJobs } from "./controllers/employerjob.js";
 
 const app = express();
 const PORT = process.env.PORT;
@@ -38,6 +38,7 @@ app.get("/api/employer/me", requireAuth, fetchEmployer);
 app.post("/api/employer/topup", topupemployer);
 app.post("/api/employer/jobs/parse", parsejob);
 app.post("/api/employer/jobs/post", postjob);
+app.get("/api/employer/jobs/fetch", fetchJobs);
 
 app.listen(PORT, () => {
   console.log(`🚀 Server running on port ${PORT}`);

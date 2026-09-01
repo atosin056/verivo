@@ -53,6 +53,13 @@ const fetchJobs = async (req, res) => {
   const { employerId } = req.query;
   try {
     const jobs = await fetchjobsservice(employerId);
+    if (jobs.length === 0) {
+      res.status(404).json({
+        success: false,
+        message: "No jobs found for this employer",
+      });
+      return;
+    }
     res.status(200).json({
       success: true,
       data: jobs,
