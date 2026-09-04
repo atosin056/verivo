@@ -32,8 +32,29 @@ import updateOfferStatus from "./controllers/updateOffers.js";
 const app = express();
 const PORT = process.env.PORT;
 
+const allowedOrigins = new Set([
+  "https://verivo-tau.vercel.app",
+  "http://localhost:5173",
+]);
+
 app.use(express.json({ limit: "20mb" }));
-app.use(cors());
+app.use(
+  cors({
+    origin(origin, callback) {
+      if (!origin || allowedOrigins.has(origin)) {
+        return callback(null, true);
+      }
+
+      return callback(new Error("Origin is not allowed by CORS"));
+    },
+    methods: ["GET", "HEAD", "POST", "PUT", "PATCH", "DELETE", "OPTIONS"],
+    allowedHeaders: ["Content-Type", "Authorization"],
+  }),
+);
+
+app.get("/", (_req, res) => {
+  res.status(200).json({ success: true, service: "verivo-api" });
+});
 
 app.post("/otp/generate", generateOtp);
 app.post("/otp/verify", verifyOtp);
