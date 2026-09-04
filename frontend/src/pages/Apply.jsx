@@ -15,7 +15,7 @@ import { getSubSpecialtiesForTrade } from "../Tradesubspecialties";
 import WorkplaceHistory from "../components/Workplacehistory";
 import ToolsSelect from "../components/Toolsselect";
 import { getToolsForTrade } from "../tradeTools.js";
-import LanguageSelect from "../components/LanguageSelect.jsx";
+import LanguageSelect from "../components/Languageselect.jsx";
 import ReferenceList from "../components/Referencelist.jsx";
 import BankVerify from "../components/BankVerify.jsx";
 import VoicePrintCard from "../components/Voiceprintcard.jsx";

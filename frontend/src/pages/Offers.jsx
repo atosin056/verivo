@@ -3,7 +3,7 @@ import { useEffect, useState } from "react";
 import AppShell from "../components/AppShell.jsx";
 import SectionHeader from "../components/Sectionheader";
 import OfferPoolTable from "../components/OffersPoolTable";
-import EmptyState from "../components/EmptyState";
+import EmptyState from "../components/Emptystate";
 import { CheckCheck } from "lucide-react";
 import axios from "axios";
 import { useUserData } from "../UserDataContext.js";

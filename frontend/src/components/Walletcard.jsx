@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { Check, Copy, ArrowRight } from "lucide-react";
 
-// ---- Design tokens (matches Recivo system) ----
+// ---- Design tokens (matches Verivo system) ----
 const tokens = {
   emerald: "#0f3d2e",
   bone: "#f7f4ec",

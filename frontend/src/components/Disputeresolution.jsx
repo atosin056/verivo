@@ -27,7 +27,7 @@ const steps = [
     icon: Users,
     title: "Human review only on conflicts",
     description:
-      "If parties don't agree, or AI confidence < 60%, a Recivo ombudsperson takes the case.",
+      "If parties don't agree, or AI confidence < 60%, a Verivo ombudsperson takes the case.",
   },
 ];
 

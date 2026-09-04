@@ -4,7 +4,7 @@ import { useState } from "react";
  * AgreementCheckbox
  *
  * Custom checkbox + label, used for consent lines like
- * "I agree to the Recivo Terms and Privacy Notice."
+ * "I agree to the Verivo Terms and Privacy Notice."
  *
  * Props:
  * ------
@@ -104,7 +104,7 @@ export default function AgreementCheckbox({
  * AgreementLink
  *
  * Small styled <a> for use inside AgreementCheckbox's children, e.g.
- *   <AgreementLink href="/terms">Recivo Terms</AgreementLink>
+ *   <AgreementLink href="/terms">Verivo Terms</AgreementLink>
  * Matches the underline treatment already used elsewhere (the "Sign in" link).
  */
 export function AgreementLink({ href, children }) {

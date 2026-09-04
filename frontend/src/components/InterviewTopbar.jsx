@@ -12,7 +12,7 @@ const tokens = {
 };
 
 export default function InterviewTopbar({
-  logoText = "Recivo",
+  logoText = "Verivo",
   saveStatus = "Auto-saved · just now",
   currentStep = 1,
   totalSteps = 15,

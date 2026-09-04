@@ -75,7 +75,7 @@ export default function Billing() {
       {
         id: "txn_3",
         type: "fee",
-        description: "Recivo fee · 3% on #9012",
+        description: "Verivo fee · 3% on #9012",
         day: "Today",
         time: "14:02",
         amount: 360,

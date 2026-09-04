@@ -33,7 +33,7 @@ export default function Profile() {
       <ProfileCard
         initials="OA"
         name="Oluwatosin Akinfenwa"
-        verifiedLabel="Recivo · Verified"
+        verifiedLabel="Verivo · Verified"
         trade="Phone repair"
         location="Computer Village, Ikeja"
         knowledge={0}

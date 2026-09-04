@@ -1,4 +1,4 @@
-// Design tokens (match Recivo design system)
+// Design tokens (match Verivo design system)
 const tokens = {
   paper: "#fbf9f3",
   border: "#e7e2d3",

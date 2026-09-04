@@ -176,7 +176,7 @@ export default function VoicePrintCard() {
           {consent && <Check size={13} color={tokens.bone} strokeWidth={3} />}
         </span>
         <span style={{ fontSize: 13.5, lineHeight: 1.5, color: "#4a473d" }}>
-          I agree Recivo can store a voiceprint for re-authentication only.
+          I agree Verivo can store a voiceprint for re-authentication only.
           Deletable on request. Never shared with employers or third parties.
         </span>
       </label>

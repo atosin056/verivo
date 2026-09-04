@@ -57,7 +57,7 @@ export default function Navbar() {
           </Link>
           <Link>
             <button className="blackBtn">
-              <span>Open Recivo</span>
+              <span>Open Verivo</span>
 
               <svg
                 xmlns="http://www.w3.org/2000/svg"

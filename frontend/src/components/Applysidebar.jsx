@@ -185,6 +185,6 @@ export default function ApplySidebar({
 //     { label: "Your proof" },
 //     { label: "Review" },
 //   ]}
-//   whyText="Recivo doesn't just take a star rating from strangers. We build a credential. The deeper you go here, the better the diagnostic interview matches you — and the higher your starting Işẹ́ Score."
+//   whyText="Verivo doesn't just take a star rating from strangers. We build a credential. The deeper you go here, the better the diagnostic interview matches you — and the higher your starting Işẹ́ Score."
 // />
 // ---------------------------------------------------------------------
