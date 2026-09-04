@@ -18,7 +18,8 @@ export default function ViewUserProfile() {
   const [showAssignModal, setShowAssignModal] = useState(false);
   const navigate = useNavigate();
   const { isTablet } = useBreakpoint();
-  const baseUrl = import.meta.env.VITE_BASE_URL;
+  const baseUrl =
+    import.meta.env.VITE_BASE_URL || "https://verivo.onrender.com";
 
   const [profile, setProfile] = useState(null);
   const [loading, setLoading] = useState(true);

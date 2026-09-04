@@ -8,7 +8,8 @@ import { useUserData } from "../UserDataContext.js";
 import { transformJob } from "../transformjobs.js";
 
 export default function Employerjobs() {
-  const baseUrl = import.meta.env.VITE_BASE_URL;
+  const baseUrl =
+    import.meta.env.VITE_BASE_URL || "https://verivo.onrender.com";
   const userData = useUserData();
   const [jobs, setJobs] = useState([]);
   const [loading, setLoading] = useState(true);
@@ -18,7 +19,7 @@ export default function Employerjobs() {
   const onUpdateJobState = async (jobId, newState, rating) => {
     try {
       const res = await axios.patch(
-        `${import.meta.env.VITE_BASE_URL}/api/employer/jobs/${jobId}/state`,
+        `${baseUrl}/api/employer/jobs/${jobId}/state`,
         { status: newState, rating, employerId },
       );
 

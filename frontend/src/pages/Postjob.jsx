@@ -81,7 +81,8 @@ export default function Postjob() {
     employerId,
   };
 
-  const baseUrl = import.meta.env.VITE_BASE_URL;
+  const baseUrl =
+    import.meta.env.VITE_BASE_URL || "https://verivo.onrender.com";
 
   async function handleParse(text) {
     setIsParsing(true);

@@ -84,7 +84,8 @@ export default function Apply() {
   const [formData, setFormData] = useState(getInitialFormData);
   const [submitting, setSubmitting] = useState(false);
   const [submitError, setSubmitError] = useState("");
-  const baseUrl = import.meta.env.VITE_BASE_URL;
+  const baseUrl =
+    import.meta.env.VITE_BASE_URL || "https://verivo.onrender.com";
 
   // Auto-save on every formData change so a refresh mid-application
   // doesn't lose progress. This is what the topbar's "Auto-saved · just

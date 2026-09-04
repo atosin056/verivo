@@ -10,7 +10,8 @@ const MAX_EXTRA = 62;
 const BAR_WIDTH = 5;
 const CANVAS_SIZE = 380;
 
-const API_BASE_URL = "http://localhost:3000";
+const API_BASE_URL =
+  import.meta.env.VITE_BASE_URL || "https://verivo.onrender.com";
 
 function lerp(a, b, t) {
   return a + (b - a) * t;

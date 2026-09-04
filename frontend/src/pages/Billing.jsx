@@ -17,7 +17,8 @@ export default function Billing() {
   const [balance, setBalance] = useState(0);
   const userData = useUserData();
 
-  const baseUrl = import.meta.env.VITE_BASE_URL;
+  const baseUrl =
+    import.meta.env.VITE_BASE_URL || "https://verivo.onrender.com";
 
   // Only sync from context when userData actually changes —
   // not on every render (that was overwriting optimistic updates).

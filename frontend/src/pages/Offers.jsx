@@ -13,7 +13,8 @@ export default function Offers() {
   const [isLoading, setIsLoading] = useState(true);
 
   const userData = useUserData();
-  const baseUrl = import.meta.env.VITE_BASE_URL;
+  const baseUrl =
+    import.meta.env.VITE_BASE_URL || "https://verivo.onrender.com";
 
   useEffect(() => {
     const checkOffers = async (userId) => {

@@ -31,7 +31,8 @@ export default function OfferPoolTable({
   const [updatingId, setUpdatingId] = useState(null);
   const [errorId, setErrorId] = useState(null);
 
-  const baseUrl = import.meta.env.VITE_BASE_URL;
+  const baseUrl =
+    import.meta.env.VITE_BASE_URL || "https://verivo.onrender.com";
 
   const handleViewFull = (offer) => {
     setActiveOffer(offer);

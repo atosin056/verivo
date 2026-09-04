@@ -15,6 +15,10 @@ import TrustBadge from "../components/TrustBadge";
 import OtpInput from "../components/Otpinput";
 import OtpToast from "../components/OtpToast";
 import api from "../api.js";
+
+const API_BASE_URL =
+  import.meta.env.VITE_BASE_URL || "https://verivo.onrender.com";
+
 export default function Register() {
   const navigate = useNavigate();
   const [hover, setHover] = useState(false);
@@ -78,7 +82,7 @@ export default function Register() {
     try {
       const payload = { phone: formData.phone.trim(), purpose: "signup" };
       const response = await axios.post(
-        "http://localhost:3000/otp/generate",
+        `${API_BASE_URL}/otp/generate`,
         payload,
       );
       setOtpHash(response.data.otp);
@@ -105,7 +109,7 @@ export default function Register() {
           otp: otp,
           purpose: "signup",
         };
-        await axios.post("http://localhost:3000/otp/verify", payload);
+        await axios.post(`${API_BASE_URL}/otp/verify`, payload);
         setVerified(true);
 
         sessionStorage.setItem(

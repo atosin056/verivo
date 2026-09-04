@@ -13,7 +13,8 @@ import { useEffect, useState } from "react";
 import axios from "axios";
 
 export default function EmployerDashboard() {
-  const baseUrl = import.meta.env.VITE_BASE_URL;
+  const baseUrl =
+    import.meta.env.VITE_BASE_URL || "https://verivo.onrender.com";
   const [jobdata, setJobdata] = useState([]);
   console.log("jobdata:", jobdata);
   const userData = useUserData();

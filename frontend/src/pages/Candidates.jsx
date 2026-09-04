@@ -5,7 +5,8 @@ import axios from "axios";
 import { useNavigate } from "react-router-dom";
 import TradesDirectory from "../components/Tradesdirectory";
 export default function Candidates() {
-  const baseUrl = import.meta.env.VITE_BASE_URL;
+  const baseUrl =
+    import.meta.env.VITE_BASE_URL || "https://verivo.onrender.com";
   const [professionals, setProfessionals] = useState([]);
   const navigate = useNavigate();
 

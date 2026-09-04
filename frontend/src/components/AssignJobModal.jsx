@@ -10,7 +10,8 @@ export default function AssignJobModal({
   onAssigned,
 }) {
   const userData = useUserData();
-  const baseUrl = import.meta.env.VITE_BASE_URL;
+  const baseUrl =
+    import.meta.env.VITE_BASE_URL || "https://verivo.onrender.com";
 
   const [jobs, setJobs] = useState([]);
   const [selectedJobId, setSelectedJobId] = useState(null);

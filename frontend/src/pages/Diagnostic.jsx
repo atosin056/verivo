@@ -6,7 +6,8 @@ import { Play, Pause, Trash2 } from "lucide-react";
 import { useState, useEffect, useRef } from "react";
 import { useUserData } from "../UserDataContext"; // added
 
-const API_BASE_URL = "http://localhost:3000";
+const API_BASE_URL =
+  import.meta.env.VITE_BASE_URL || "https://verivo.onrender.com";
 
 const CATEGORIES = [
   "charge",

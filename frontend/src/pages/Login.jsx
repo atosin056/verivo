@@ -10,6 +10,10 @@ import OtpInput from "../components/Otpinput.jsx";
 import OtpToast from "../components/OtpToast.jsx";
 import api from "../api.js";
 import { useState } from "react";
+
+const API_BASE_URL =
+  import.meta.env.VITE_BASE_URL || "https://verivo.onrender.com";
+
 export default function Login() {
   const navigate = useNavigate();
   const [phone, setPhone] = useState("");
@@ -63,11 +67,11 @@ export default function Login() {
       const payload1 = {
         phone: phone,
       };
-      await axios.post("http://localhost:3000/api/verifyuser", payload1);
+      await axios.post(`${API_BASE_URL}/api/verifyuser`, payload1);
 
       const payload = { phone: phone.trim(), purpose: "login" };
       const response = await axios.post(
-        "http://localhost:3000/otp/generate",
+        `${API_BASE_URL}/otp/generate`,
         payload,
       );
       setOtpHash(response.data.otp);
