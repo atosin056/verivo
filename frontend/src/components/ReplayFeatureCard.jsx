@@ -15,7 +15,7 @@ export default function ReplayFeatureCard({ onWatchSample }) {
 
       <div style={styles.content}>
         <span style={styles.eyebrow}>
-          <span style={styles.eyebrowIcon}>✿</span> WHY RECIVO · THE ONE THING
+          <span style={styles.eyebrowIcon}>✿</span> WHY VERIVO · THE ONE THING
         </span>
 
         <h2 style={styles.heading}>

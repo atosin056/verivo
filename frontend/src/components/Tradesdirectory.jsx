@@ -86,13 +86,13 @@ export default function TradesDirectory({
     let list = [...professionals];
 
     if (activeTrade !== "all") {
-      list = list.filter((p) => p.tradeId === activeTrade);
+      list = list.filter((p) => p.trade === activeTrade);
     }
 
     const q = query.trim().toLowerCase();
     if (q) {
       list = list.filter((p) =>
-        [p.name, p.trade, p.specialty, p.location]
+        [p.name, p.trade, p.trade, p.marketarea]
           .filter(Boolean)
           .some((field) => field.toLowerCase().includes(q)),
       );
@@ -240,6 +240,7 @@ export default function TradesDirectory({
       backgroundColor: "rgba(0,0,0,0.55)",
       color: "#ffffff",
       fontSize: 11,
+      textTransform: "uppercase",
       fontWeight: 600,
       letterSpacing: "0.06em",
       padding: "6px 10px",
@@ -449,13 +450,13 @@ export default function TradesDirectory({
               onClick={() => onSelectProfessional(pro.id)}
             >
               <div style={styles.imageWrap}>
-                <img src={pro.imageUrl} alt={pro.name} style={styles.image} />
+                <img src={pro.imageUrl} style={styles.image} />
                 <div style={styles.imageOverlay} />
 
-                {pro.verified && (
+                {pro.status && (
                   <div style={styles.verifiedBadge}>
                     <ShieldCheck size={12} />
-                    VERIFIED
+                    {String(pro.status)}
                   </div>
                 )}
 
@@ -467,7 +468,11 @@ export default function TradesDirectory({
                 <div style={styles.nameBlock}>
                   <p style={styles.name}>{pro.name}</p>
                   <p style={styles.roleLine}>
-                    {pro.roleLabel} — {pro.specialty}
+                    {pro.trade === "phone_repair"
+                      ? "Phone Repair Specialist"
+                      : pro.trade === "electrician"
+                        ? "Electrical Technician"
+                        : pro.trade}
                   </p>
                 </div>
               </div>
@@ -477,18 +482,18 @@ export default function TradesDirectory({
                   <span
                     style={{ display: "flex", alignItems: "center", gap: 3 }}
                   >
-                    <MapPin size={11} /> {pro.location}
+                    <MapPin size={11} /> {pro.marketarea}
                   </span>
                   <span>·</span>
-                  <span>{pro.jobsCount} jobs</span>
+                  <span>{pro.jobCount} jobs</span>
                   <span>·</span>
                   <span>{pro.repeatPercent}% repeat</span>
                 </div>
 
-                <p style={styles.bio}>{pro.bio}</p>
+                <p style={styles.bio}>{pro.pitch}</p>
 
                 <div style={styles.tagsRow}>
-                  {pro.tags.map((tag) => (
+                  {(pro.tags ?? []).map((tag) => (
                     <span key={tag} style={styles.tag}>
                       {tag}
                     </span>
@@ -496,10 +501,10 @@ export default function TradesDirectory({
                 </div>
 
                 <div style={styles.footer}>
-                  <span style={styles.price}>
+                  {/* <span style={styles.price}>
                     ₦{new Intl.NumberFormat("en-NG").format(pro.pricePerHour)}
                     /hr
-                  </span>
+                  </span> */}
                   <span style={styles.viewProfile}>View profile →</span>
                 </div>
               </div>

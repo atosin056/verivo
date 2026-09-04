@@ -1,8 +1,34 @@
 import AppShell from "../components/AppShell";
 import SectionHeader from "../components/Sectionheader";
+import { useEffect, useState } from "react";
+import axios from "axios";
+import { useNavigate } from "react-router-dom";
 import TradesDirectory from "../components/Tradesdirectory";
 export default function Candidates() {
-  const professionals = [
+  const baseUrl = import.meta.env.VITE_BASE_URL;
+  const [professionals, setProfessionals] = useState([]);
+  const navigate = useNavigate();
+
+  useEffect(() => {
+    document.title = "Candidates | Iṣẹ́";
+    // Fetch candidates from the backend API
+    const fetchCandidates = async () => {
+      try {
+        const response = await axios.get(
+          `${baseUrl}/api/employer/candidates/fetch`,
+        );
+        setProfessionals(response.data.data);
+        console.log("stuff", professionals);
+        console.log("Candidates response:", response.data.data);
+      } catch (error) {
+        console.error("Error fetching candidates:", error);
+      }
+    };
+
+    fetchCandidates();
+  }, []);
+
+  const professional = [
     {
       id: "pro_1",
       name: "Bisi Okonkwo",
@@ -103,7 +129,7 @@ export default function Candidates() {
       pricePerHour: 3600,
       iseScore: 83,
       verified: true,
-      imageUrl: "https://picsum.photos/seed/halima-yusuf/500/500",
+      // imageUrl: "https://aicsum.photos/seed/halima-yusuf/500/500",
     },
   ];
 
@@ -122,7 +148,9 @@ export default function Candidates() {
           <div>
             <TradesDirectory
               professionals={professionals}
-              onSelectProfessional={(id) => console.log(id)}
+              onSelectProfessional={(id) =>
+                navigate(`/employer/candidates/${id}`)
+              }
             />
           </div>
         </div>

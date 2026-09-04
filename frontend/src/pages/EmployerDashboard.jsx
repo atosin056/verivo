@@ -185,7 +185,7 @@ export default function EmployerDashboard() {
         </div>
         <div>
           <EscrowStatusCard
-            escrowFunded="₦0"
+            escrowFunded={"₦" + escrowbalance}
             pendingRelease="₦0"
             settledAllTime="₦0"
             avgPayout="47 sec"
