@@ -5,6 +5,8 @@ import cors from "cors";
 import { generateOtp, verifyOtp } from "./controllers/otp.js";
 import verifyphone from "./controllers/verifyphone.js";
 import createuser from "./controllers/createuser.js";
+import updateJobStateController from "./controllers/updateJobState.js";
+
 import {
   uploadtopinecone,
   generateQa,
@@ -24,6 +26,8 @@ import {
   fetchcandidatesdata,
   assignJob,
 } from "./controllers/employerjob.js";
+import fetchoffers from "./controllers/fetchoffers.js";
+import updateOfferStatus from "./controllers/updateOffers.js";
 
 const app = express();
 const PORT = process.env.PORT;
@@ -49,6 +53,9 @@ app.get("/api/employer/jobs/fetch", fetchJobs);
 app.get("/api/employer/candidates/fetch", fetchcandidates);
 app.get("/api/employer/candidates/data", fetchcandidatesdata);
 app.post("/api/employer/jobs/assign", assignJob);
+app.post("/api/fetchoffers", fetchoffers);
+app.patch("/api/offers/:id", updateOfferStatus);
+app.patch("/api/employer/jobs/:id/state", updateJobStateController);
 
 app.listen(PORT, () => {
   console.log(`🚀 Server running on port ${PORT}`);

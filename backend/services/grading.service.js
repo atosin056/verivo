@@ -3,6 +3,25 @@ import { GoogleGenAI } from "@google/genai";
 
 const ai = new GoogleGenAI({});
 
+function extractJsonArray(text) {
+  const cleaned = text
+    .replace(/```json/gi, "")
+    .replace(/```/g, "")
+    .trim();
+
+  try {
+    return JSON.parse(cleaned);
+  } catch {}
+
+  const start = cleaned.indexOf("[");
+  const end = cleaned.lastIndexOf("]");
+  if (start === -1 || end <= start) {
+    throw new Error("Gemini did not return a JSON grading array");
+  }
+
+  return JSON.parse(cleaned.slice(start, end + 1));
+}
+
 const calculateInterviewScore = async (interview) => {
   const prompt = buildGradingPrompt(interview);
 
@@ -21,25 +40,7 @@ const calculateInterviewScore = async (interview) => {
     console.log("RAW GEMINI GRADING RESPONSE:");
     console.log(raw);
 
-    const cleaned = raw
-      .replace(/```json/gi, "")
-      .replace(/```/g, "")
-      .trim();
-
-    let results;
-    try {
-      results = JSON.parse(cleaned);
-    } catch (parseErr) {
-      const match = parseErr.message.match(/position (\d+)/);
-      if (match) {
-        const pos = parseInt(match[1], 10);
-        console.log(
-          "JSON BROKE NEAR:",
-          cleaned.slice(Math.max(0, pos - 60), pos + 60),
-        );
-      }
-      throw parseErr;
-    }
+    const results = extractJsonArray(raw);
 
     if (!Array.isArray(results)) {
       throw new Error("Gemini grading response is not an array");
@@ -49,16 +50,20 @@ const calculateInterviewScore = async (interview) => {
       throw new Error("Grading result count mismatch");
     }
 
-    return results;
+    return results.map((result, index) => {
+      const score = Number(result?.score);
+      if (!Number.isFinite(score) || score < 0 || score > 100) {
+        throw new Error(`Invalid score for interview question ${index + 1}`);
+      }
+
+      return {
+        ...result,
+        score: Math.round(score),
+      };
+    });
   } catch (err) {
     console.error("Failed to grade interview:", err);
-
-    return interview.map(() => ({
-      points_covered: [],
-      points_missed: [],
-      score: null,
-      reasoning: "Could not grade — needs manual review",
-    }));
+    throw new Error(`Could not grade interview — ${err.message}`);
   }
 };
 

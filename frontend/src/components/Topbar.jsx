@@ -1,5 +1,7 @@
 import { useState } from "react";
+import { useNavigate } from "react-router-dom";
 import { Search, Bell, Mic } from "lucide-react";
+import { useUserData } from "../UserDataContext.js"; // adjust path to match your project
 
 const tokens = {
   bone: "#EFEBE0",
@@ -102,13 +104,49 @@ function NotificationBell({ hasUnread = false, onClick }) {
   );
 }
 
+// ... SearchBar and NotificationBell unchanged ...
+
+function DiagnosticButton() {
+  const navigate = useNavigate();
+
+  return (
+    <button
+      type="button"
+      onClick={() => navigate("/app/diagnostic")}
+      style={{
+        display: "flex",
+        alignItems: "center",
+        gap: "8px",
+        height: "38px",
+        padding: "0 16px",
+        borderRadius: "1000px",
+        border: "none",
+        background: tokens.ink,
+        color: tokens.gold,
+        fontFamily: "'Instrument Sans', sans-serif",
+        fontSize: "13px",
+        fontWeight: 600,
+        cursor: "pointer",
+        flexShrink: 0,
+        whiteSpace: "nowrap",
+      }}
+    >
+      <Mic size={15} />
+      Diagnostic
+    </button>
+  );
+}
+
 export default function Topbar({
   searchPlaceholder = "Search jobs, customers, disputes…",
   onSearch,
   hasUnreadNotifications = false,
   onNotificationClick,
-  children, // pass the CTA button in from the page, since it changes per view
+  children,
 }) {
+  const userData = useUserData();
+  const isWorker = !userData?.employer; // adjust this check to match your actual shape
+
   return (
     <div
       style={{
@@ -127,6 +165,7 @@ export default function Topbar({
       }}
     >
       <SearchBar placeholder={searchPlaceholder} onSearch={onSearch} />
+      {isWorker && <DiagnosticButton />}
       <NotificationBell
         hasUnread={hasUnreadNotifications}
         onClick={onNotificationClick}

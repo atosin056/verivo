@@ -4,6 +4,7 @@ import Aimic from "../components/Aimic";
 import Typewritertext from "../components/Typewritertext";
 import { Play, Pause, Trash2 } from "lucide-react";
 import { useState, useEffect, useRef } from "react";
+import { useUserData } from "../UserDataContext"; // added
 
 const API_BASE_URL = "http://localhost:3000";
 
@@ -36,6 +37,7 @@ function Spinner() {
 export default function Diagnostic() {
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
+  const userData = useUserData(); // added
   const [qa, setQa] = useState(null);
 
   const [recordedUrl, setRecordedUrl] = useState(null);
@@ -55,11 +57,19 @@ export default function Diagnostic() {
       setLoading(true);
       setError(null);
       try {
+        const trade = userData?.user?.trade;
+        if (!trade) {
+          throw new Error("Your trade information is missing");
+        }
+
         const category = pickRandomCategory();
         const res = await fetch(`${API_BASE_URL}/api/generateqa`, {
           method: "POST",
           headers: { "Content-Type": "application/json" },
-          body: JSON.stringify({ trade: "mobile_phone_repair", category }),
+          body: JSON.stringify({
+            trade,
+            category,
+          }),
         });
         const data = await res.json();
         if (!res.ok || !data.success) {
@@ -78,7 +88,7 @@ export default function Diagnostic() {
     return () => {
       cancelled = true;
     };
-  }, []);
+  }, [userData]);
 
   const handleRecordingComplete = (url) => {
     setRecordedUrl(url);
@@ -117,6 +127,7 @@ export default function Diagnostic() {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
+          userId: userData?.user?.id,
           interview: [
             {
               question: qa.question.text,

@@ -3,8 +3,13 @@ import retrievalQueryBuilder from "./retrievalquerybuilder.service.js";
 import generateQa from "./qagenerator.service.js";
 import index from "./connectpinecone.service.js";
 
+const TRADE_ALIASES = {
+  phone_repair: "mobile_phone_repair",
+};
+
 const generateQuestionandAnswer = async (trade, category) => {
-  const query = retrievalQueryBuilder(trade, category);
+  const pineconeTrade = TRADE_ALIASES[trade] || trade;
+  const query = retrievalQueryBuilder(pineconeTrade, category);
 
   const vector = await createEmbedding(query);
 
@@ -13,7 +18,7 @@ const generateQuestionandAnswer = async (trade, category) => {
       vector,
       topK: 2,
       filter: {
-        trade,
+        trade: pineconeTrade,
         category,
         source: "llm_generated_synthetic",
       },
@@ -24,7 +29,7 @@ const generateQuestionandAnswer = async (trade, category) => {
       vector,
       topK: 2,
       filter: {
-        trade,
+        trade: pineconeTrade,
 
         source: "NBTE",
       },
@@ -35,19 +40,23 @@ const generateQuestionandAnswer = async (trade, category) => {
       vector,
       topK: 2,
       filter: {
-        trade,
+        trade: pineconeTrade,
         source: "ONET",
       },
       includeMetadata: true,
     }),
   ]);
 
-  const chunks = [...synthetic.matches, ...nbte.matches, ...onet.matches];
+  const chunks = [
+    ...(synthetic?.matches || []),
+    ...(nbte?.matches || []),
+    ...(onet?.matches || []),
+  ];
 
   console.log("RETRIEVED CHUNKS:");
   console.dir(chunks, { depth: null });
 
-  const qa = await generateQa(trade, category, chunks);
+  const qa = await generateQa(pineconeTrade, category, chunks);
 
   return qa;
 };

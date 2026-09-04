@@ -30,7 +30,7 @@ function formatPostedRelative(date) {
 
 export function transformJob(raw) {
   return {
-    id: `job_${raw.id}`,
+    id: `${raw.id}`,
     title: raw.title,
     location: raw.location,
     budget: Number(raw.budget),

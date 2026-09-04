@@ -85,6 +85,16 @@ const generateQa = async (trade, category, knowledge, retries = 2) => {
 
     const result = extractJson(response.text);
 
+    if (result === "INSUFFICIENT_KNOWLEDGE") {
+      throw new Error(
+        `No knowledge was found for trade "${trade}" and category "${category}"`,
+      );
+    }
+
+    if (!result || typeof result !== "object" || Array.isArray(result)) {
+      throw new Error("Gemini returned an invalid question format");
+    }
+
     if (!result.question) {
       throw new Error("Generated response is missing question");
     }

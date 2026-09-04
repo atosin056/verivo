@@ -1,6 +1,6 @@
 import { uploadChunks } from "../services/uploadtopinecone.service.js";
 import generateQuestionAndAnswer from "../services/qa.service.js";
-import calculateInterviewScore from "../services/grading.service.js";
+import { gradeAndScoreWorker } from "../services/gradeandscore.service.js";
 import transcribeAudio from "../services/transcribe.service.js";
 
 const uploadtopinecone = async (req, res) => {
@@ -38,15 +38,16 @@ const generateQa = async (req, res) => {
 };
 
 const calculateIseScore = async (req, res) => {
-  const { interview } = req.body;
+  const { interview, userId } = req.body;
   try {
-    const results = await calculateInterviewScore(interview);
+    const result = await gradeAndScoreWorker({ interview, workerId: userId });
     res.status(200).json({
       success: true,
-      results,
+      ...result,
     });
   } catch (err) {
-    res.status(500).json({
+    const code = err.statusCode || 500;
+    res.status(code).json({
       success: false,
       message: err.message,
     });

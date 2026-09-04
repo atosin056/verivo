@@ -13,6 +13,38 @@ export default function Employerjobs() {
   const [jobs, setJobs] = useState([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
+  const employerId = userData.employer.id;
+
+  const onUpdateJobState = async (jobId, newState, rating) => {
+    try {
+      const res = await axios.patch(
+        `${import.meta.env.VITE_BASE_URL}/api/employer/jobs/${jobId}/state`,
+        { status: newState, rating, employerId },
+      );
+
+      // Optimistically update local state so the badge reflects the change immediately
+      setJobs((prev) =>
+        prev.map((job) =>
+          job.id === jobId
+            ? {
+                ...job,
+                state: newState,
+                rating: newState === "complete" ? rating : job.rating,
+              }
+            : job,
+        ),
+      );
+
+      return res.data;
+    } catch (err) {
+      console.error("Failed to update job state:", err);
+      // surface this to the user — a silent failure here means the modal closed
+      // but nothing actually changed on the backend
+      alert(
+        err.response?.data?.error || "Couldn't update job status. Try again.",
+      );
+    }
+  };
 
   useEffect(() => {
     if (!userData?.employer?.id) return;
@@ -50,7 +82,9 @@ export default function Employerjobs() {
         />
         {loading && <p>Loading jobs…</p>}
         {error && <p>Couldn't load jobs: {error}</p>}
-        {!loading && !error && <JobsTable jobs={jobs} />}
+        {!loading && !error && (
+          <JobsTable jobs={jobs} onUpdateJobState={onUpdateJobState} />
+        )}
       </div>
     </AppShell>
   );

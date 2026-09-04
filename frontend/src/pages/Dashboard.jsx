@@ -41,9 +41,9 @@ export default function Dashboard() {
         >
           <div style={{ width: isTablet ? "100%" : "59%" }}>
             <IseScoreCard
-              score={0}
-              knowledge={0}
-              trust={0}
+              score={userData.user.iseScore}
+              knowledge={userData.user.knowledgeScore}
+              trust={userData.user.trustScore}
               footerText="Your Trust score grows on every Squad-confirmed payment. Going off-platform doesn't punish — it just stops rewarding while others compound."
             />
           </div>
