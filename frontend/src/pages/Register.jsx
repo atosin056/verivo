@@ -10,7 +10,7 @@ import RoleToggle from "../components/RoleToggle";
 import FormField from "../components/FormField";
 import TradeSelect from "../components/TradeSelect";
 import AgreementCheckbox from "../components/AgreementCheckbox";
-import PrimaryActionButton from "../components/Primaryactionbtn";
+import PrimaryActionButton from "../components/Primaryactionbtn.jsx";
 import TrustBadge from "../components/TrustBadge";
 import OtpInput from "../components/Otpinput";
 import OtpToast from "../components/OtpToast";

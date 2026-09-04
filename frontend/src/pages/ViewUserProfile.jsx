@@ -5,8 +5,8 @@ import axios from "axios";
 import AppShell from "../components/AppShell.jsx";
 import SectionHeader from "../components/Sectionheader";
 import ProfileCard from "../components/ProfileCard";
-import ToolsCard from "../components/Toolscard";
-import ReviewCard from "../components/Reviewcard";
+import ToolsCard from "../components/Toolscard.jsx";
+import ReviewCard from "../components/Reviewcard.jsx";
 import useBreakpoint from "../hooks/useBreakpoint.js";
 import { transformWorkerProfile } from "../transformWorkerProfile.js";
 
