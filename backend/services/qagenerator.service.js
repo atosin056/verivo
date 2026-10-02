@@ -73,7 +73,7 @@ const generateQa = async (trade, category, knowledge, retries = 2) => {
 
   try {
     const response = await ai.models.generateContent({
-      model: "gemini-3.6-flash",
+      model: "gemini-3.5-flash-lite",
       contents: prompt,
       config: {
         responseMimeType: "application/json",
